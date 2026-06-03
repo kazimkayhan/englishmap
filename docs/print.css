@@ -1,0 +1,66 @@
+/* English Roadmap — PDF print styles */
+@page {
+  margin: 2cm;
+  size: A4;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #111;
+  max-width: 100%;
+}
+
+h1 {
+  font-size: 22pt;
+  page-break-before: always;
+  margin-top: 0;
+}
+
+h1:first-of-type {
+  page-break-before: avoid;
+}
+
+h2 {
+  font-size: 14pt;
+  margin-top: 1.2em;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 10pt;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 6px 8px;
+  vertical-align: top;
+}
+
+blockquote {
+  border-left: 4px solid #666;
+  margin-left: 0;
+  padding-left: 1em;
+  font-style: italic;
+}
+
+code {
+  font-size: 10pt;
+}
+
+div[style*="page-break"] {
+  page-break-after: always;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}

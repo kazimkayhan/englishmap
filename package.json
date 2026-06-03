@@ -1,0 +1,15 @@
+{
+  "name": "english-roadmap",
+  "private": true,
+  "description": "English learning roadmap — Markdown repository",
+  "scripts": {
+    "merge": "node scripts/merge-md.mjs",
+    "merge:dari": "node scripts/merge-dari.mjs",
+    "merge:worksheets": "node scripts/merge-worksheets.mjs",
+    "merge:all": "node scripts/merge-md.mjs && node scripts/merge-dari.mjs && node scripts/merge-worksheets.mjs",
+    "extend": "node scripts/insert-extended.mjs",
+    "verify": "node scripts/verify-wiring.mjs",
+    "wire": "node scripts/wire-module-links.mjs",
+    "words:generate": "node scripts/build-dari-map.mjs && node scripts/generate-word-tables.mjs"
+  }
+}
