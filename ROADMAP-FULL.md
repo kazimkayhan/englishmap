@@ -3895,10 +3895,10 @@ Use this page **only when stuck** on grammar or sounds — then return to Englis
 
 | English | Dari hint | Note |
 |---------|-----------|------|
-| **a / an** | یک (yak) — general one | English requires *a book*, not just *book* |
-| **the** | آن / همان (specific) | When both know which thing |
-| **am / is / are** | هست (hast) — but English **never drops** | Wrong: *I fine* → *I am fine* |
-| **have / has** | داشتن (dâštan) | *I have time* = وقت دارم |
+| **a / an** | یک — general one | English requires *a book*, not just *book* |
+| **the** | آن / همان — specific | When both know which thing |
+| **am / is / are** | هست — but English **never drops** | Wrong: *I fine* → *I am fine* |
+| **have / has** | داشتن | *I have time* = وقت دارم |
 | **do / does** (questions) | — | Helper verb; Dari uses different question form |
 | **-s** (he goes) | — | Third person always adds **-s** in present |
 | **there is / are** | وجود دارد | *There is a book* = کتاب هست |
@@ -4122,7 +4122,7 @@ Store in folder: `English audio offline`
 
 # First 300 High-Frequency Words
 
-Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then practice in English).
+Learn **10–15 per day** with one sentence each. **Dari** = meaning in Persian script (then practice in English).
 
 **Legend:** n=noun · v=verb · adj=adjective · adv=adverb · prep=preposition
 
@@ -4132,56 +4132,56 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 1 | I | من (man) | I study every day. |
-| 2 | you | تو (to) | You are kind. |
-| 3 | he | او (ū) | He works at home. |
-| 4 | she | او (ū) | She reads every day. |
-| 5 | it | آن (ān) | It is a good idea. |
-| 6 | we | ما (mā) | We learn together. |
-| 7 | they | آن‌ها (ān-hā) | They help me. |
-| 8 | be | بودن (būdan) | I am fine today. |
-| 9 | have | داشتن (dâštan) | I have time tonight. |
-| 10 | do | کردن (kardan) | I do my best. |
-| 11 | say | گفتن (goftan) | She says thank you. |
-| 12 | get | گرفتن (gereftan) | I get messages daily. |
-| 13 | make | ساختن (sâkhtan) | We make tea together. |
-| 14 | go | رفتن (raftan) | I go home after study. |
-| 15 | know | دانستن (dânestan) | I know her name. |
-| 16 | take | برداشتن (bar-dâštan) | Take your notebook. |
-| 17 | see | دیدن (didan) | I see you tomorrow. |
-| 18 | come | آمدن (âmadan) | Come here, please. |
-| 19 | think | فکر کردن (fekr kardan) | I think it is good. |
-| 20 | look | نگاه کردن (negâh kardan) | Look at this word. |
-| 21 | want | خواستن (khâstan) | I want to learn English. |
-| 22 | give | دادن (dâdan) | Give me one minute. |
-| 23 | use | استفاده کردن (estefâde kardan) | I use my phone to study. |
-| 24 | find | پیدا کردن (peydâ kardan) | I find new words online. |
-| 25 | tell | گفتن (goftan) | Tell me your name. |
-| 26 | ask | پرسیدن (porsidan) | Ask your teacher. |
-| 27 | work | کار (kār) | I work from home. |
-| 28 | need | نیاز (niyâz) | I need more practice. |
-| 29 | feel | احساس کردن (ehsâs kardan) | I feel hopeful today. |
-| 30 | try | کوشش کردن (kōšesh kardan) | I try again tomorrow. |
-| 31 | call | صدا زدن / تماس (sedā zadan / tamās) | Call me after class. |
-| 32 | keep | نگه داشتن (negah dâštan) | Keep your notebook ready. |
-| 33 | let | اجازه دادن (ejāze dâdan) | Let me think. |
-| 34 | begin | شروع کردن (shorū kardan) | Begin with five words. |
-| 35 | help | کمک (komak) | I need help with grammar. |
-| 36 | show | نشان دادن (neshân dâdan) | Show me the answer. |
-| 37 | hear | شنیدن (shenidan) | I hear you clearly. |
-| 38 | play | بازی کردن (bāzi kardan) | Children play outside. |
-| 39 | run | دویدن (daveidan) | She runs in the morning. |
-| 40 | move | حرکت کردن (harekat kardan) | Move the chair, please. |
-| 41 | live | زندگی کردن (zendegi kardan) | I live in Kabul. |
-| 42 | believe | باور کردن (bāvar kardan) | I believe in my future. |
-| 43 | bring | آوردن (āvardan) | Bring water to class. |
-| 44 | happen | اتفاق افتادن (etefāq oftâdan) | Good things happen slowly. |
-| 45 | write | نوشتن (neveštan) | Write one sentence daily. |
-| 46 | sit | نشستن (neshestan) | Sit and breathe. |
-| 47 | stand | ایستادن (istâdan) | Stand up slowly. |
-| 48 | lose | از دست دادن (az dast dâdan) | Do not lose hope. |
-| 49 | pay | پرداخت (pardâkht) | Pay attention to sounds. |
-| 50 | meet | ملاقات (molâqāt) | Nice to meet you. |
+| 1 | I | من | I study every day. |
+| 2 | you | تو | You are kind. |
+| 3 | he | او | He works at home. |
+| 4 | she | او | She reads every day. |
+| 5 | it | آن | It is a good idea. |
+| 6 | we | ما | We learn together. |
+| 7 | they | آن‌ها | They help me. |
+| 8 | be | بودن | I am fine today. |
+| 9 | have | داشتن | I have time tonight. |
+| 10 | do | کردن | I do my best. |
+| 11 | say | گفتن | She says thank you. |
+| 12 | get | گرفتن | I get messages daily. |
+| 13 | make | ساختن | We make tea together. |
+| 14 | go | رفتن | I go home after study. |
+| 15 | know | دانستن | I know her name. |
+| 16 | take | برداشتن | Take your notebook. |
+| 17 | see | دیدن | I see you tomorrow. |
+| 18 | come | آمدن | Come here, please. |
+| 19 | think | فکر کردن | I think it is good. |
+| 20 | look | نگاه کردن | Look at this word. |
+| 21 | want | خواستن | I want to learn English. |
+| 22 | give | دادن | Give me one minute. |
+| 23 | use | استفاده کردن | I use my phone to study. |
+| 24 | find | پیدا کردن | I find new words online. |
+| 25 | tell | گفتن | Tell me your name. |
+| 26 | ask | پرسیدن | Ask your teacher. |
+| 27 | work | کار | I work from home. |
+| 28 | need | نیاز | I need more practice. |
+| 29 | feel | احساس کردن | I feel hopeful today. |
+| 30 | try | کوشش کردن | I try again tomorrow. |
+| 31 | call | صدا زدن / تماس | Call me after class. |
+| 32 | keep | نگه داشتن | Keep your notebook ready. |
+| 33 | let | اجازه دادن | Let me think. |
+| 34 | begin | شروع کردن | Begin with five words. |
+| 35 | help | کمک | I need help with grammar. |
+| 36 | show | نشان دادن | Show me the answer. |
+| 37 | hear | شنیدن | I hear you clearly. |
+| 38 | play | بازی کردن | Children play outside. |
+| 39 | run | دویدن | She runs in the morning. |
+| 40 | move | حرکت کردن | Move the chair, please. |
+| 41 | live | زندگی کردن | I live in Kabul. |
+| 42 | believe | باور کردن | I believe in my future. |
+| 43 | bring | آوردن | Bring water to class. |
+| 44 | happen | اتفاق افتادن | Good things happen slowly. |
+| 45 | write | نوشتن | Write one sentence daily. |
+| 46 | sit | نشستن | Sit and breathe. |
+| 47 | stand | ایستادن | Stand up slowly. |
+| 48 | lose | از دست دادن | Do not lose hope. |
+| 49 | pay | پرداخت | Pay attention to sounds. |
+| 50 | meet | ملاقات | Nice to meet you. |
 
 ---
 
@@ -4189,56 +4189,56 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 51 | time | وقت (waqt) | I have time today. |
-| 52 | year | سال (sāl) | This year I study English. |
-| 53 | people | مردم (mardum) | Many people learn online. |
-| 54 | way | راه (rāh) | This is a good way to learn. |
-| 55 | day | روز (roz) | Have a good day. |
-| 56 | man | مرد (mard) | The man is kind. |
-| 57 | woman | زن (zan) | The woman is a teacher. |
-| 58 | child | کودک (kudak) | The child reads a book. |
-| 59 | life | زندگی (zendegi) | Life is beautiful. |
-| 60 | hand | دست (dast) | Raise your hand. |
-| 61 | part | قسمت (qesmat) | This part is easy. |
-| 62 | place | مکان (makān) | A quiet place helps me focus. |
-| 63 | world | جهان (jahān) | The world is large. |
-| 64 | home | خانه (khāna) | I study at home. |
-| 65 | house | خانه (khāna) | Our house is small and warm. |
-| 66 | room | اتاق (otāq) | I have a study room. |
-| 67 | door | در (dar) | Close the door, please. |
-| 68 | water | آب (āb) | I need clean water. |
-| 69 | food | غذا (ghazā) | The food is ready. |
-| 70 | bread | نان (nān) | I eat bread and tea. |
-| 71 | tea | چای (chāy) | She drinks tea with family. |
-| 72 | family | خانواده (khānevāde) | My family supports me. |
-| 73 | mother | مادر (mādar) | My mother works hard. |
-| 74 | father | پدر (pedar) | My father reads the news. |
-| 75 | sister | خواهر (khāhar) | My sister studies with me. |
-| 76 | brother | برادر (barādar) | My brother uses a phone. |
-| 77 | friend | دوست (dōst) | She is my close friend. |
-| 78 | name | نام (nām) | My name is Zahra. |
-| 79 | country | کشور (kešvar) | I love my country. |
-| 80 | city | شهر (shahr) | The city is busy today. |
-| 81 | work | کار (kār) | I work from home. |
-| 82 | school | مدرسه (madresa) | School opens tomorrow. |
-| 83 | book | کتاب (ketāb) | I read one book a week. |
-| 84 | phone | تلفن (telefon) | I use my phone for lessons. |
-| 85 | internet | انترنت (internet) | The internet is slow today. |
-| 86 | message | پیام (payām) | I send a short message. |
-| 87 | study | مطالعه (motāle'a) | I study English at night. |
-| 88 | student | محصل (moḥassel) | I am a proud student. |
-| 89 | teacher | استاد (ostād) | The teacher speaks slowly. |
-| 90 | word | کلمه (kalima) | I learn ten words a day. |
-| 91 | English | انگلیسی (englisī) | I study American English. |
-| 92 | language | زبان (zabān) | Language opens new doors. |
-| 93 | number | عدد (adad) | What is your phone number? |
-| 94 | morning | صبح (sobh) | Good morning, sister. |
-| 95 | night | شب (shab) | Good night and rest well. |
-| 96 | today | امروز (emruz) | Today I learn ten new words. |
-| 97 | tomorrow | فردا (fardā) | Tomorrow I start early. |
-| 98 | yesterday | دیروز (diruz) | Yesterday I was tired. |
-| 99 | week | هفته (hafta) | This week I practice speaking. |
-| 100 | month | ماه (māh) | Next month I take a quiz. |
+| 51 | time | وقت | I have time today. |
+| 52 | year | سال | This year I study English. |
+| 53 | people | مردم | Many people learn online. |
+| 54 | way | راه | This is a good way to learn. |
+| 55 | day | روز | Have a good day. |
+| 56 | man | مرد | The man is kind. |
+| 57 | woman | زن | The woman is a teacher. |
+| 58 | child | کودک | The child reads a book. |
+| 59 | life | زندگی | Life is beautiful. |
+| 60 | hand | دست | Raise your hand. |
+| 61 | part | قسمت | This part is easy. |
+| 62 | place | مکان | A quiet place helps me focus. |
+| 63 | world | جهان | The world is large. |
+| 64 | home | خانه | I study at home. |
+| 65 | house | خانه | Our house is small and warm. |
+| 66 | room | اتاق | I have a study room. |
+| 67 | door | در | Close the door, please. |
+| 68 | water | آب | I need clean water. |
+| 69 | food | غذا | The food is ready. |
+| 70 | bread | نان | I eat bread and tea. |
+| 71 | tea | چای | She drinks tea with family. |
+| 72 | family | خانواده | My family supports me. |
+| 73 | mother | مادر | My mother works hard. |
+| 74 | father | پدر | My father reads the news. |
+| 75 | sister | خواهر | My sister studies with me. |
+| 76 | brother | برادر | My brother uses a phone. |
+| 77 | friend | دوست | She is my close friend. |
+| 78 | name | نام | My name is Zahra. |
+| 79 | country | کشور | I love my country. |
+| 80 | city | شهر | The city is busy today. |
+| 81 | work | کار | I work from home. |
+| 82 | school | مدرسه | School opens tomorrow. |
+| 83 | book | کتاب | I read one book a week. |
+| 84 | phone | تلفن | I use my phone for lessons. |
+| 85 | internet | انترنت | The internet is slow today. |
+| 86 | message | پیام | I send a short message. |
+| 87 | study | مطالعه | I study English at night. |
+| 88 | student | محصل | I am a proud student. |
+| 89 | teacher | استاد | The teacher speaks slowly. |
+| 90 | word | کلمه | I learn ten words a day. |
+| 91 | English | انگلیسی | I study American English. |
+| 92 | language | زبان | Language opens new doors. |
+| 93 | number | عدد | What is your phone number? |
+| 94 | morning | صبح | Good morning, sister. |
+| 95 | night | شب | Good night and rest well. |
+| 96 | today | امروز | Today I learn ten new words. |
+| 97 | tomorrow | فردا | Tomorrow I start early. |
+| 98 | yesterday | دیروز | Yesterday I was tired. |
+| 99 | week | هفته | This week I practice speaking. |
+| 100 | month | ماه | Next month I take a quiz. |
 
 ---
 
@@ -4246,26 +4246,26 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 101 | please | لطفاً (lotfan) | Please help me. |
-| 102 | thank | تشکر (tashakor) | I thank you from my heart. |
-| 103 | sorry | معذرت (mo'zerat) | I am sorry I was late. |
-| 104 | excuse | عذر (ozr) | Excuse me, may I ask? |
-| 105 | hello | سلام (salām) | Hello, how are you? |
-| 106 | goodbye | خداحافظ (khodā hāfez) | Goodbye for now. |
-| 107 | welcome | خوش آمدید (khosh āmadid) | You are welcome here. |
-| 108 | help | کمک (komak) | I need help with grammar. |
-| 109 | problem | مشکل (moshkel) | I have a small problem. |
-| 110 | question | سؤال (so'āl) | I have one question. |
-| 111 | answer | جواب (javāb) | Please answer slowly. |
-| 112 | open | باز کردن (bāz kardan) | Open your notebook. |
-| 113 | close | بستن (bastan) | Close the window at night. |
-| 114 | read | خواندن (khāndan) | I read every day. |
-| 115 | listen | گوش دادن (gūsh dâdan) | Listen carefully. |
-| 116 | speak | صحبت کردن (sohbat kardan) | I speak slowly. |
-| 117 | learn | یاد گرفتن (yād gereftan) | I learn English. |
-| 118 | teach | درس دادن (dars dâdan) | She teaches online. |
-| 119 | remember | به یاد آوردن (be yād āvardan) | Remember to review. |
-| 120 | forget | فراموش کردن (farāmūsh kardan) | Do not forget to rest. |
+| 101 | please | لطفاً | Please help me. |
+| 102 | thank | تشکر | I thank you from my heart. |
+| 103 | sorry | معذرت | I am sorry I was late. |
+| 104 | excuse | عذر | Excuse me, may I ask? |
+| 105 | hello | سلام | Hello, how are you? |
+| 106 | goodbye | خداحافظ | Goodbye for now. |
+| 107 | welcome | خوش آمدید | You are welcome here. |
+| 108 | help | کمک | I need help with grammar. |
+| 109 | problem | مشکل | I have a small problem. |
+| 110 | question | سؤال | I have one question. |
+| 111 | answer | جواب | Please answer slowly. |
+| 112 | open | باز کردن | Open your notebook. |
+| 113 | close | بستن | Close the window at night. |
+| 114 | read | خواندن | I read every day. |
+| 115 | listen | گوش دادن | Listen carefully. |
+| 116 | speak | صحبت کردن | I speak slowly. |
+| 117 | learn | یاد گرفتن | I learn English. |
+| 118 | teach | درس دادن | She teaches online. |
+| 119 | remember | به یاد آوردن | Remember to review. |
+| 120 | forget | فراموش کردن | Do not forget to rest. |
 
 ---
 
@@ -4273,36 +4273,36 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 121 | understand | فهمیدن (fahmidan) | I understand a little. |
-| 122 | know | دانستن (dânestan) | I know her name. |
-| 123 | think | فکر کردن (fekr kardan) | I think it is good. |
-| 124 | hope | امید (omid) | I hope for a peaceful future. |
-| 125 | love | عشق / دوست داشتن (eshq / dōst dâštan) | I love my family. |
-| 126 | like | دوست داشتن (dōst dâštan) | I like quiet mornings. |
-| 127 | want | خواستن (khâstan) | I want to learn English. |
-| 128 | need | نیاز (niyâz) | I need more practice. |
-| 129 | try | کوشش کردن (kōšesh kardan) | I try again tomorrow. |
-| 130 | start | شروع (shorū) | I start at six. |
-| 131 | stop | توقف (tawqef) | Please stop talking. |
-| 132 | wait | منتظر بودن (montazer būdan) | Wait, please. |
-| 133 | eat | خوردن (khordan) | I eat breakfast at seven. |
-| 134 | drink | نوشیدن (noshidan) | I drink water often. |
-| 135 | sleep | خواب (khāb) | I sleep at ten o'clock. |
-| 136 | wake | بیدار شدن (bidār shodan) | I wake up at six. |
-| 137 | wash | شستن (shostan) | I wash my hands first. |
-| 138 | clean | تمیز (tamiz) | Keep your space clean. |
-| 139 | cook | پختن (pokhtan) | She cooks rice and beans. |
-| 140 | walk | راه رفتن (rāh raftan) | I walk after dinner. |
-| 141 | run | دویدن (daveidan) | She runs in the morning. |
-| 142 | sit | نشستن (neshestan) | Sit and breathe. |
-| 143 | stand | ایستادن (istâdan) | Stand up slowly. |
-| 144 | look | نگاه کردن (negâh kardan) | Look at this word. |
-| 145 | see | دیدن (didan) | I see you tomorrow. |
-| 146 | hear | شنیدن (shenidan) | I hear you clearly. |
-| 147 | say | گفتن (goftan) | She says thank you. |
-| 148 | tell | گفتن (goftan) | Tell me your name. |
-| 149 | ask | پرسیدن (porsidan) | Ask your teacher. |
-| 150 | give | دادن (dâdan) | Give me one minute. |
+| 121 | understand | فهمیدن | I understand a little. |
+| 122 | know | دانستن | I know her name. |
+| 123 | think | فکر کردن | I think it is good. |
+| 124 | hope | امید | I hope for a peaceful future. |
+| 125 | love | عشق / دوست داشتن | I love my family. |
+| 126 | like | دوست داشتن | I like quiet mornings. |
+| 127 | want | خواستن | I want to learn English. |
+| 128 | need | نیاز | I need more practice. |
+| 129 | try | کوشش کردن | I try again tomorrow. |
+| 130 | start | شروع | I start at six. |
+| 131 | stop | توقف | Please stop talking. |
+| 132 | wait | منتظر بودن | Wait, please. |
+| 133 | eat | خوردن | I eat breakfast at seven. |
+| 134 | drink | نوشیدن | I drink water often. |
+| 135 | sleep | خواب | I sleep at ten o'clock. |
+| 136 | wake | بیدار شدن | I wake up at six. |
+| 137 | wash | شستن | I wash my hands first. |
+| 138 | clean | تمیز | Keep your space clean. |
+| 139 | cook | پختن | She cooks rice and beans. |
+| 140 | walk | راه رفتن | I walk after dinner. |
+| 141 | run | دویدن | She runs in the morning. |
+| 142 | sit | نشستن | Sit and breathe. |
+| 143 | stand | ایستادن | Stand up slowly. |
+| 144 | look | نگاه کردن | Look at this word. |
+| 145 | see | دیدن | I see you tomorrow. |
+| 146 | hear | شنیدن | I hear you clearly. |
+| 147 | say | گفتن | She says thank you. |
+| 148 | tell | گفتن | Tell me your name. |
+| 149 | ask | پرسیدن | Ask your teacher. |
+| 150 | give | دادن | Give me one minute. |
 
 ---
 
@@ -4310,56 +4310,56 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 151 | and | و (wa) | Tea and bread are enough. |
-| 152 | but | اما (amā) | I am tired, but I study. |
-| 153 | or | یا (yā) | Tea or water? |
-| 154 | because | چون (chūn) | I study because I want a job. |
-| 155 | so | پس (pas) | I was confused, so I asked. |
-| 156 | if | اگر (agar) | If you can, practice aloud. |
-| 157 | when | وقتی (waqti) | When I finish, I rest. |
-| 158 | where | کجا (kujā) | Where is your notebook? |
-| 159 | what | چه (che) | What is this word? |
-| 160 | who | کی (ki) | Who is your teacher? |
-| 161 | why | چرا (cherā) | Why English? For my future. |
-| 162 | how | چطور (chetawr) | How do you say this? |
-| 163 | in | در (dar) | I am in my room. |
-| 164 | on | روی (ruy) | The book is on the table. |
-| 165 | at | در (dar) | I study at night. |
-| 166 | to | به (be) | I go to the lesson. |
-| 167 | from | از (az) | I am from Afghanistan. |
-| 168 | with | با (bā) | I study with my sister. |
-| 169 | without | بدون (bedūn) | Without internet, I use offline files. |
-| 170 | for | برای (barāy) | This notebook is for you. |
-| 171 | of | از (az) | A cup of tea, please. |
-| 172 | about | درباره (dar bāre) | Tell me about your day. |
-| 173 | up | بالا (bālā) | Stand up, please. |
-| 174 | down | پایین (pāyīn) | Sit down and breathe. |
-| 175 | here | اینجا (injā) | Come here. |
-| 176 | there | آنجا (ānjā) | Your phone is over there. |
-| 177 | now | حالا (hālā) | I study now. |
-| 178 | then | بعد (ba'd) | First listen, then repeat. |
-| 179 | very | خیلی (kheli) | Very good work today! |
-| 180 | too | هم / زیاد (ham / ziyād) | It is too noisy here. |
-| 181 | also | هم (ham) | I also write in English. |
-| 182 | only | فقط (faqat) | Only fifteen minutes today. |
-| 183 | not | نه (na) | I am not giving up. |
-| 184 | all | همه (hama) | All my sisters study. |
-| 185 | some | بعضی (ba'zī) | I have some free time. |
-| 186 | many | زیاد (ziyād) | Many women learn English. |
-| 187 | few | کم (kam) | I know a few words. |
-| 188 | more | بیشتر (bishtar) | I need more listening practice. |
-| 189 | less | کمتر (kamtar) | Less fear, more practice. |
-| 190 | first | اول (awwal) | First, read the word. |
-| 191 | last | آخر (ākhir) | This is the last exercise. |
-| 192 | next | بعدی (ba'dī) | Next week I start Module 5. |
-| 193 | before | قبل (qabl) | Wash hands before eating. |
-| 194 | after | بعد (ba'd) | After study, I rest. |
-| 195 | again | دوباره (dobāra) | Say it again, please. |
-| 196 | always | همیشه (hamīsha) | I always try my best. |
-| 197 | never | هرگز (hargiz) | I never stop learning. |
-| 198 | sometimes | گاهی (gāhī) | Sometimes I study with friends. |
-| 199 | often | اغلب (aghlab) | I often study at night. |
-| 200 | usually | معمولاً (ma'mūlan) | I usually study for thirty minutes. |
+| 151 | and | و | Tea and bread are enough. |
+| 152 | but | اما | I am tired, but I study. |
+| 153 | or | یا | Tea or water? |
+| 154 | because | چون | I study because I want a job. |
+| 155 | so | پس | I was confused, so I asked. |
+| 156 | if | اگر | If you can, practice aloud. |
+| 157 | when | وقتی | When I finish, I rest. |
+| 158 | where | کجا | Where is your notebook? |
+| 159 | what | چه | What is this word? |
+| 160 | who | کی | Who is your teacher? |
+| 161 | why | چرا | Why English? For my future. |
+| 162 | how | چطور | How do you say this? |
+| 163 | in | در | I am in my room. |
+| 164 | on | روی | The book is on the table. |
+| 165 | at | در | I study at night. |
+| 166 | to | به | I go to the lesson. |
+| 167 | from | از | I am from Afghanistan. |
+| 168 | with | با | I study with my sister. |
+| 169 | without | بدون | Without internet, I use offline files. |
+| 170 | for | برای | This notebook is for you. |
+| 171 | of | از | A cup of tea, please. |
+| 172 | about | درباره | Tell me about your day. |
+| 173 | up | بالا | Stand up, please. |
+| 174 | down | پایین | Sit down and breathe. |
+| 175 | here | اینجا | Come here. |
+| 176 | there | آنجا | Your phone is over there. |
+| 177 | now | حالا | I study now. |
+| 178 | then | بعد | First listen, then repeat. |
+| 179 | very | خیلی | Very good work today! |
+| 180 | too | هم / زیاد | It is too noisy here. |
+| 181 | also | هم | I also write in English. |
+| 182 | only | فقط | Only fifteen minutes today. |
+| 183 | not | نه | I am not giving up. |
+| 184 | all | همه | All my sisters study. |
+| 185 | some | بعضی | I have some free time. |
+| 186 | many | زیاد | Many women learn English. |
+| 187 | few | کم | I know a few words. |
+| 188 | more | بیشتر | I need more listening practice. |
+| 189 | less | کمتر | Less fear, more practice. |
+| 190 | first | اول | First, read the word. |
+| 191 | last | آخر | This is the last exercise. |
+| 192 | next | بعدی | Next week I start Module 5. |
+| 193 | before | قبل | Wash hands before eating. |
+| 194 | after | بعد | After study, I rest. |
+| 195 | again | دوباره | Say it again, please. |
+| 196 | always | همیشه | I always try my best. |
+| 197 | never | هرگز | I never stop learning. |
+| 198 | sometimes | گاهی | Sometimes I study with friends. |
+| 199 | often | اغلب | I often study at night. |
+| 200 | usually | معمولاً | I usually study for thirty minutes. |
 
 ---
 
@@ -4367,9 +4367,9 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 201 | today | امروز (emruz) | Today I learn ten new words. |
-| 202 | together | با هم (bā ham) | We study together. |
-| 203 | alone | تنها (tanhā) | Sometimes I study alone. |
+| 201 | today | امروز | Today I learn ten new words. |
+| 202 | together | با هم | We study together. |
+| 203 | alone | تنها | Sometimes I study alone. |
 
 ---
 
@@ -4377,53 +4377,53 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 204 | quiet | آرام (ārām) | Please be quiet. |
-| 205 | safe | امن (amn) | I feel safe at home. |
-| 206 | free | رایگان / آزاد (rāyegān / āzād) | This lesson is free. |
-| 207 | strong | قوی (qawi) | You are strong. |
-| 208 | weak | ضعیف (za'īf) | I feel weak today. |
-| 209 | easy | آسان (āsān) | This part is easy. |
-| 210 | hard | سخت (sakht) | English is hard but worth it. |
-| 211 | right | راست / درست (rāst / dorost) | Turn right at the door. |
-| 212 | left | چپ (chap) | My book is on the left. |
-| 213 | true | راست (rāst) | That is true. |
-| 214 | false | غلط (ghalat) | That is false. |
-| 215 | same | یکسان (yaksān) | We want the same goal. |
-| 216 | different | متفاوت (motefāvet) | Every day is different. |
-| 217 | important | مهم (mohem) | English is important to me. |
-| 218 | possible | ممکن (momkin) | Change is possible. |
-| 219 | ready | آماده (āmāde) | I am ready to learn. |
-| 220 | afraid | ترسیده (tarsida) | Do not be afraid to try. |
-| 221 | angry | عصبانی (asabānī) | She is not angry. |
-| 222 | calm | آرام (ārām) | Stay calm and breathe. |
-| 223 | proud | مغرور (maghrūr) | I am proud of you. |
-| 224 | brave | شجاع (shujā'a) | You are brave. |
-| 225 | kind | مهربان (mehrabān) | Be kind to yourself. |
-| 226 | careful | محتاط (mohtāt) | Be careful online. |
-| 227 | quick | سریع (sari'a) | A quick review helps. |
-| 228 | slow | آهسته (āhista) | Speak slowly and clearly. |
-| 229 | early | زود (zud) | I wake early. |
-| 230 | late | دیر (dir) | Sorry I am late. |
-| 231 | full | پر (por) | My notebook is full. |
-| 232 | empty | خالی (khālī) | The cup is empty. |
-| 233 | clean | تمیز (tamiz) | Keep your space clean. |
-| 234 | dirty | کثیف (kasīf) | Wash dirty hands. |
-| 235 | healthy | سالم (sālem) | Healthy food helps. |
-| 236 | sick | مریض (marīz) | She is sick today. |
-| 237 | pain | درد (dard) | I have pain in my back. |
-| 238 | doctor | داکتر (dāktar) | See a doctor if needed. |
-| 239 | medicine | دوا (dawā) | Take medicine as told. |
-| 240 | body | بدن (badan) | Move your body daily. |
-| 241 | heart | قلب (qalb) | Speak from the heart. |
-| 242 | head | سر (sar) | My head hurts. |
-| 243 | eye | چشم (cheshm) | Close your eyes and rest. |
-| 244 | hand | دست (dast) | Raise your hand. |
-| 245 | foot | پا (pā) | My foot hurts. |
-| 246 | voice | آوا / صدا (āwā / sedā) | Use a clear voice. |
-| 247 | mind | ذهن (zehn) | Keep an open mind. |
-| 248 | dream | خواب / آرزو (khāb / ārzū) | I dream of a good job. |
-| 249 | goal | هدف (hadaf) | My goal is fluency. |
-| 250 | plan | پلان (plān) | I plan to study tonight. |
+| 204 | quiet | آرام | Please be quiet. |
+| 205 | safe | امن | I feel safe at home. |
+| 206 | free | رایگان / آزاد | This lesson is free. |
+| 207 | strong | قوی | You are strong. |
+| 208 | weak | ضعیف | I feel weak today. |
+| 209 | easy | آسان | This part is easy. |
+| 210 | hard | سخت | English is hard but worth it. |
+| 211 | right | راست / درست | Turn right at the door. |
+| 212 | left | چپ | My book is on the left. |
+| 213 | true | راست | That is true. |
+| 214 | false | غلط | That is false. |
+| 215 | same | یکسان | We want the same goal. |
+| 216 | different | متفاوت | Every day is different. |
+| 217 | important | مهم | English is important to me. |
+| 218 | possible | ممکن | Change is possible. |
+| 219 | ready | آماده | I am ready to learn. |
+| 220 | afraid | ترسیده | Do not be afraid to try. |
+| 221 | angry | عصبانی | She is not angry. |
+| 222 | calm | آرام | Stay calm and breathe. |
+| 223 | proud | مغرور | I am proud of you. |
+| 224 | brave | شجاع | You are brave. |
+| 225 | kind | مهربان | Be kind to yourself. |
+| 226 | careful | محتاط | Be careful online. |
+| 227 | quick | سریع | A quick review helps. |
+| 228 | slow | آهسته | Speak slowly and clearly. |
+| 229 | early | زود | I wake early. |
+| 230 | late | دیر | Sorry I am late. |
+| 231 | full | پر | My notebook is full. |
+| 232 | empty | خالی | The cup is empty. |
+| 233 | clean | تمیز | Keep your space clean. |
+| 234 | dirty | کثیف | Wash dirty hands. |
+| 235 | healthy | سالم | Healthy food helps. |
+| 236 | sick | مریض | She is sick today. |
+| 237 | pain | درد | I have pain in my back. |
+| 238 | doctor | داکتر | See a doctor if needed. |
+| 239 | medicine | دوا | Take medicine as told. |
+| 240 | body | بدن | Move your body daily. |
+| 241 | heart | قلب | Speak from the heart. |
+| 242 | head | سر | My head hurts. |
+| 243 | eye | چشم | Close your eyes and rest. |
+| 244 | hand | دست | Raise your hand. |
+| 245 | foot | پا | My foot hurts. |
+| 246 | voice | آوا / صدا | Use a clear voice. |
+| 247 | mind | ذهن | Keep an open mind. |
+| 248 | dream | خواب / آرزو | I dream of a good job. |
+| 249 | goal | هدف | My goal is fluency. |
+| 250 | plan | پلان | I plan to study tonight. |
 
 ---
 
@@ -4431,56 +4431,56 @@ Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 251 | online | آنلاین (online) | I study online. |
-| 252 | offline | آفلاین (offline) | Save lessons for offline use. |
-| 253 | download | دانلود (download) | Download the lesson. |
-| 254 | app | اپلیکیشن (app) | I use a learning app. |
-| 255 | screen | صفحه (safha) | Look at the screen. |
-| 256 | battery | باتری (bātri) | Charge your battery. |
-| 257 | charge | شارژ (shārj) | Charge your phone. |
-| 258 | click | کلیک (click) | Click the link. |
-| 259 | search | جستجو (justojū) | Search for the word. |
-| 260 | website | ویبسایت (website) | Open a safe website. |
-| 261 | email | ایمیل (email) | I check my email. |
-| 262 | password | رمز (ramz) | Never share your password. |
-| 263 | video | ویدیو (video) | Watch a short video. |
-| 264 | audio | صدا (sedā) | Listen to the audio. |
-| 265 | lesson | درس (dars) | Finish the lesson. |
-| 266 | course | کورس (course) | This course is free. |
-| 267 | test | امتحان / آزمایش (emtehān / āzmāyesh) | I take a test. |
-| 268 | mistake | اشتباه (eshtebāh) | A mistake is okay. |
-| 269 | correct | درست (dorost) | Your answer is correct. |
-| 270 | practice | تمرین (tamrīn) | Practice every day. |
-| 271 | improve | بهتر شدن (behtar shodan) | I improve slowly. |
-| 272 | progress | پیشرفت (peshraft) | I see progress. |
-| 273 | success | موفقیت (movafaqiyat) | Success takes time. |
-| 274 | fail | ناکام شدن (nākām shodan) | If I fail, I try again. |
-| 275 | win | بردن (bordan) | We win when we learn. |
-| 276 | lose | از دست دادن (az dast dâdan) | Do not lose hope. |
-| 277 | continue | ادامه دادن (edāme dâdan) | Continue tomorrow. |
-| 278 | finish | تمام کردن (tamām kardan) | Finish your homework. |
-| 279 | break | استراحت / شکستن (estirāhat / shekastan) | Take a short break. |
-| 280 | rest | استراحت (estirāhat) | Rest your eyes. |
-| 281 | relax | آرام شدن (ārām shodan) | Relax after study. |
-| 282 | focus | تمرکز (tamarkoz) | Focus for ten minutes. |
-| 283 | attention | توجه (tawajjoh) | Pay attention. |
-| 284 | memory | حافظه (hāfeza) | Use memory tricks. |
-| 285 | habit | عادت (ādat) | Build a study habit. |
-| 286 | routine | روتین (routine) | My routine is simple. |
-| 287 | schedule | برنامه (barname) | Check your schedule. |
-| 288 | minute | دقیقه (daqiqa) | Study ten minutes. |
-| 289 | hour | ساعت (sā'at) | One hour is enough. |
-| 290 | daily | روزانه (rūzāne) | I study daily. |
-| 291 | weekly | هفتگی (haftagī) | I review weekly. |
-| 292 | monthly | ماهانه (māhāne) | Monthly check-in helps. |
-| 293 | future | آینده (āyanda) | I work for my future. |
-| 294 | past | گذشته (gozashta) | Learn from the past. |
-| 295 | present | حال (hāl) | Focus on the present. |
-| 296 | story | داستان (dāstān) | Read a short story. |
-| 297 | example | مثال (misāl) | Give an example. |
-| 298 | idea | فکر / ایده (fekr / idea) | That is a good idea. |
-| 299 | fact | حقیقت (haqīqat) | Check the fact. |
-| 300 | result | نتیجه (natīja) | Hard work brings results. |
+| 251 | online | آنلاین | I study online. |
+| 252 | offline | آفلاین | Save lessons for offline use. |
+| 253 | download | دانلود | Download the lesson. |
+| 254 | app | اپلیکیشن | I use a learning app. |
+| 255 | screen | صفحه | Look at the screen. |
+| 256 | battery | باتری | Charge your battery. |
+| 257 | charge | شارژ | Charge your phone. |
+| 258 | click | کلیک | Click the link. |
+| 259 | search | جستجو | Search for the word. |
+| 260 | website | ویبسایت | Open a safe website. |
+| 261 | email | ایمیل | I check my email. |
+| 262 | password | رمز | Never share your password. |
+| 263 | video | ویدیو | Watch a short video. |
+| 264 | audio | صدا | Listen to the audio. |
+| 265 | lesson | درس | Finish the lesson. |
+| 266 | course | کورس | This course is free. |
+| 267 | test | امتحان / آزمایش | I take a test. |
+| 268 | mistake | اشتباه | A mistake is okay. |
+| 269 | correct | درست | Your answer is correct. |
+| 270 | practice | تمرین | Practice every day. |
+| 271 | improve | بهتر شدن | I improve slowly. |
+| 272 | progress | پیشرفت | I see progress. |
+| 273 | success | موفقیت | Success takes time. |
+| 274 | fail | ناکام شدن | If I fail, I try again. |
+| 275 | win | بردن | We win when we learn. |
+| 276 | lose | از دست دادن | Do not lose hope. |
+| 277 | continue | ادامه دادن | Continue tomorrow. |
+| 278 | finish | تمام کردن | Finish your homework. |
+| 279 | break | استراحت / شکستن | Take a short break. |
+| 280 | rest | استراحت | Rest your eyes. |
+| 281 | relax | آرام شدن | Relax after study. |
+| 282 | focus | تمرکز | Focus for ten minutes. |
+| 283 | attention | توجه | Pay attention. |
+| 284 | memory | حافظه | Use memory tricks. |
+| 285 | habit | عادت | Build a study habit. |
+| 286 | routine | روتین | My routine is simple. |
+| 287 | schedule | برنامه | Check your schedule. |
+| 288 | minute | دقیقه | Study ten minutes. |
+| 289 | hour | ساعت | One hour is enough. |
+| 290 | daily | روزانه | I study daily. |
+| 291 | weekly | هفتگی | I review weekly. |
+| 292 | monthly | ماهانه | Monthly check-in helps. |
+| 293 | future | آینده | I work for my future. |
+| 294 | past | گذشته | Learn from the past. |
+| 295 | present | حال | Focus on the present. |
+| 296 | story | داستان | Read a short story. |
+| 297 | example | مثال | Give an example. |
+| 298 | idea | فکر / ایده | That is a good idea. |
+| 299 | fact | حقیقت | Check the fact. |
+| 300 | result | نتیجه | Hard work brings results. |
 
 
 ---
@@ -4521,56 +4521,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 301 | learn | یاد گرفتن (yād gereftan) | I learn English. |
-| 302 | education | تحصیل (tahsil) | Education opens doors. |
-| 303 | knowledge | دانش (dānesh) | Knowledge grows slowly. |
-| 304 | skill | مهارت (mahārat) | Every skill needs practice. |
-| 305 | subject | مضمون (mazmūn) | Grammar is my favorite subject. |
-| 306 | grammar | گرامر (grammar) | Grammar takes patience. |
-| 307 | vocabulary | واژگان (vāžegān) | I build vocabulary daily. |
-| 308 | pronunciation | تلفظ (talafuz) | Pronunciation takes practice. |
-| 309 | listening | شنیدن (shenidan) | Listening helps me learn. |
-| 310 | speaking | صحبت (sohbat) | Speaking builds confidence. |
-| 311 | reading | خواندن (khāndan) | Reading helps me think. |
-| 312 | writing | نوشتن (neveštan) | Writing helps me think. |
-| 313 | fluency | روانی (ravānī) | Fluency comes with time. |
-| 314 | level | سطح (satḥ) | My level is beginner. |
-| 315 | beginner | مبتدی (mobtadī) | I am a beginner. |
-| 316 | intermediate | متوسط (motawassat) | She is intermediate now. |
-| 317 | advanced | پیشرفته (peshrafta) | Advanced study comes later. |
-| 318 | exam | امتحان (emtehān) | The exam is next month. |
-| 319 | score | نمره (namre) | I want a high score. |
-| 320 | pass | کامیاب شدن (kāmyāb shodan) | I pass the unit quiz. |
-| 321 | fail | ناکام شدن (nākām shodan) | If I fail, I try again. |
-| 322 | review | مرور (murūr) | I review with care. |
-| 323 | repeat | تکرار (tekrār) | I repeat with care. |
-| 324 | note | یادداشت (yād-dāsht) | I use "note" in a sentence. |
-| 325 | notebook | دفتر (daftar) | I write in my notebook. |
-| 326 | pen | قلم (qalam) | I use "pen" in a sentence. |
-| 327 | paper | کاغذ (kāghaz) | The paper helps me. |
-| 328 | dictionary | لغتنامه (lughat-nāme) | Use a dictionary. |
-| 329 | translate | ترجمه (tarjama) | I translate one sentence. |
-| 330 | meaning | معنی (ma'nī) | What is the meaning? |
-| 331 | example | مثال (misāl) | Give an example. |
-| 332 | sentence | جمله (jumla) | Write one sentence. |
-| 333 | paragraph | پاراگراف (paragraph) | Read one paragraph. |
-| 334 | topic | موضوع (mozū'a) | Choose a topic. |
-| 335 | title | عنوان (unwān) | Read the title first. |
-| 336 | summary | خلاصه (kholāse) | Write a short summary. |
-| 337 | detail | جزئیات (joz'iyāt) | Read every detail. |
-| 338 | main idea | فکر اصلی (fekr aslī) | What is the main idea? |
-| 339 | question | سؤال (so'āl) | I have one question. |
-| 340 | answer | جواب (javāb) | Please answer slowly. |
-| 341 | explain | توضیح دادن (tawzīh dâdan) | I explain with care. |
-| 342 | understand | فهمیدن (fahmidan) | I understand a little. |
-| 343 | confuse | گیج کردن (gij kardan) | Do not confuse these words. |
-| 344 | clear | روشن (roshan) | I use "clear" in a sentence. |
-| 345 | difficult | مشکل (moshkel) | This word is difficult. |
-| 346 | simple | ساده (sāde) | This word is simple. |
-| 347 | correct | درست (dorost) | Your answer is correct. |
-| 348 | incorrect | نادرست (nādorost) | That answer is incorrect. |
-| 349 | improve | بهتر شدن (behtar shodan) | I improve slowly. |
-| 350 | progress | پیشرفت (peshraft) | I see progress. |
+| 301 | learn | یاد گرفتن | I learn English. |
+| 302 | education | تحصیل | Education opens doors. |
+| 303 | knowledge | دانش | Knowledge grows slowly. |
+| 304 | skill | مهارت | Every skill needs practice. |
+| 305 | subject | مضمون | Grammar is my favorite subject. |
+| 306 | grammar | گرامر | Grammar takes patience. |
+| 307 | vocabulary | واژگان | I build vocabulary daily. |
+| 308 | pronunciation | تلفظ | Pronunciation takes practice. |
+| 309 | listening | شنیدن | Listening helps me learn. |
+| 310 | speaking | صحبت | Speaking builds confidence. |
+| 311 | reading | خواندن | Reading helps me think. |
+| 312 | writing | نوشتن | Writing helps me think. |
+| 313 | fluency | روانی | Fluency comes with time. |
+| 314 | level | سطح | My level is beginner. |
+| 315 | beginner | مبتدی | I am a beginner. |
+| 316 | intermediate | متوسط | She is intermediate now. |
+| 317 | advanced | پیشرفته | Advanced study comes later. |
+| 318 | exam | امتحان | The exam is next month. |
+| 319 | score | نمره | I want a high score. |
+| 320 | pass | کامیاب شدن | I pass the unit quiz. |
+| 321 | fail | ناکام شدن | If I fail, I try again. |
+| 322 | review | مرور | I review with care. |
+| 323 | repeat | تکرار | I repeat with care. |
+| 324 | note | یادداشت | I use "note" in a sentence. |
+| 325 | notebook | دفتر | I write in my notebook. |
+| 326 | pen | قلم | I use "pen" in a sentence. |
+| 327 | paper | کاغذ | The paper helps me. |
+| 328 | dictionary | لغتنامه | Use a dictionary. |
+| 329 | translate | ترجمه | I translate one sentence. |
+| 330 | meaning | معنی | What is the meaning? |
+| 331 | example | مثال | Give an example. |
+| 332 | sentence | جمله | Write one sentence. |
+| 333 | paragraph | پاراگراف | Read one paragraph. |
+| 334 | topic | موضوع | Choose a topic. |
+| 335 | title | عنوان | Read the title first. |
+| 336 | summary | خلاصه | Write a short summary. |
+| 337 | detail | جزئیات | Read every detail. |
+| 338 | main idea | فکر اصلی | What is the main idea? |
+| 339 | question | سؤال | I have one question. |
+| 340 | answer | جواب | Please answer slowly. |
+| 341 | explain | توضیح دادن | I explain with care. |
+| 342 | understand | فهمیدن | I understand a little. |
+| 343 | confuse | گیج کردن | Do not confuse these words. |
+| 344 | clear | روشن | I use "clear" in a sentence. |
+| 345 | difficult | مشکل | This word is difficult. |
+| 346 | simple | ساده | This word is simple. |
+| 347 | correct | درست | Your answer is correct. |
+| 348 | incorrect | نادرست | That answer is incorrect. |
+| 349 | improve | بهتر شدن | I improve slowly. |
+| 350 | progress | پیشرفت | I see progress. |
 
 ---
 
@@ -4578,56 +4578,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 351 | kitchen | آشپزخانه (āshpazkhāne) | She cooks in the kitchen. |
-| 352 | bathroom | حمام (hammām) | The bathroom is clean. |
-| 353 | bedroom | اتاق خواب (otāq khāb) | My bedroom is quiet. |
-| 354 | window | پنجره (panjare) | Open the window. |
-| 355 | wall | دیوار (dīwār) | A map is on the wall. |
-| 356 | floor | فرش / زمین (farsh / zamin) | Sit on the floor. |
-| 357 | roof | بام (bām) | Rain hits the roof. |
-| 358 | table | میز (mīz) | You are table to learn. |
-| 359 | chair | کرسی (kursī) | I use "chair" in a sentence. |
-| 360 | bed | تخت (takht) | I feel bed. |
-| 361 | blanket | پتو (patū) | I need a warm blanket. |
-| 362 | pillow | بالش (bālish) | Fluff the pillow. |
-| 363 | clothes | لباس (lebās) | Wash your clothes. |
-| 364 | dress | لباس (lebās) | She wears a blue dress. |
-| 365 | shirt | پیراهن (pirāhan) | Iron your shirt. |
-| 366 | shoes | کفش (kafsh) | Wear comfortable shoes. |
-| 367 | wear | پوشیدن (pōshidan) | I wear with care. |
-| 368 | wash | شستن (shostan) | I wash my hands first. |
-| 369 | dry | خشک کردن (khoshk kardan) | I dry with care. |
-| 370 | cook | پختن (pokhtan) | She cooks rice and beans. |
-| 371 | rice | برنج (birinj) | I use "rice" in a sentence. |
-| 372 | meat | گوشت (gōsht) | I use "meat" in a sentence. |
-| 373 | fruit | میوه (mīwa) | I use "fruit" in a sentence. |
-| 374 | apple | سیب (sīb) | I use "apple" in a sentence. |
-| 375 | egg | تخم مرغ (tokhm morgh) | I use "egg" in a sentence. |
-| 376 | milk | شیر (shīr) | I use "milk" in a sentence. |
-| 377 | sugar | شکر (shakar) | I use "sugar" in a sentence. |
-| 378 | salt | نمک (namak) | I use "salt" in a sentence. |
-| 379 | hunger | گرسنگی (gorsengī) | I feel hunger after study. |
-| 380 | thirsty | تشنه (teshna) | I am thirsty. |
-| 381 | breakfast | ناشتا (nāshtā) | I eat breakfast early. |
-| 382 | lunch | ناهار (nahār) | Lunch is at noon. |
-| 383 | dinner | شام (shām) | We eat dinner together. |
-| 384 | snack | تنقلات (tanqulāt) | A small snack is fine. |
-| 385 | invite | دعوت کردن (da'wat kardan) | I invite every day. |
-| 386 | visit | دیدن (didan) | I visit with care. |
-| 387 | guest | مهمان (mehmān) | Our guest is kind. |
-| 388 | neighbor | همسایه (hamsāya) | My neighbor is helpful. |
-| 389 | polite | مودب (mowaddeb) | This word is polite. |
-| 390 | quiet | آرام (ārām) | Please be quiet. |
-| 391 | noise | سر و صدا (sar o sedā) | Too much noise distracts me. |
-| 392 | electricity | برق (barq) | Electricity is expensive. |
-| 393 | light | نور (nūr) | I use "light" in a sentence. |
-| 394 | dark | تاریک (tārīk) | I use "dark" in a sentence. |
-| 395 | cold | سرد (sard) | I use "cold" in a sentence. |
-| 396 | warm | گرم (garm) | I use "warm" in a sentence. |
-| 397 | weather | آب و هوا (āb o hawā) | The weather is cold. |
-| 398 | rain | باران (bārān) | I use "rain" in a sentence. |
-| 399 | sun | آفتاب (āftāb) | I use "sun" in a sentence. |
-| 400 | wind | باد (bād) | I use "wind" in a sentence. |
+| 351 | kitchen | آشپزخانه | She cooks in the kitchen. |
+| 352 | bathroom | حمام | The bathroom is clean. |
+| 353 | bedroom | اتاق خواب | My bedroom is quiet. |
+| 354 | window | پنجره | Open the window. |
+| 355 | wall | دیوار | A map is on the wall. |
+| 356 | floor | فرش / زمین | Sit on the floor. |
+| 357 | roof | بام | Rain hits the roof. |
+| 358 | table | میز | You are table to learn. |
+| 359 | chair | کرسی | I use "chair" in a sentence. |
+| 360 | bed | تخت | I feel bed. |
+| 361 | blanket | پتو | I need a warm blanket. |
+| 362 | pillow | بالش | Fluff the pillow. |
+| 363 | clothes | لباس | Wash your clothes. |
+| 364 | dress | لباس | She wears a blue dress. |
+| 365 | shirt | پیراهن | Iron your shirt. |
+| 366 | shoes | کفش | Wear comfortable shoes. |
+| 367 | wear | پوشیدن | I wear with care. |
+| 368 | wash | شستن | I wash my hands first. |
+| 369 | dry | خشک کردن | I dry with care. |
+| 370 | cook | پختن | She cooks rice and beans. |
+| 371 | rice | برنج | I use "rice" in a sentence. |
+| 372 | meat | گوشت | I use "meat" in a sentence. |
+| 373 | fruit | میوه | I use "fruit" in a sentence. |
+| 374 | apple | سیب | I use "apple" in a sentence. |
+| 375 | egg | تخم مرغ | I use "egg" in a sentence. |
+| 376 | milk | شیر | I use "milk" in a sentence. |
+| 377 | sugar | شکر | I use "sugar" in a sentence. |
+| 378 | salt | نمک | I use "salt" in a sentence. |
+| 379 | hunger | گرسنگی | I feel hunger after study. |
+| 380 | thirsty | تشنه | I am thirsty. |
+| 381 | breakfast | ناشتا | I eat breakfast early. |
+| 382 | lunch | ناهار | Lunch is at noon. |
+| 383 | dinner | شام | We eat dinner together. |
+| 384 | snack | تنقلات | A small snack is fine. |
+| 385 | invite | دعوت کردن | I invite every day. |
+| 386 | visit | دیدن | I visit with care. |
+| 387 | guest | مهمان | Our guest is kind. |
+| 388 | neighbor | همسایه | My neighbor is helpful. |
+| 389 | polite | مودب | This word is polite. |
+| 390 | quiet | آرام | Please be quiet. |
+| 391 | noise | سر و صدا | Too much noise distracts me. |
+| 392 | electricity | برق | Electricity is expensive. |
+| 393 | light | نور | I use "light" in a sentence. |
+| 394 | dark | تاریک | I use "dark" in a sentence. |
+| 395 | cold | سرد | I use "cold" in a sentence. |
+| 396 | warm | گرم | I use "warm" in a sentence. |
+| 397 | weather | آب و هوا | The weather is cold. |
+| 398 | rain | باران | I use "rain" in a sentence. |
+| 399 | sun | آفتاب | I use "sun" in a sentence. |
+| 400 | wind | باد | I use "wind" in a sentence. |
 
 ---
 
@@ -4635,56 +4635,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 401 | health | صحت (sehat) | This word is health. |
-| 402 | illness | مرض (maraz) | I feel illness. |
-| 403 | fever | تب (tab) | The fever helps me. |
-| 404 | cough | سرفه (surfe) | I use "cough" in a sentence. |
-| 405 | headache | درد سر (dard sar) | This word is headache. |
-| 406 | stomach | معده (ma'ida) | This word is stomach. |
-| 407 | back | پشت (posht) | Come back tomorrow. |
-| 408 | leg | پا (pā) | I use "leg" in a sentence. |
-| 409 | arm | بازو (bāzū) | I use "arm" in a sentence. |
-| 410 | finger | انگشت (angosht) | The finger helps me. |
-| 411 | blood | خون (khūn) | I use "blood" in a sentence. |
-| 412 | breathe | نفس کشیدن (nafas keshidan) | I breathe every day. |
-| 413 | exercise | ورزش (warzesh) | This word is exercise. |
-| 414 | stretch | کشیدن (keshidan) | I stretch with care. |
-| 415 | sleep | خواب (khāb) | I sleep at ten o'clock. |
-| 416 | awake | بیدار (bidār) | I use "awake" in a sentence. |
-| 417 | dream | خواب / آرزو (khāb / ārzū) | I dream of a good job. |
-| 418 | stress | فشار / استرس (feshār / stress) | This word is stress. |
-| 419 | worry | نگرانی (negarānī) | I worry with care. |
-| 420 | relax | آرام شدن (ārām shodan) | Relax after study. |
-| 421 | calm | آرام (ārām) | Stay calm and breathe. |
-| 422 | energy | انرژی (energy) | This word is energy. |
-| 423 | weak | ضعیف (za'īf) | I feel weak today. |
-| 424 | strong | قوی (qawi) | You are strong. |
-| 425 | recover | بهبود یافتن (behbūd yāftan) | The recover helps me. |
-| 426 | better | بهتر (behtar) | The better helps me. |
-| 427 | worse | بدتر (badtar) | I use "worse" in a sentence. |
-| 428 | hospital | شفاخانه (shifākhāne) | This lesson is hospital. |
-| 429 | nurse | نرس (nars) | I use "nurse" in a sentence. |
-| 430 | pharmacy | دواخانه (dawākhāne) | This word is pharmacy. |
-| 431 | pill | حبوب (hubūb) | I use "pill" in a sentence. |
-| 432 | dose | دوز (doz) | I use "dose" in a sentence. |
-| 433 | allergy | حساسیت (hasāsiyat) | This word is allergy. |
-| 434 | hurt | آسیب رساندن (āsīb rasāndan) | I hurt with care. |
-| 435 | injury | زخم / آسیب (zakhm / āsīb) | This word is injury. |
-| 436 | safe | امن (amn) | I feel safe at home. |
-| 437 | danger | خطر (khatr) | The danger helps me. |
-| 438 | care | مراقبت (murāqibat) | I use "care" in a sentence. |
-| 439 | protect | محافظت (moḥāfezat) | I protect with care. |
-| 440 | hygiene | بهداشت (behdāsht) | This word is hygiene. |
-| 441 | clean | تمیز (tamiz) | Keep your space clean. |
-| 442 | soap | صابون (sābūn) | I use "soap" in a sentence. |
-| 443 | mask | ماسک (mask) | I use "mask" in a sentence. |
-| 444 | rest | استراحت (estirāhat) | Rest your eyes. |
-| 445 | nutrition | تغذیه (taghẕiya) | Nutrition helps me learn. |
-| 446 | water | آب (āb) | I need clean water. |
-| 447 | walk | راه رفتن (rāh raftan) | I walk after dinner. |
-| 448 | yoga | یوگا (yoga) | She does yoga at home. |
-| 449 | patient | صبر / مریض (sabr / marīz) | Be patient with progress. |
-| 450 | treatment | درمان (darmān) | Treatment takes time. |
+| 401 | health | صحت | This word is health. |
+| 402 | illness | مرض | I feel illness. |
+| 403 | fever | تب | The fever helps me. |
+| 404 | cough | سرفه | I use "cough" in a sentence. |
+| 405 | headache | درد سر | This word is headache. |
+| 406 | stomach | معده | This word is stomach. |
+| 407 | back | پشت | Come back tomorrow. |
+| 408 | leg | پا | I use "leg" in a sentence. |
+| 409 | arm | بازو | I use "arm" in a sentence. |
+| 410 | finger | انگشت | The finger helps me. |
+| 411 | blood | خون | I use "blood" in a sentence. |
+| 412 | breathe | نفس کشیدن | I breathe every day. |
+| 413 | exercise | ورزش | This word is exercise. |
+| 414 | stretch | کشیدن | I stretch with care. |
+| 415 | sleep | خواب | I sleep at ten o'clock. |
+| 416 | awake | بیدار | I use "awake" in a sentence. |
+| 417 | dream | خواب / آرزو | I dream of a good job. |
+| 418 | stress | فشار / استرس | This word is stress. |
+| 419 | worry | نگرانی | I worry with care. |
+| 420 | relax | آرام شدن | Relax after study. |
+| 421 | calm | آرام | Stay calm and breathe. |
+| 422 | energy | انرژی | This word is energy. |
+| 423 | weak | ضعیف | I feel weak today. |
+| 424 | strong | قوی | You are strong. |
+| 425 | recover | بهبود یافتن | The recover helps me. |
+| 426 | better | بهتر | The better helps me. |
+| 427 | worse | بدتر | I use "worse" in a sentence. |
+| 428 | hospital | شفاخانه | This lesson is hospital. |
+| 429 | nurse | نرس | I use "nurse" in a sentence. |
+| 430 | pharmacy | دواخانه | This word is pharmacy. |
+| 431 | pill | حبوب | I use "pill" in a sentence. |
+| 432 | dose | دوز | I use "dose" in a sentence. |
+| 433 | allergy | حساسیت | This word is allergy. |
+| 434 | hurt | آسیب رساندن | I hurt with care. |
+| 435 | injury | زخم / آسیب | This word is injury. |
+| 436 | safe | امن | I feel safe at home. |
+| 437 | danger | خطر | The danger helps me. |
+| 438 | care | مراقبت | I use "care" in a sentence. |
+| 439 | protect | محافظت | I protect with care. |
+| 440 | hygiene | بهداشت | This word is hygiene. |
+| 441 | clean | تمیز | Keep your space clean. |
+| 442 | soap | صابون | I use "soap" in a sentence. |
+| 443 | mask | ماسک | I use "mask" in a sentence. |
+| 444 | rest | استراحت | Rest your eyes. |
+| 445 | nutrition | تغذیه | Nutrition helps me learn. |
+| 446 | water | آب | I need clean water. |
+| 447 | walk | راه رفتن | I walk after dinner. |
+| 448 | yoga | یوگا | She does yoga at home. |
+| 449 | patient | صبر / مریض | Be patient with progress. |
+| 450 | treatment | درمان | Treatment takes time. |
 
 ---
 
@@ -4692,56 +4692,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 451 | emotion | احساس (ehsās) | Name the emotion. |
-| 452 | feeling | احساس (ehsās) | Trust your feeling. |
-| 453 | mood | حالت (hālat) | I am in a good mood. |
-| 454 | joy | شادی (shādī) | Small wins bring joy. |
-| 455 | peace | صلح (solh) | I wish for peace. |
-| 456 | fear | ترس (tars) | I use "fear" in a sentence. |
-| 457 | shame | شرم (sharm) | There is no shame in learning. |
-| 458 | guilt | احساس گناه (ehsās gonāh) | Do not feel guilt for resting. |
-| 459 | anger | خشم (khashm) | The anger helps me. |
-| 460 | surprise | تعجب (ta'ajjub) | What a nice surprise! |
-| 461 | trust | اعتماد (e'temād) | I trust with care. |
-| 462 | doubt | شک (shak) | I doubt with care. |
-| 463 | hope | امید (omid) | I hope for a peaceful future. |
-| 464 | despair | ناامیدی (nā-omīdī) | Do not fall into despair. |
-| 465 | courage | شجاعت (shujā'at) | You have courage. |
-| 466 | confidence | اعتماد به نفس (e'temād be nafs) | Confidence grows with practice. |
-| 467 | shy | خجالتی (khajāltī) | I was shy at first. |
-| 468 | brave | شجاع (shujā'a) | You are brave. |
-| 469 | honest | صادق (sādeq) | Be honest with yourself. |
-| 470 | patient | صبر / مریض (sabr / marīz) | Be patient with progress. |
-| 471 | impatient | بی‌صبر (bī-sabr) | I feel impatient sometimes. |
-| 472 | kind | مهربان (mehrabān) | Be kind to yourself. |
-| 473 | rude | گستاخ (gostākh) | Do not be rude. |
-| 474 | gentle | ملایم (malāyem) | Use a gentle voice. |
-| 475 | strict | سخت‌گیر (sakht-gīr) | The rule is strict. |
-| 476 | serious | جدی (jiddī) | This is a serious goal. |
-| 477 | funny | خندہ‌دار (khandah-dār) | The video is funny. |
-| 478 | lonely | تنها (tanhā) | I feel lonely sometimes. |
-| 479 | together | با هم (bā ham) | We study together. |
-| 480 | support | حمایت (hemāyat) | Thank you for your support. |
-| 481 | respect | احترام (ehtirām) | Show respect to teachers. |
-| 482 | honor | افتخار (eftekhār) | It is an honor to learn. |
-| 483 | pride | غرور (ghurūr) | I use "pride" in a sentence. |
-| 484 | humble | فروتن (farūtan) | Stay humble and curious. |
-| 485 | grateful | سپاسگزار (sepās-guzār) | I am grateful today. |
-| 486 | thankful | ممنون (mamnūn) | I am thankful for you. |
-| 487 | forgive | بخشیدن (bakhshidan) | Forgive yourself for mistakes. |
-| 488 | forget | فراموش کردن (farāmūsh kardan) | Do not forget to rest. |
-| 489 | remember | به یاد آوردن (be yād āvardan) | Remember to review. |
-| 490 | miss | دلتنگ شدن (deltang shodan) | I miss with care. |
-| 491 | love | عشق / دوست داشتن (eshq / dōst dâštan) | I love my family. |
-| 492 | hate | نفرت (nafrat) | I hate every day. |
-| 493 | prefer | ترجیح دادن (tarjīḥ dâdan) | The prefer helps me. |
-| 494 | enjoy | لذت بردن (lazzat bordan) | I enjoy with care. |
-| 495 | suffer | رنج بردن (ranj bordan) | The suffer helps me. |
-| 496 | comfort | آرامش (ārāmish) | I comfort with care. |
-| 497 | encourage | تشویق (tashwīq) | I encourage every day. |
-| 498 | discourage | دلسرد کردن (delsard kardan) | I discourage every day. |
-| 499 | motivate | انگیزه دادن (angīza dâdan) | I motivate every day. |
-| 500 | inspire | الهام دادن (elhām dâdan) | I inspire every day. |
+| 451 | emotion | احساس | Name the emotion. |
+| 452 | feeling | احساس | Trust your feeling. |
+| 453 | mood | حالت | I am in a good mood. |
+| 454 | joy | شادی | Small wins bring joy. |
+| 455 | peace | صلح | I wish for peace. |
+| 456 | fear | ترس | I use "fear" in a sentence. |
+| 457 | shame | شرم | There is no shame in learning. |
+| 458 | guilt | احساس گناه | Do not feel guilt for resting. |
+| 459 | anger | خشم | The anger helps me. |
+| 460 | surprise | تعجب | What a nice surprise! |
+| 461 | trust | اعتماد | I trust with care. |
+| 462 | doubt | شک | I doubt with care. |
+| 463 | hope | امید | I hope for a peaceful future. |
+| 464 | despair | ناامیدی | Do not fall into despair. |
+| 465 | courage | شجاعت | You have courage. |
+| 466 | confidence | اعتماد به نفس | Confidence grows with practice. |
+| 467 | shy | خجالتی | I was shy at first. |
+| 468 | brave | شجاع | You are brave. |
+| 469 | honest | صادق | Be honest with yourself. |
+| 470 | patient | صبر / مریض | Be patient with progress. |
+| 471 | impatient | بی‌صبر | I feel impatient sometimes. |
+| 472 | kind | مهربان | Be kind to yourself. |
+| 473 | rude | گستاخ | Do not be rude. |
+| 474 | gentle | ملایم | Use a gentle voice. |
+| 475 | strict | سخت‌گیر | The rule is strict. |
+| 476 | serious | جدی | This is a serious goal. |
+| 477 | funny | خندہ‌دار | The video is funny. |
+| 478 | lonely | تنها | I feel lonely sometimes. |
+| 479 | together | با هم | We study together. |
+| 480 | support | حمایت | Thank you for your support. |
+| 481 | respect | احترام | Show respect to teachers. |
+| 482 | honor | افتخار | It is an honor to learn. |
+| 483 | pride | غرور | I use "pride" in a sentence. |
+| 484 | humble | فروتن | Stay humble and curious. |
+| 485 | grateful | سپاسگزار | I am grateful today. |
+| 486 | thankful | ممنون | I am thankful for you. |
+| 487 | forgive | بخشیدن | Forgive yourself for mistakes. |
+| 488 | forget | فراموش کردن | Do not forget to rest. |
+| 489 | remember | به یاد آوردن | Remember to review. |
+| 490 | miss | دلتنگ شدن | I miss with care. |
+| 491 | love | عشق / دوست داشتن | I love my family. |
+| 492 | hate | نفرت | I hate every day. |
+| 493 | prefer | ترجیح دادن | The prefer helps me. |
+| 494 | enjoy | لذت بردن | I enjoy with care. |
+| 495 | suffer | رنج بردن | The suffer helps me. |
+| 496 | comfort | آرامش | I comfort with care. |
+| 497 | encourage | تشویق | I encourage every day. |
+| 498 | discourage | دلسرد کردن | I discourage every day. |
+| 499 | motivate | انگیزه دادن | I motivate every day. |
+| 500 | inspire | الهام دادن | I inspire every day. |
 
 ---
 
@@ -4749,56 +4749,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 501 | technology | تکنالوژی (technology) | Technology helps learners. |
-| 502 | device | دستگاه (dastgāh) | Charge your device. |
-| 503 | mobile | موبایل (mobile) | I study on my mobile. |
-| 504 | smartphone | سمارتفون (smartphone) | My smartphone is old. |
-| 505 | tablet | تبلت (tablet) | A tablet is easier to read on. |
-| 506 | laptop | لپ‌تاپ (laptop) | She saves for a laptop. |
-| 507 | computer | کامپیوتر (computer) | The computer helps me. |
-| 508 | keyboard | کیبورد (keyboard) | Type on the keyboard. |
-| 509 | mouse | ماوس (māūs) | I use "mouse" in a sentence. |
-| 510 | cable | کابل (kābel) | You are cable to learn. |
-| 511 | plug | پلگ (plug) | I use "plug" in a sentence. |
-| 512 | socket | ساکت (socket) | This word is socket. |
-| 513 | power | برق / قدرت (barq / qodrat) | The power helps me. |
-| 514 | Wi-Fi | وای‌فای (Wi-Fi) | The Wi-Fi is slow. |
-| 515 | network | شبکه (shabake) | The network is weak. |
-| 516 | signal | سیگنال (signal) | I have one bar of signal. |
-| 517 | data | داده (dāde) | I use "data" in a sentence. |
-| 518 | storage | ذخیره (zakhire) | Clear storage space. |
-| 519 | file | فایل (file) | I use "file" in a sentence. |
-| 520 | folder | فولدر (folder) | Save files in one folder. |
-| 521 | photo | عکس (aks) | Take a photo of your notes. |
-| 522 | camera | دوربین (dūrbīn) | Cover the camera for privacy. |
-| 523 | video | ویدیو (video) | Watch a short video. |
-| 524 | record | ضبط (zabt) | I record with care. |
-| 525 | play | بازی کردن (bāzi kardan) | Children play outside. |
-| 526 | pause | مکث (makas) | I pause every day. |
-| 527 | stop | توقف (tawqef) | Please stop talking. |
-| 528 | share | شریک ساختن (share) | I share every day. |
-| 529 | send | فرستادن (ferestādan) | I send a message. |
-| 530 | receive | گرفتن (gereftan) | This lesson is receive. |
-| 531 | delete | حذف (hazf) | I delete every day. |
-| 532 | save | ذخیره (zakhire) | I save every day. |
-| 533 | copy | کاپی (copy) | I copy with care. |
-| 534 | paste | چسباندن (chaspāndan) | I paste every day. |
-| 535 | edit | ویرایش (virāyesh) | I edit with care. |
-| 536 | update | به‌روزرسانی (update) | I update every day. |
-| 537 | install | نصب (nasb) | I install with care. |
-| 538 | uninstall | حذف نصب (hazf nasb) | I uninstall with care. |
-| 539 | login | ورود (vorūd) | I login with care. |
-| 540 | logout | خروج (khorūj) | I logout with care. |
-| 541 | account | حساب (hesāb) | This word is account. |
-| 542 | profile | پروفایل (profile) | This word is profile. |
-| 543 | privacy | حریم خصوصی (harīm khosūsī) | Protect your privacy. |
-| 544 | security | امنیت (amniyat) | Use strong security habits. |
-| 545 | hack | هک (hack) | I use "hack" in a sentence. |
-| 546 | scam | کلاهبرداری (klāh-bardārī) | Watch for scams online. |
-| 547 | block | مسدود (masdūd) | I block with care. |
-| 548 | report | گزارش (gozāresh) | I report with care. |
-| 549 | chat | چت (chat) | I use "chat" in a sentence. |
-| 550 | comment | نظر (nazar) | Leave a kind comment. |
+| 501 | technology | تکنالوژی | Technology helps learners. |
+| 502 | device | دستگاه | Charge your device. |
+| 503 | mobile | موبایل | I study on my mobile. |
+| 504 | smartphone | سمارتفون | My smartphone is old. |
+| 505 | tablet | تبلت | A tablet is easier to read on. |
+| 506 | laptop | لپ‌تاپ | She saves for a laptop. |
+| 507 | computer | کامپیوتر | The computer helps me. |
+| 508 | keyboard | کیبورد | Type on the keyboard. |
+| 509 | mouse | ماوس | I use "mouse" in a sentence. |
+| 510 | cable | کابل | You are cable to learn. |
+| 511 | plug | پلگ | I use "plug" in a sentence. |
+| 512 | socket | ساکت | This word is socket. |
+| 513 | power | برق / قدرت | The power helps me. |
+| 514 | Wi-Fi | وای‌فای | The Wi-Fi is slow. |
+| 515 | network | شبکه | The network is weak. |
+| 516 | signal | سیگنال | I have one bar of signal. |
+| 517 | data | داده | I use "data" in a sentence. |
+| 518 | storage | ذخیره | Clear storage space. |
+| 519 | file | فایل | I use "file" in a sentence. |
+| 520 | folder | فولدر | Save files in one folder. |
+| 521 | photo | عکس | Take a photo of your notes. |
+| 522 | camera | دوربین | Cover the camera for privacy. |
+| 523 | video | ویدیو | Watch a short video. |
+| 524 | record | ضبط | I record with care. |
+| 525 | play | بازی کردن | Children play outside. |
+| 526 | pause | مکث | I pause every day. |
+| 527 | stop | توقف | Please stop talking. |
+| 528 | share | شریک ساختن | I share every day. |
+| 529 | send | فرستادن | I send a message. |
+| 530 | receive | گرفتن | This lesson is receive. |
+| 531 | delete | حذف | I delete every day. |
+| 532 | save | ذخیره | I save every day. |
+| 533 | copy | کاپی | I copy with care. |
+| 534 | paste | چسباندن | I paste every day. |
+| 535 | edit | ویرایش | I edit with care. |
+| 536 | update | به‌روزرسانی | I update every day. |
+| 537 | install | نصب | I install with care. |
+| 538 | uninstall | حذف نصب | I uninstall with care. |
+| 539 | login | ورود | I login with care. |
+| 540 | logout | خروج | I logout with care. |
+| 541 | account | حساب | This word is account. |
+| 542 | profile | پروفایل | This word is profile. |
+| 543 | privacy | حریم خصوصی | Protect your privacy. |
+| 544 | security | امنیت | Use strong security habits. |
+| 545 | hack | هک | I use "hack" in a sentence. |
+| 546 | scam | کلاهبرداری | Watch for scams online. |
+| 547 | block | مسدود | I block with care. |
+| 548 | report | گزارش | I report with care. |
+| 549 | chat | چت | I use "chat" in a sentence. |
+| 550 | comment | نظر | Leave a kind comment. |
 
 ---
 
@@ -4806,56 +4806,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 551 | job | کار (kār) | I use "job" in a sentence. |
-| 552 | career | مسیر شغلی (masīr shoghli) | The career helps me. |
-| 553 | profession | حرفه (herfe) | Profession helps me learn. |
-| 554 | worker | کارگر (kārgar) | The worker helps me. |
-| 555 | employer | کارفرما (kārfarmā) | The employer helps me. |
-| 556 | employee | کارمند (kārmand) | This word is employee. |
-| 557 | boss | رئیس (ra'īs) | I use "boss" in a sentence. |
-| 558 | team | تیم (team) | I use "team" in a sentence. |
-| 559 | office | دفتر (daftar) | This word is office. |
-| 560 | remote | دور (dūr) | This word is remote. |
-| 561 | freelance | فریلنس (freelance) | This word is freelance. |
-| 562 | salary | معاش (ma'āsh) | This word is salary. |
-| 563 | wage | اجرت (ojrat) | I use "wage" in a sentence. |
-| 564 | pay | پرداخت (pardâkht) | Pay attention to sounds. |
-| 565 | hire | استخدام (estekhdām) | I hire every day. |
-| 566 | fire | اخراج (ekhrāj) | I fire every day. |
-| 567 | quit | استعفا (este'fā) | I quit with care. |
-| 568 | apply | درخواست دادن (darkhāst dâdan) | She speaks apply. |
-| 569 | resume | رزومه (resume) | This word is resume. |
-| 570 | CV | سی‌وی (CV) | Update your CV. |
-| 571 | interview | مصاحبه (mosāheba) | I practice for the interview. |
-| 572 | experience | تجربه (tajroba) | This word is experience. |
-| 573 | qualification | صلاحیت (salāhiyat) | Qualification helps me learn. |
-| 574 | certificate | سند / تصدیق‌نامه (sanad / tasdīq-nāme) | I want a certificate. |
-| 575 | reference | مرجع (marja'a) | This word is reference. |
-| 576 | skill | مهارت (mahārat) | Every skill needs practice. |
-| 577 | task | وظیفه (wazīfa) | I use "task" in a sentence. |
-| 578 | duty | وظیفه (wazīfa) | I use "duty" in a sentence. |
-| 579 | responsibility | مسئولیت (mas'ūliyyat) | This word is responsibility. |
-| 580 | meeting | جلسه (jalsa) | Meeting takes practice. |
-| 581 | report | گزارش (gozāresh) | I report with care. |
-| 582 | presentation | ارائه (arā'a) | Presentation helps me learn. |
-| 583 | slide | اسلاید (slide) | I use "slide" in a sentence. |
-| 584 | client | مشتری (moshtarī) | This word is client. |
-| 585 | customer | مشتری (moshtarī) | The customer helps me. |
-| 586 | service | خدمات (khadamāt) | This word is service. |
-| 587 | product | محصول (moḥsūl) | This word is product. |
-| 588 | sell | فروختن (forokhtan) | They sell fresh bread. |
-| 589 | buy | خریدن (kharidan) | I buy fruit at the market. |
-| 590 | price | قیمت (qīmat) | I use "price" in a sentence. |
-| 591 | cost | هزینه (hazīna) | I use "cost" in a sentence. |
-| 592 | cheap | ارزان (arzān) | I use "cheap" in a sentence. |
-| 593 | expensive | گران (gerān) | This lesson is expensive. |
-| 594 | budget | بودجه (būdja) | This word is budget. |
-| 595 | profit | سود (sūd) | This word is profit. |
-| 596 | loss | ضرر (zarar) | I use "loss" in a sentence. |
-| 597 | contract | قرارداد (qarārdād) | This word is contract. |
-| 598 | agreement | توافق (tawāfoq) | Agreement takes time. |
-| 599 | negotiate | مذاکره (mozākere) | I negotiate every day. |
-| 600 | deal | معامله (mo'āmela) | This lesson is deal. |
+| 551 | job | کار | I use "job" in a sentence. |
+| 552 | career | مسیر شغلی | The career helps me. |
+| 553 | profession | حرفه | Profession helps me learn. |
+| 554 | worker | کارگر | The worker helps me. |
+| 555 | employer | کارفرما | The employer helps me. |
+| 556 | employee | کارمند | This word is employee. |
+| 557 | boss | رئیس | I use "boss" in a sentence. |
+| 558 | team | تیم | I use "team" in a sentence. |
+| 559 | office | دفتر | This word is office. |
+| 560 | remote | دور | This word is remote. |
+| 561 | freelance | فریلنس | This word is freelance. |
+| 562 | salary | معاش | This word is salary. |
+| 563 | wage | اجرت | I use "wage" in a sentence. |
+| 564 | pay | پرداخت | Pay attention to sounds. |
+| 565 | hire | استخدام | I hire every day. |
+| 566 | fire | اخراج | I fire every day. |
+| 567 | quit | استعفا | I quit with care. |
+| 568 | apply | درخواست دادن | She speaks apply. |
+| 569 | resume | رزومه | This word is resume. |
+| 570 | CV | سی‌وی | Update your CV. |
+| 571 | interview | مصاحبه | I practice for the interview. |
+| 572 | experience | تجربه | This word is experience. |
+| 573 | qualification | صلاحیت | Qualification helps me learn. |
+| 574 | certificate | سند / تصدیق‌نامه | I want a certificate. |
+| 575 | reference | مرجع | This word is reference. |
+| 576 | skill | مهارت | Every skill needs practice. |
+| 577 | task | وظیفه | I use "task" in a sentence. |
+| 578 | duty | وظیفه | I use "duty" in a sentence. |
+| 579 | responsibility | مسئولیت | This word is responsibility. |
+| 580 | meeting | جلسه | Meeting takes practice. |
+| 581 | report | گزارش | I report with care. |
+| 582 | presentation | ارائه | Presentation helps me learn. |
+| 583 | slide | اسلاید | I use "slide" in a sentence. |
+| 584 | client | مشتری | This word is client. |
+| 585 | customer | مشتری | The customer helps me. |
+| 586 | service | خدمات | This word is service. |
+| 587 | product | محصول | This word is product. |
+| 588 | sell | فروختن | They sell fresh bread. |
+| 589 | buy | خریدن | I buy fruit at the market. |
+| 590 | price | قیمت | I use "price" in a sentence. |
+| 591 | cost | هزینه | I use "cost" in a sentence. |
+| 592 | cheap | ارزان | I use "cheap" in a sentence. |
+| 593 | expensive | گران | This lesson is expensive. |
+| 594 | budget | بودجه | This word is budget. |
+| 595 | profit | سود | This word is profit. |
+| 596 | loss | ضرر | I use "loss" in a sentence. |
+| 597 | contract | قرارداد | This word is contract. |
+| 598 | agreement | توافق | Agreement takes time. |
+| 599 | negotiate | مذاکره | I negotiate every day. |
+| 600 | deal | معامله | This lesson is deal. |
 
 ---
 
@@ -4863,56 +4863,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 601 | society | جامعه (jāme'a) | This word is society. |
-| 602 | community | جامعه (jāme'a) | This word is community. |
-| 603 | culture | فرهنگ (farhang) | This word is culture. |
-| 604 | tradition | سنت (sonnat) | Tradition helps me learn. |
-| 605 | modern | مدرن (modern) | This word is modern. |
-| 606 | ancient | باستانی (bāstānī) | This word is ancient. |
-| 607 | history | تاریخ (tārīkh) | This word is history. |
-| 608 | future | آینده (āyanda) | I work for my future. |
-| 609 | politics | سیاست (siyāsat) | We read about politics carefully. |
-| 610 | law | قانون (qānūn) | I use "law" in a sentence. |
-| 611 | rule | قانون (qānūn) | I use "rule" in a sentence. |
-| 612 | right | راست / درست (rāst / dorost) | Turn right at the door. |
-| 613 | duty | وظیفه (wazīfa) | I use "duty" in a sentence. |
-| 614 | freedom | آزادی (āzādī) | This word is freedom. |
-| 615 | justice | عدالت (adālat) | This word is justice. |
-| 616 | equality | برابری (barābarī) | This word is equality. |
-| 617 | inequality | نابرابری (nā-barābarī) | This word is inequality. |
-| 618 | poverty | فقر (faqar) | This word is poverty. |
-| 619 | wealth | ثروت (servat) | This word is wealth. |
-| 620 | rich | ثروتمند (servatmand) | I use "rich" in a sentence. |
-| 621 | poor | فقیر (faqīr) | The poor helps me. |
-| 622 | population | جمعیت (jam'iyyat) | Population helps me learn. |
-| 623 | citizen | شهروند (shahrwand) | This word is citizen. |
-| 624 | government | دولت (dawlat) | Government takes time. |
-| 625 | leader | رهبر (rahbar) | The leader helps me. |
-| 626 | vote | رأی (ra'y) | I use "vote" in a sentence. |
-| 627 | election | انتخابات (entikhābāt) | Election helps me learn. |
-| 628 | peace | صلح (solh) | I wish for peace. |
-| 629 | war | جنگ (jang) | I use "war" in a sentence. |
-| 630 | conflict | درگیری (dergirī) | This word is conflict. |
-| 631 | dialogue | گفتگو (goftogū) | This word is dialogue. |
-| 632 | debate | مناظره (monāẓera) | This word is debate. |
-| 633 | argument | بحث (bahs) | Argument takes time. |
-| 634 | opinion | نظر (nazar) | This word is opinion. |
-| 635 | fact | حقیقت (haqīqat) | Check the fact. |
-| 636 | evidence | شواهد (shawāhed) | This word is evidence. |
-| 637 | proof | اثبات (esbāt) | I use "proof" in a sentence. |
-| 638 | theory | نظریه (nazariya) | This word is theory. |
-| 639 | belief | باور (bāvar) | This word is belief. |
-| 640 | religion | دین (dīn) | This word is religion. |
-| 641 | God | خدا (Khodā) | People pray to God in faith. |
-| 642 | prayer | نماز / دعا (namāz / do'ā) | The prayer helps me. |
-| 643 | festival | جشن (jashn) | This lesson is festival. |
-| 644 | celebrate | جشن گرفتن (jashn gereftan) | I celebrate every day. |
-| 645 | wedding | عروسی ('urūsī) | Wedding takes practice. |
-| 646 | funeral | جنازه (jenāza) | This lesson is funeral. |
-| 647 | gift | هدیه (hadīya) | I use "gift" in a sentence. |
-| 648 | donate | اهدا (ehdā) | I donate every day. |
-| 649 | charity | خیریه (kheyriya) | This word is charity. |
-| 650 | volunteer | داوطلب (dāwṭlab) | I volunteer at school. |
+| 601 | society | جامعه | This word is society. |
+| 602 | community | جامعه | This word is community. |
+| 603 | culture | فرهنگ | This word is culture. |
+| 604 | tradition | سنت | Tradition helps me learn. |
+| 605 | modern | مدرن | This word is modern. |
+| 606 | ancient | باستانی | This word is ancient. |
+| 607 | history | تاریخ | This word is history. |
+| 608 | future | آینده | I work for my future. |
+| 609 | politics | سیاست | We read about politics carefully. |
+| 610 | law | قانون | I use "law" in a sentence. |
+| 611 | rule | قانون | I use "rule" in a sentence. |
+| 612 | right | راست / درست | Turn right at the door. |
+| 613 | duty | وظیفه | I use "duty" in a sentence. |
+| 614 | freedom | آزادی | This word is freedom. |
+| 615 | justice | عدالت | This word is justice. |
+| 616 | equality | برابری | This word is equality. |
+| 617 | inequality | نابرابری | This word is inequality. |
+| 618 | poverty | فقر | This word is poverty. |
+| 619 | wealth | ثروت | This word is wealth. |
+| 620 | rich | ثروتمند | I use "rich" in a sentence. |
+| 621 | poor | فقیر | The poor helps me. |
+| 622 | population | جمعیت | Population helps me learn. |
+| 623 | citizen | شهروند | This word is citizen. |
+| 624 | government | دولت | Government takes time. |
+| 625 | leader | رهبر | The leader helps me. |
+| 626 | vote | رأی | I use "vote" in a sentence. |
+| 627 | election | انتخابات | Election helps me learn. |
+| 628 | peace | صلح | I wish for peace. |
+| 629 | war | جنگ | I use "war" in a sentence. |
+| 630 | conflict | درگیری | This word is conflict. |
+| 631 | dialogue | گفتگو | This word is dialogue. |
+| 632 | debate | مناظره | This word is debate. |
+| 633 | argument | بحث | Argument takes time. |
+| 634 | opinion | نظر | This word is opinion. |
+| 635 | fact | حقیقت | Check the fact. |
+| 636 | evidence | شواهد | This word is evidence. |
+| 637 | proof | اثبات | I use "proof" in a sentence. |
+| 638 | theory | نظریه | This word is theory. |
+| 639 | belief | باور | This word is belief. |
+| 640 | religion | دین | This word is religion. |
+| 641 | God | خدا | People pray to God in faith. |
+| 642 | prayer | نماز / دعا | The prayer helps me. |
+| 643 | festival | جشن | This lesson is festival. |
+| 644 | celebrate | جشن گرفتن | I celebrate every day. |
+| 645 | wedding | عروسی | Wedding takes practice. |
+| 646 | funeral | جنازه | This lesson is funeral. |
+| 647 | gift | هدیه | I use "gift" in a sentence. |
+| 648 | donate | اهدا | I donate every day. |
+| 649 | charity | خیریه | This word is charity. |
+| 650 | volunteer | داوطلب | I volunteer at school. |
 
 ---
 
@@ -4920,56 +4920,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 651 | however | با این حال (bā in hāl) | I am tired; however, I study. |
-| 652 | therefore | بنابراین (benabarin) | I practice; therefore, I improve. |
-| 653 | moreover | علاوه بر این (alāwa bar in) | The moreover helps me. |
-| 654 | furthermore | علاوه بر این (alāwa bar in) | This word is furthermore. |
-| 655 | although | اگرچه (agarche) | Although it is hard, I continue. |
-| 656 | though | اگرچه (agarche) | Though it is hard, I continue. |
-| 657 | unless | مگر اینکه (magar inke) | Do not stop unless you must. |
-| 658 | until | تا (tā) | Study until you are tired. |
-| 659 | while | در حالی که (dar hālī ke) | While I cook, I listen. |
-| 660 | whereas | در حالی که (dar hālī ke) | She reads, whereas I write. |
-| 661 | despite | با وجود (bā wujūd) | This word is despite. |
-| 662 | instead | به جای (be jāy) | This word is instead. |
-| 663 | otherwise | در غیر این صورت (dar gheyr in surat) | This word is otherwise. |
-| 664 | namely | یعنی (ya'nī) | She speaks namely. |
-| 665 | specifically | به‌طور خاص (be-tawr khās) | She speaks specifically. |
-| 666 | generally | به‌طور کلی (be-tawr kolī) | She speaks generally. |
-| 667 | usually | معمولاً (ma'mūlan) | I usually study for thirty minutes. |
-| 668 | typically | معمولاً (ma'mūlan) | She speaks typically. |
-| 669 | apparently | ظاهراً (zāheran) | She speaks apparently. |
-| 670 | obviously | واضح است (wāzeh ast) | She speaks obviously. |
-| 671 | certainly | قطعاً (qat'an) | She speaks certainly. |
-| 672 | definitely | حتماً (hatman) | She speaks definitely. |
-| 673 | probably | احتمالاً (ehtemālan) | She speaks probably. |
-| 674 | possibly | شاید (shāyad) | She speaks possibly. |
-| 675 | perhaps | شاید (shāyad) | Perhaps she is busy. |
-| 676 | maybe | شاید (shāyad) | Maybe tomorrow. |
-| 677 | tend | تمایل داشتن (tamayol dâštan) | I tend with care. |
-| 678 | seem | به نظر رسیدن (be nazar rasidan) | I seem with care. |
-| 679 | appear | ظاهر شدن (zāher shodan) | I appear with care. |
-| 680 | suggest | پیشنهاد (peshnehād) | I suggest with care. |
-| 681 | indicate | نشان دادن (neshân dâdan) | I indicate every day. |
-| 682 | imply | اشاره (eshāra) | She speaks imply. |
-| 683 | assume | فرض کردن (farz kardan) | I assume every day. |
-| 684 | suppose | گمان کردن (gomān kardan) | I suppose every day. |
-| 685 | predict | پیش‌بینی (pesh-bīnī) | I predict with care. |
-| 686 | analyze | تحلیل (tahlīl) | I analyze every day. |
-| 687 | compare | مقایسه (moqāyese) | I compare every day. |
-| 688 | contrast | مقایسه (moqāyese) | I contrast with care. |
-| 689 | define | تعریف (ta'rīf) | I define every day. |
-| 690 | describe | توصیف (tawṣīf) | I describe every day. |
-| 691 | discuss | بحث (bahs) | I discuss with care. |
-| 692 | argue | بحث کردن (bahs kardan) | I argue every day. |
-| 693 | claim | ادعا (ed'ā) | I claim with care. |
-| 694 | support | حمایت (hemāyat) | Thank you for your support. |
-| 695 | oppose | مخالفت (mokhālefat) | I oppose every day. |
-| 696 | refute | رد کردن (rad kardan) | I refute every day. |
-| 697 | conclude | نتیجه گرفتن (natīja gereftan) | I conclude every day. |
-| 698 | introduce | معرفی (mo'arrefī) | I introduce every day. |
-| 699 | summarize | خلاصه (kholāse) | I summarize every day. |
-| 700 | paraphrase | بازگویی (bāz-gūyī) | I paraphrase every day. |
+| 651 | however | با این حال | I am tired; however, I study. |
+| 652 | therefore | بنابراین | I practice; therefore, I improve. |
+| 653 | moreover | علاوه بر این | The moreover helps me. |
+| 654 | furthermore | علاوه بر این | This word is furthermore. |
+| 655 | although | اگرچه | Although it is hard, I continue. |
+| 656 | though | اگرچه | Though it is hard, I continue. |
+| 657 | unless | مگر اینکه | Do not stop unless you must. |
+| 658 | until | تا | Study until you are tired. |
+| 659 | while | در حالی که | While I cook, I listen. |
+| 660 | whereas | در حالی که | She reads, whereas I write. |
+| 661 | despite | با وجود | This word is despite. |
+| 662 | instead | به جای | This word is instead. |
+| 663 | otherwise | در غیر این صورت | This word is otherwise. |
+| 664 | namely | یعنی | She speaks namely. |
+| 665 | specifically | به‌طور خاص | She speaks specifically. |
+| 666 | generally | به‌طور کلی | She speaks generally. |
+| 667 | usually | معمولاً | I usually study for thirty minutes. |
+| 668 | typically | معمولاً | She speaks typically. |
+| 669 | apparently | ظاهراً | She speaks apparently. |
+| 670 | obviously | واضح است | She speaks obviously. |
+| 671 | certainly | قطعاً | She speaks certainly. |
+| 672 | definitely | حتماً | She speaks definitely. |
+| 673 | probably | احتمالاً | She speaks probably. |
+| 674 | possibly | شاید | She speaks possibly. |
+| 675 | perhaps | شاید | Perhaps she is busy. |
+| 676 | maybe | شاید | Maybe tomorrow. |
+| 677 | tend | تمایل داشتن | I tend with care. |
+| 678 | seem | به نظر رسیدن | I seem with care. |
+| 679 | appear | ظاهر شدن | I appear with care. |
+| 680 | suggest | پیشنهاد | I suggest with care. |
+| 681 | indicate | نشان دادن | I indicate every day. |
+| 682 | imply | اشاره | She speaks imply. |
+| 683 | assume | فرض کردن | I assume every day. |
+| 684 | suppose | گمان کردن | I suppose every day. |
+| 685 | predict | پیش‌بینی | I predict with care. |
+| 686 | analyze | تحلیل | I analyze every day. |
+| 687 | compare | مقایسه | I compare every day. |
+| 688 | contrast | مقایسه | I contrast with care. |
+| 689 | define | تعریف | I define every day. |
+| 690 | describe | توصیف | I describe every day. |
+| 691 | discuss | بحث | I discuss with care. |
+| 692 | argue | بحث کردن | I argue every day. |
+| 693 | claim | ادعا | I claim with care. |
+| 694 | support | حمایت | Thank you for your support. |
+| 695 | oppose | مخالفت | I oppose every day. |
+| 696 | refute | رد کردن | I refute every day. |
+| 697 | conclude | نتیجه گرفتن | I conclude every day. |
+| 698 | introduce | معرفی | I introduce every day. |
+| 699 | summarize | خلاصه | I summarize every day. |
+| 700 | paraphrase | بازگویی | I paraphrase every day. |
 
 ---
 
@@ -4977,56 +4977,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 701 | about | درباره (dar bāre) | Tell me about your day. |
-| 702 | above | بالای (bālā-ye) | The light is above the desk. |
-| 703 | across | در سراسر (dar sarāsar) | Walk across the room. |
-| 704 | after | بعد (ba'd) | After study, I rest. |
-| 705 | against | علیه (alīh) | Do not lean against the wall. |
-| 706 | along | در امتداد (dar emtedād) | Walk along the street. |
-| 707 | among | در میان (dar miyān) | She is among her friends. |
-| 708 | around | اطراف (atraf) | Look around the room. |
-| 709 | away | دور (dūr) | Put the phone away. |
-| 710 | back | پشت (posht) | Come back tomorrow. |
-| 711 | before | قبل (qabl) | Wash hands before eating. |
-| 712 | behind | پشت (posht) | The chair is behind the table. |
-| 713 | below | زیر (zīr) | The answer is below. |
-| 714 | beneath | زیر (zīr) | The box is beneath the bed. |
-| 715 | beside | کنار (kenār) | Sit beside your sister. |
-| 716 | between | بین (bīn) | Choose between two answers. |
-| 717 | beyond | فراتر (farātar) | Go beyond your fear. |
-| 718 | during | در طول (dar ṭūl) | During study, silence helps. |
-| 719 | except | جز (joz) | Everyone came except Ali. |
-| 720 | inside | داخل (dākhil) | Stay inside when it rains. |
-| 721 | into | به داخل (be dākhil) | Go into the lesson. |
-| 722 | near | نزدیک (nazdīk) | The school is near my home. |
-| 723 | off | خاموش (khāmūsh) | I use "off" in a sentence. |
-| 724 | onto | روی (ruy) | Put the book onto the table. |
-| 725 | out | بیرون (bīrūn) | Go out for fresh air. |
-| 726 | outside | بیرون (bīrūn) | Wait outside the door. |
-| 727 | over | روی (ruy) | The lamp is over the desk. |
-| 728 | past | گذشته (gozashta) | Learn from the past. |
-| 729 | since | از (az) | I have studied since January. |
-| 730 | through | از طریق (az tarīq) | Read through the page. |
-| 731 | throughout | در سراسر (dar sarāsar) | Smile throughout the day. |
-| 732 | toward | به سمت (be samt) | Work toward your goal. |
-| 733 | under | زیر (zīr) | The bag is under the table. |
-| 734 | until | تا (tā) | Study until you are tired. |
-| 735 | upon | بر (bar) | Once upon a time, she learned. |
-| 736 | within | در داخل (dar dākhil) | Finish within ten minutes. |
-| 737 | without | بدون (bedūn) | Without internet, I use offline files. |
-| 738 | again | دوباره (dobāra) | Say it again, please. |
-| 739 | already | قبلاً (qabl an) | I already reviewed. |
-| 740 | almost | تقریباً (taqrīban) | I almost finished. |
-| 741 | also | هم (ham) | I also write in English. |
-| 742 | enough | کافی (kāfī) | That is enough. |
-| 743 | even | حتی (hattā) | Even five minutes helps. |
-| 744 | just | فقط (faqat) | I just started. |
-| 745 | maybe | شاید (shāyad) | Maybe tomorrow. |
-| 746 | perhaps | شاید (shāyad) | Perhaps she is busy. |
-| 747 | quite | کاملاً (kāmelan) | Quite good! |
-| 748 | rather | نسبتاً (nesbatan) | I would rather study. |
-| 749 | still | هنوز (hanūz) | I am still learning. |
-| 750 | then | بعد (ba'd) | First listen, then repeat. |
+| 701 | about | درباره | Tell me about your day. |
+| 702 | above | بالای | The light is above the desk. |
+| 703 | across | در سراسر | Walk across the room. |
+| 704 | after | بعد | After study, I rest. |
+| 705 | against | علیه | Do not lean against the wall. |
+| 706 | along | در امتداد | Walk along the street. |
+| 707 | among | در میان | She is among her friends. |
+| 708 | around | اطراف | Look around the room. |
+| 709 | away | دور | Put the phone away. |
+| 710 | back | پشت | Come back tomorrow. |
+| 711 | before | قبل | Wash hands before eating. |
+| 712 | behind | پشت | The chair is behind the table. |
+| 713 | below | زیر | The answer is below. |
+| 714 | beneath | زیر | The box is beneath the bed. |
+| 715 | beside | کنار | Sit beside your sister. |
+| 716 | between | بین | Choose between two answers. |
+| 717 | beyond | فراتر | Go beyond your fear. |
+| 718 | during | در طول | During study, silence helps. |
+| 719 | except | جز | Everyone came except Ali. |
+| 720 | inside | داخل | Stay inside when it rains. |
+| 721 | into | به داخل | Go into the lesson. |
+| 722 | near | نزدیک | The school is near my home. |
+| 723 | off | خاموش | I use "off" in a sentence. |
+| 724 | onto | روی | Put the book onto the table. |
+| 725 | out | بیرون | Go out for fresh air. |
+| 726 | outside | بیرون | Wait outside the door. |
+| 727 | over | روی | The lamp is over the desk. |
+| 728 | past | گذشته | Learn from the past. |
+| 729 | since | از | I have studied since January. |
+| 730 | through | از طریق | Read through the page. |
+| 731 | throughout | در سراسر | Smile throughout the day. |
+| 732 | toward | به سمت | Work toward your goal. |
+| 733 | under | زیر | The bag is under the table. |
+| 734 | until | تا | Study until you are tired. |
+| 735 | upon | بر | Once upon a time, she learned. |
+| 736 | within | در داخل | Finish within ten minutes. |
+| 737 | without | بدون | Without internet, I use offline files. |
+| 738 | again | دوباره | Say it again, please. |
+| 739 | already | قبلاً | I already reviewed. |
+| 740 | almost | تقریباً | I almost finished. |
+| 741 | also | هم | I also write in English. |
+| 742 | enough | کافی | That is enough. |
+| 743 | even | حتی | Even five minutes helps. |
+| 744 | just | فقط | I just started. |
+| 745 | maybe | شاید | Maybe tomorrow. |
+| 746 | perhaps | شاید | Perhaps she is busy. |
+| 747 | quite | کاملاً | Quite good! |
+| 748 | rather | نسبتاً | I would rather study. |
+| 749 | still | هنوز | I am still learning. |
+| 750 | then | بعد | First listen, then repeat. |
 
 ---
 
@@ -5034,56 +5034,56 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 751 | accept | قبول (qabūl) | I accept with care. |
-| 752 | achieve | رسیدن به (rasidan be) | I achieve every day. |
-| 753 | affect | تأثیر (ta'sīr) | I affect with care. |
-| 754 | allow | اجازه (ejāze) | I allow with care. |
-| 755 | avoid | اجتناب (ejtenāb) | I avoid with care. |
-| 756 | base | پایه (pāya) | I base every day. |
-| 757 | beat | زدن (zadan) | I beat with care. |
-| 758 | become | شدن (shodan) | I become every day. |
-| 759 | break | استراحت / شکستن (estirāhat / shekastan) | Take a short break. |
-| 760 | bring | آوردن (āvardan) | Bring water to class. |
-| 761 | build | ساختن (sâkhtan) | We build skills slowly. |
-| 762 | catch | گرفتن (gereftan) | Catch the main idea. |
-| 763 | cause | علت (ellat) | I use "cause" in a sentence. |
-| 764 | change | تغییر (taghyīr) | Small change every day. |
-| 765 | check | بررسی (barresī) | I check with care. |
-| 766 | choose | انتخاب کردن (entikhāb kardan) | Choose one word. |
-| 767 | claim | ادعا (ed'ā) | I claim with care. |
-| 768 | clear | روشن (roshan) | I use "clear" in a sentence. |
-| 769 | close | بستن (bastan) | Close the window at night. |
-| 770 | collect | جمع (jam'a) | I collect with care. |
-| 771 | compare | مقایسه (moqāyese) | I compare every day. |
-| 772 | complete | کامل (kāmil) | I complete every day. |
-| 773 | connect | وصل (wasl) | I connect with care. |
-| 774 | consider | در نظر گرفتن (dar nazar gereftan) | The consider helps me. |
-| 775 | continue | ادامه دادن (edāme dâdan) | Continue tomorrow. |
-| 776 | create | ساختن (sâkhtan) | I create every day. |
-| 777 | decide | تصمیم گرفتن (tasmim gereftan) | I decide to continue. |
-| 778 | describe | توصیف (tawṣīf) | I describe every day. |
-| 779 | develop | توسعه (tawsi'a) | I develop with care. |
-| 780 | discover | کشف (kashf) | The discover helps me. |
-| 781 | discuss | بحث (bahs) | I discuss with care. |
-| 782 | draw | کشیدن (keshidan) | I draw with care. |
-| 783 | drive | راندن (rāndan) | This lesson is drive. |
-| 784 | drop | انداختن (andākhtan) | I drop with care. |
-| 785 | expect | انتظار (entezār) | I expect with care. |
-| 786 | explain | توضیح دادن (tawzīh dâdan) | I explain with care. |
-| 787 | express | بیان (bayān) | I express with care. |
-| 788 | fall | افتادن (oftādan) | I fall with care. |
-| 789 | feel | احساس کردن (ehsâs kardan) | I feel hopeful today. |
-| 790 | fight | جنگیدن (jangidan) | Fight for your dreams. |
-| 791 | fill | پر کردن (por kardan) | I fill with care. |
-| 792 | find | پیدا کردن (peydâ kardan) | I find new words online. |
-| 793 | finish | تمام کردن (tamām kardan) | Finish your homework. |
-| 794 | follow | دنبال (donbāl) | Follow the lesson steps. |
-| 795 | force | اجبار (ejbār) | I force every day. |
-| 796 | form | شکل (shekl) | I form with care. |
-| 797 | gain | به دست آوردن (be dast āvardan) | I gain with care. |
-| 798 | grow | رشد (roshd) | Your skills grow daily. |
-| 799 | happen | اتفاق افتادن (etefāq oftâdan) | Good things happen slowly. |
-| 800 | hold | نگه داشتن (negah dâštan) | Hold the phone with both hands. |
+| 751 | accept | قبول | I accept with care. |
+| 752 | achieve | رسیدن به | I achieve every day. |
+| 753 | affect | تأثیر | I affect with care. |
+| 754 | allow | اجازه | I allow with care. |
+| 755 | avoid | اجتناب | I avoid with care. |
+| 756 | base | پایه | I base every day. |
+| 757 | beat | زدن | I beat with care. |
+| 758 | become | شدن | I become every day. |
+| 759 | break | استراحت / شکستن | Take a short break. |
+| 760 | bring | آوردن | Bring water to class. |
+| 761 | build | ساختن | We build skills slowly. |
+| 762 | catch | گرفتن | Catch the main idea. |
+| 763 | cause | علت | I use "cause" in a sentence. |
+| 764 | change | تغییر | Small change every day. |
+| 765 | check | بررسی | I check with care. |
+| 766 | choose | انتخاب کردن | Choose one word. |
+| 767 | claim | ادعا | I claim with care. |
+| 768 | clear | روشن | I use "clear" in a sentence. |
+| 769 | close | بستن | Close the window at night. |
+| 770 | collect | جمع | I collect with care. |
+| 771 | compare | مقایسه | I compare every day. |
+| 772 | complete | کامل | I complete every day. |
+| 773 | connect | وصل | I connect with care. |
+| 774 | consider | در نظر گرفتن | The consider helps me. |
+| 775 | continue | ادامه دادن | Continue tomorrow. |
+| 776 | create | ساختن | I create every day. |
+| 777 | decide | تصمیم گرفتن | I decide to continue. |
+| 778 | describe | توصیف | I describe every day. |
+| 779 | develop | توسعه | I develop with care. |
+| 780 | discover | کشف | The discover helps me. |
+| 781 | discuss | بحث | I discuss with care. |
+| 782 | draw | کشیدن | I draw with care. |
+| 783 | drive | راندن | This lesson is drive. |
+| 784 | drop | انداختن | I drop with care. |
+| 785 | expect | انتظار | I expect with care. |
+| 786 | explain | توضیح دادن | I explain with care. |
+| 787 | express | بیان | I express with care. |
+| 788 | fall | افتادن | I fall with care. |
+| 789 | feel | احساس کردن | I feel hopeful today. |
+| 790 | fight | جنگیدن | Fight for your dreams. |
+| 791 | fill | پر کردن | I fill with care. |
+| 792 | find | پیدا کردن | I find new words online. |
+| 793 | finish | تمام کردن | Finish your homework. |
+| 794 | follow | دنبال | Follow the lesson steps. |
+| 795 | force | اجبار | I force every day. |
+| 796 | form | شکل | I form with care. |
+| 797 | gain | به دست آوردن | I gain with care. |
+| 798 | grow | رشد | Your skills grow daily. |
+| 799 | happen | اتفاق افتادن | Good things happen slowly. |
+| 800 | hold | نگه داشتن | Hold the phone with both hands. |
 
 ---
 
@@ -5091,106 +5091,106 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 801 | able | توانا (tavānā) | You are able to learn. |
-| 802 | academic | آکادمیک (ākādemik) | This lesson is academic. |
-| 803 | accurate | دقیق (daqiq) | This word is accurate. |
-| 804 | active | فعال (fa'āl) | This lesson is active. |
-| 805 | additional | اضافی (ezāfī) | This lesson is additional. |
-| 806 | adequate | کافی (kāfī) | This word is adequate. |
-| 807 | advanced | پیشرفته (peshrafta) | Advanced study comes later. |
-| 808 | alternative | جایگزین (jāy-gozīn) | This lesson is alternative. |
-| 809 | annual | سالانه (sālāne) | This lesson is annual. |
-| 810 | apparent | آشکار (āshkār) | This word is apparent. |
-| 811 | appropriate | مناسب (monāsib) | This word is appropriate. |
-| 812 | available | موجود (mojūd) | You are available to learn. |
-| 813 | average | متوسط (motawassat) | This word is average. |
-| 814 | aware | آگاه (āgāh) | I use "aware" in a sentence. |
-| 815 | basic | اساسی (asāsī) | This lesson is basic. |
-| 816 | capable | قادر (qāder) | You are capable to learn. |
-| 817 | careful | محتاط (mohtāt) | Be careful online. |
-| 818 | central | مرکزی (markazī) | This lesson is central. |
-| 819 | certain | مطمئن (motma'in) | This word is certain. |
-| 820 | civil | مدنی (madanī) | I use "civil" in a sentence. |
-| 821 | classic | کلاسیک (klāsik) | This lesson is classic. |
-| 822 | clear | روشن (roshan) | I use "clear" in a sentence. |
-| 823 | common | رایج (rāyej) | This word is common. |
-| 824 | complex | پیچیده (pīchīda) | This word is complex. |
-| 825 | confident | با اعتماد (bā e'temād) | This word is confident. |
-| 826 | conscious | هوشیار (hūshyār) | This lesson is conscious. |
-| 827 | consistent | ثابت (sābet) | This word is consistent. |
-| 828 | contemporary | معاصر (mo'āser) | This word is contemporary. |
-| 829 | correct | درست (dorost) | Your answer is correct. |
-| 830 | creative | خلاق (khalāq) | This lesson is creative. |
-| 831 | critical | انتقادی (enteqādī) | This lesson is critical. |
-| 832 | cultural | فرهنگی (farhangī) | This lesson is cultural. |
-| 833 | current | فعلی (fa'lī) | This word is current. |
-| 834 | daily | روزانه (rūzāne) | I study daily. |
-| 835 | definite | قطعی (qat'ī) | This word is definite. |
-| 836 | deliberate | عمدی (amadī) | This word is deliberate. |
-| 837 | different | متفاوت (motefāvet) | Every day is different. |
-| 838 | difficult | مشکل (moshkel) | This word is difficult. |
-| 839 | digital | دیجیتال (digital) | This lesson is digital. |
-| 840 | direct | مستقیم (mostaqīm) | This word is direct. |
-| 841 | distinct | متمایز (motemayyez) | This word is distinct. |
-| 842 | diverse | متنوع (motanawwe'a) | This word is diverse. |
-| 843 | domestic | داخلی (dākhilī) | This lesson is domestic. |
-| 844 | economic | اقتصادی (eqtesādī) | This lesson is economic. |
-| 845 | effective | مؤثر (mo'asser) | This lesson is effective. |
-| 846 | efficient | کارآمد (kār-āmad) | This word is efficient. |
-| 847 | emotional | احساسی (ehsāsī) | This lesson is emotional. |
-| 848 | entire | کامل (kāmil) | This word is entire. |
-| 849 | environmental | محیط زیست (moḥīt zist) | This lesson is environmental. |
-| 850 | equal | برابر (barābar) | This lesson is equal. |
-| 851 | essential | ضروری (zarūrī) | This lesson is essential. |
-| 852 | ethical | اخلاقی (akhlāqī) | This lesson is ethical. |
-| 853 | eventual | نهایی (nehāyī) | This lesson is eventual. |
-| 854 | evident | آشکار (āshkār) | This word is evident. |
-| 855 | exact | دقیق (daqiq) | I use "exact" in a sentence. |
-| 856 | excellent | عالی ('ālī) | This word is excellent. |
-| 857 | existing | موجود (mojūd) | Existing takes practice. |
-| 858 | expensive | گران (gerān) | This lesson is expensive. |
-| 859 | experienced | با تجربه (bā tajroba) | I feel experienced. |
-| 860 | experimental | آزمایشی (āzmāyeshī) | This lesson is experimental. |
-| 861 | expert | متخصص (motakhasses) | This word is expert. |
-| 862 | external | خارجی (khārejī) | This lesson is external. |
-| 863 | extreme | شدید (shadīd) | This word is extreme. |
-| 864 | familiar | آشنا (āshnā) | This word is familiar. |
-| 865 | famous | مشهور (mashhūr) | This lesson is famous. |
-| 866 | federal | فدرالی (federal) | This lesson is federal. |
-| 867 | final | نهایی (nehāyī) | This lesson is final. |
-| 868 | financial | مالی (mālī) | This lesson is financial. |
-| 869 | formal | رسمی (rasmī) | This lesson is formal. |
-| 870 | former | سابق (sābeq) | The former helps me. |
-| 871 | frequent | مکرر (mokrarr) | This word is frequent. |
-| 872 | friendly | دوستانه (dōstāne) | She speaks friendly. |
-| 873 | fundamental | اساسی (asāsī) | This lesson is fundamental. |
-| 874 | general | عمومی (omūmī) | This lesson is general. |
-| 875 | global | جهانی (jahānī) | This lesson is global. |
-| 876 | historical | تاریخی (tārīkhī) | This lesson is historical. |
-| 877 | honest | صادق (sādeq) | Be honest with yourself. |
-| 878 | huge | بزرگ (bozorg) | I use "huge" in a sentence. |
-| 879 | human | انسانی (ensānī) | I use "human" in a sentence. |
-| 880 | ideal | ایده‌آل (ideal) | This lesson is ideal. |
-| 881 | immediate | فوری (fawrī) | This word is immediate. |
-| 882 | important | مهم (mohem) | English is important to me. |
-| 883 | impossible | غیرممکن (gheyr-momkin) | This word is impossible. |
-| 884 | impressive | تأثیرگذار (ta'sīr-gozār) | This lesson is impressive. |
-| 885 | independent | مستقل (mostaqel) | This word is independent. |
-| 886 | individual | فردی (fardī) | This lesson is individual. |
-| 887 | industrial | صنعتی (san'atī) | This lesson is industrial. |
-| 888 | initial | اولی (awwalī) | This lesson is initial. |
-| 889 | inner | درونی (dārūnī) | The inner helps me. |
-| 890 | innocent | بی‌گناه (bī-gonāh) | This word is innocent. |
-| 891 | institutional | نهادی (nehādī) | This lesson is institutional. |
-| 892 | intellectual | فکری (fekrī) | This lesson is intellectual. |
-| 893 | intelligent | باهوش (bāhūsh) | This word is intelligent. |
-| 894 | intense | شدید (shadīd) | This word is intense. |
-| 895 | interested | علاقه‌مند (alāqe-mand) | I feel interested. |
-| 896 | internal | داخلی (dākhilī) | This lesson is internal. |
-| 897 | international | بین‌المللی (bīn-al-melalī) | This lesson is international. |
-| 898 | involved | درگیر (dargir) | I feel involved. |
-| 899 | joint | مشترک (moshtarak) | I use "joint" in a sentence. |
-| 900 | key | کلیدی (klīdī) | Key ideas are in the summary. |
+| 801 | able | توانا | You are able to learn. |
+| 802 | academic | آکادمیک | This lesson is academic. |
+| 803 | accurate | دقیق | This word is accurate. |
+| 804 | active | فعال | This lesson is active. |
+| 805 | additional | اضافی | This lesson is additional. |
+| 806 | adequate | کافی | This word is adequate. |
+| 807 | advanced | پیشرفته | Advanced study comes later. |
+| 808 | alternative | جایگزین | This lesson is alternative. |
+| 809 | annual | سالانه | This lesson is annual. |
+| 810 | apparent | آشکار | This word is apparent. |
+| 811 | appropriate | مناسب | This word is appropriate. |
+| 812 | available | موجود | You are available to learn. |
+| 813 | average | متوسط | This word is average. |
+| 814 | aware | آگاه | I use "aware" in a sentence. |
+| 815 | basic | اساسی | This lesson is basic. |
+| 816 | capable | قادر | You are capable to learn. |
+| 817 | careful | محتاط | Be careful online. |
+| 818 | central | مرکزی | This lesson is central. |
+| 819 | certain | مطمئن | This word is certain. |
+| 820 | civil | مدنی | I use "civil" in a sentence. |
+| 821 | classic | کلاسیک | This lesson is classic. |
+| 822 | clear | روشن | I use "clear" in a sentence. |
+| 823 | common | رایج | This word is common. |
+| 824 | complex | پیچیده | This word is complex. |
+| 825 | confident | با اعتماد | This word is confident. |
+| 826 | conscious | هوشیار | This lesson is conscious. |
+| 827 | consistent | ثابت | This word is consistent. |
+| 828 | contemporary | معاصر | This word is contemporary. |
+| 829 | correct | درست | Your answer is correct. |
+| 830 | creative | خلاق | This lesson is creative. |
+| 831 | critical | انتقادی | This lesson is critical. |
+| 832 | cultural | فرهنگی | This lesson is cultural. |
+| 833 | current | فعلی | This word is current. |
+| 834 | daily | روزانه | I study daily. |
+| 835 | definite | قطعی | This word is definite. |
+| 836 | deliberate | عمدی | This word is deliberate. |
+| 837 | different | متفاوت | Every day is different. |
+| 838 | difficult | مشکل | This word is difficult. |
+| 839 | digital | دیجیتال | This lesson is digital. |
+| 840 | direct | مستقیم | This word is direct. |
+| 841 | distinct | متمایز | This word is distinct. |
+| 842 | diverse | متنوع | This word is diverse. |
+| 843 | domestic | داخلی | This lesson is domestic. |
+| 844 | economic | اقتصادی | This lesson is economic. |
+| 845 | effective | مؤثر | This lesson is effective. |
+| 846 | efficient | کارآمد | This word is efficient. |
+| 847 | emotional | احساسی | This lesson is emotional. |
+| 848 | entire | کامل | This word is entire. |
+| 849 | environmental | محیط زیست | This lesson is environmental. |
+| 850 | equal | برابر | This lesson is equal. |
+| 851 | essential | ضروری | This lesson is essential. |
+| 852 | ethical | اخلاقی | This lesson is ethical. |
+| 853 | eventual | نهایی | This lesson is eventual. |
+| 854 | evident | آشکار | This word is evident. |
+| 855 | exact | دقیق | I use "exact" in a sentence. |
+| 856 | excellent | عالی | This word is excellent. |
+| 857 | existing | موجود | Existing takes practice. |
+| 858 | expensive | گران | This lesson is expensive. |
+| 859 | experienced | با تجربه | I feel experienced. |
+| 860 | experimental | آزمایشی | This lesson is experimental. |
+| 861 | expert | متخصص | This word is expert. |
+| 862 | external | خارجی | This lesson is external. |
+| 863 | extreme | شدید | This word is extreme. |
+| 864 | familiar | آشنا | This word is familiar. |
+| 865 | famous | مشهور | This lesson is famous. |
+| 866 | federal | فدرالی | This lesson is federal. |
+| 867 | final | نهایی | This lesson is final. |
+| 868 | financial | مالی | This lesson is financial. |
+| 869 | formal | رسمی | This lesson is formal. |
+| 870 | former | سابق | The former helps me. |
+| 871 | frequent | مکرر | This word is frequent. |
+| 872 | friendly | دوستانه | She speaks friendly. |
+| 873 | fundamental | اساسی | This lesson is fundamental. |
+| 874 | general | عمومی | This lesson is general. |
+| 875 | global | جهانی | This lesson is global. |
+| 876 | historical | تاریخی | This lesson is historical. |
+| 877 | honest | صادق | Be honest with yourself. |
+| 878 | huge | بزرگ | I use "huge" in a sentence. |
+| 879 | human | انسانی | I use "human" in a sentence. |
+| 880 | ideal | ایده‌آل | This lesson is ideal. |
+| 881 | immediate | فوری | This word is immediate. |
+| 882 | important | مهم | English is important to me. |
+| 883 | impossible | غیرممکن | This word is impossible. |
+| 884 | impressive | تأثیرگذار | This lesson is impressive. |
+| 885 | independent | مستقل | This word is independent. |
+| 886 | individual | فردی | This lesson is individual. |
+| 887 | industrial | صنعتی | This lesson is industrial. |
+| 888 | initial | اولی | This lesson is initial. |
+| 889 | inner | درونی | The inner helps me. |
+| 890 | innocent | بی‌گناه | This word is innocent. |
+| 891 | institutional | نهادی | This lesson is institutional. |
+| 892 | intellectual | فکری | This lesson is intellectual. |
+| 893 | intelligent | باهوش | This word is intelligent. |
+| 894 | intense | شدید | This word is intense. |
+| 895 | interested | علاقه‌مند | I feel interested. |
+| 896 | internal | داخلی | This lesson is internal. |
+| 897 | international | بین‌المللی | This lesson is international. |
+| 898 | involved | درگیر | I feel involved. |
+| 899 | joint | مشترک | I use "joint" in a sentence. |
+| 900 | key | کلیدی | Key ideas are in the summary. |
 
 
 ---
@@ -5201,108 +5201,108 @@ Learn **10 words/day** after [word-list-300.md](word-list-300.md). Each row: **E
 
 | # | Word | Dari | Example |
 |---|------|------|----------|
-| 901 | interview | مصاحبه (mosāhebe) | I practice for the interview. |
-| 902 | volunteer | داوطلب (dāwṭaleb) | I volunteer at school. |
-| 903 | certificate | سند (sanad) | I want a certificate. |
-| 904 | scholarship | بورسیه (bursiya) | She hopes for a scholarship. |
-| 905 | mentor | راهنما (rāhnomā) | My mentor encourages me. |
-| 906 | application | درخواست (darkhāst) | I send my job application today. |
-| 907 | resume | رزومه (rezūme) | I update my resume tonight. |
-| 908 | recommendation | توصیه (tawsiya) | My teacher wrote a recommendation. |
-| 909 | internship | کارآموزی (kārāmozī) | She wants a summer internship. |
-| 910 | workplace | محل کار (mahal-e kār) | The workplace is friendly. |
-| 911 | colleague | همکار (hamkār) | My colleague helps me learn. |
-| 912 | supervisor | سرپرست (sarparast) | My supervisor speaks clearly. |
-| 913 | paycheck | معاش (moāsh) | I save part of my paycheck. |
-| 914 | promotion | ترقی (tarraqī) | Hard work can bring promotion. |
-| 915 | resignation | استعفا (este'fā) | She wrote a polite resignation. |
-| 916 | entrepreneur | کارآفرین (kārāfarīn) | She is a young entrepreneur. |
-| 917 | startup | آغاز کار (āghāz-e kār) | The startup needs a website. |
-| 918 | invoice | بل (bel) | Send the invoice by email. |
-| 919 | savings | پس‌انداز (pas-andāz) | I keep savings for courses. |
-| 920 | loan | قرض (qarz) | She asked about a small loan. |
-| 921 | diploma | دیپلوم (diplom) | A diploma opens doors. |
-| 922 | degree | سند لیسانس (sanad-e līsāns) | Her degree is in education. |
-| 923 | enrollment | ثبت‌نام (sabt-e nām) | Enrollment closes on Friday. |
-| 924 | admission | پذیرش (pazīresh) | I wait for admission news. |
-| 925 | graduate | فارغ‌التحصیل (fāregh al-tahsīl) | I will graduate next year. |
-| 926 | coding | کدنویسی (kodnevisī) | Coding takes daily practice. |
-| 927 | programming | برنامه‌نویسی (barname-nevisī) | Programming helps remote jobs. |
-| 928 | spreadsheet | جدول (jadval) | I track words in a spreadsheet. |
-| 929 | portfolio | نمونه‌کار (nomūne-kār) | My portfolio shows my writing. |
-| 930 | networking | شبکه‌سازی (shabake-sāzī) | Networking starts with one message. |
-| 931 | gig | کار کوتاه (kār-e kutāh) | She found a small online gig. |
-| 932 | proposal | پیشنهاد (peshnihād) | I wrote a short proposal. |
-| 933 | deliverable | تحویلی (tahvīlī) | The deliverable is due Monday. |
-| 934 | pitch | ارائه کوتاه (arā'e kutāh) | I practice my pitch in English. |
-| 935 | feedback | بازخورد (bāzkhord) | Thank you for honest feedback. |
-| 936 | reputation | شهرت (shohrat) | Good work builds reputation. |
-| 937 | marketing | بازاریابی (bāzāryābī) | She studies marketing online. |
-| 938 | caption | زیرنویس (zīrnevis) | Write a clear caption in English. |
-| 939 | hashtag | هشتگ (hashtag) | Use one hashtag only. |
-| 940 | algorithm | الگوریتم (algorithm) | The algorithm shows new videos. |
-| 941 | consent | رضایت (razāyat) | Ask for consent before sharing photos. |
-| 942 | boundary | حد (had) | Healthy boundaries protect your time. |
-| 943 | wellbeing | تندرستی (tondorostī) | Sleep helps my wellbeing. |
-| 944 | counselor | مشاور (moshāwer) | A counselor can listen safely. |
-| 945 | vaccination | واکسین (vāksīn) | Vaccination protects the community. |
-| 946 | appointment | وقت ملاقات (waqt-e molāqāt) | I have a doctor appointment. |
-| 947 | symptom | علامت (alāmat) | Tell the nurse your symptom. |
-| 948 | rent | کرایه (karāya) | Rent is due at the end of month. |
-| 949 | utility | خدمات (khadamāt) | We pay the utility bill online. |
-| 950 | passport | پاسپورت (pāsport) | Keep your passport in a safe place. |
-| 951 | visa | ویزه (viza) | Visa rules change — check official news. |
-| 952 | commute | رفت‌وآمد (raft-o āmad) | My commute takes forty minutes. |
-| 953 | childcare | مراقبت اطفال (morāqibat-e atfāl) | Childcare helps mothers study. |
-| 954 | laundry | شستشوی لباس (shestshū-ye lebās) | I do laundry on Sundays. |
-| 955 | grocery | خرید مواد (kharīd-e mawād) | I make a grocery list in English. |
-| 956 | ambition | بلندپروازی (bolandparvāzī) | Her ambition is to teach English. |
-| 957 | vision | چشم‌انداز (cheshm-andāz) | Write your vision for five years. |
-| 958 | milestone | نقطه عطف (noqte 'otf) | Three hundred words is a milestone. |
-| 959 | advocate | مدافع (modāfe') | She advocates for girls' education. |
-| 960 | rights | حقوق (huqūq) | Women have the same rights. |
-| 961 | identity | هویت (hoviyat) | Protect your identity online. |
-| 962 | authentic | اصیل (asīl) | Be authentic in interviews. |
-| 963 | suspicious | مشکوک (mashkūk) | A suspicious link can be a scam. |
-| 964 | phishing | فیشینگ (phishing) | Never click a phishing email. |
-| 965 | harassment | آزار (āzār) | Report harassment on the platform. |
-| 966 | microloan | وام کوچک (vām-e kuchak) | A microloan helped her shop. |
-| 967 | stipend | کمک هزینه (komak-e hazine) | The course offers a small stipend. |
-| 968 | tutor | معلم خصوصی (mo'alem-e khosūsī) | My tutor corrects my grammar. |
-| 969 | webinar | وبینار (webinar) | I joined a free webinar. |
-| 970 | transcript | راپور نمرات (rāpor-e nomarāt) | Request your school transcript. |
-| 971 | receipt | رسید (rasīd) | Save the receipt for payment. |
-| 972 | expense | مصرف (masraf) | Track every expense this month. |
-| 973 | landlord | صاحب‌خانه (sāheb-e khāna) | The landlord fixed the window. |
-| 974 | lease | اجاره‌نامه (ejāre-nāma) | Read the lease carefully. |
-| 975 | mindfulness | ذهن‌آگاهی (zehn-āgāhī) | Mindfulness calms stress before tests. |
-| 976 | self-care | مراقبت از خود (morāqibat az khod) | Self-care is not selfish. |
-| 977 | typing | تایپ (tāyp) | Fast typing saves time online. |
-| 978 | troubleshoot | رفع مشکل (rafe mushkil) | I troubleshoot Wi-Fi problems. |
-| 979 | verify | تأیید (ta'yīd) | Verify the account with a code. |
-| 980 | allowance | پول توجیهی (pul-e tawjīhī) | Her parents give a small allowance. |
-| 981 | currency | پول (pul) | Learn currency words for travel. |
-| 982 | exchange | تبادله (tabādola) | We exchange ideas in English. |
-| 983 | rating | درجه (daraja) | The app has a five-star rating. |
-| 984 | brand | برند (brand) | She builds her personal brand. |
-| 985 | announcement | اعلامیه (elāmiya) | The teacher made an announcement. |
-| 986 | babysitter | پرستار کودک (parastār-e kudak) | A babysitter helps on study nights. |
-| 987 | empower | توانمند ساختن (tavānamand sākhtan) | English can empower your future. |
-| 988 | persist | اصرار (esrār) | Persist when lessons feel hard. |
-| 989 | resilient | تاب‌آور (tāb-āvar) | You are resilient after hard days. |
-| 990 | gratitude | سپاس (sepās) | I feel gratitude for my teacher. |
-| 991 | succeed | موفق شدن (movaffaq shodan) | You will succeed step by step. |
-| 992 | leadership | رهبری (rahbarī) | Leadership starts with listening. |
-| 993 | teamwork | کار گروهی (kār-e grohī) | Teamwork makes hard tasks easier. |
-| 994 | negotiation | مذاکره (mozākere) | Calm negotiation wins respect. |
-| 995 | bonus | پاداش (pādāsh) | She earned a small bonus. |
-| 996 | benefits | مزایا (mazāyā) | The job offers health benefits. |
-| 997 | translator | مترجم (motarjem) | A translator helps at the clinic. |
-| 998 | fluent | روان (ravān) | I want to sound fluent someday. |
-| 999 | bilingual | دوزبانه (do-zabāne) | Bilingual skills open more jobs. |
-| 1000 | rehearsal | تمرین (tamrīn) | I do a rehearsal before the interview. |
+| 901 | interview | مصاحبه | I practice for the interview. |
+| 902 | volunteer | داوطلب | I volunteer at school. |
+| 903 | certificate | سند | I want a certificate. |
+| 904 | scholarship | بورسیه | She hopes for a scholarship. |
+| 905 | mentor | راهنما | My mentor encourages me. |
+| 906 | application | درخواست | I send my job application today. |
+| 907 | resume | رزومه | I update my resume tonight. |
+| 908 | recommendation | توصیه | My teacher wrote a recommendation. |
+| 909 | internship | کارآموزی | She wants a summer internship. |
+| 910 | workplace | محل کار | The workplace is friendly. |
+| 911 | colleague | همکار | My colleague helps me learn. |
+| 912 | supervisor | سرپرست | My supervisor speaks clearly. |
+| 913 | paycheck | معاش | I save part of my paycheck. |
+| 914 | promotion | ترقی | Hard work can bring promotion. |
+| 915 | resignation | استعفا | She wrote a polite resignation. |
+| 916 | entrepreneur | کارآفرین | She is a young entrepreneur. |
+| 917 | startup | آغاز کار | The startup needs a website. |
+| 918 | invoice | بل | Send the invoice by email. |
+| 919 | savings | پس‌انداز | I keep savings for courses. |
+| 920 | loan | قرض | She asked about a small loan. |
+| 921 | diploma | دیپلوم | A diploma opens doors. |
+| 922 | degree | سند لیسانس | Her degree is in education. |
+| 923 | enrollment | ثبت‌نام | Enrollment closes on Friday. |
+| 924 | admission | پذیرش | I wait for admission news. |
+| 925 | graduate | فارغ‌التحصیل | I will graduate next year. |
+| 926 | coding | کدنویسی | Coding takes daily practice. |
+| 927 | programming | برنامه‌نویسی | Programming helps remote jobs. |
+| 928 | spreadsheet | جدول | I track words in a spreadsheet. |
+| 929 | portfolio | نمونه‌کار | My portfolio shows my writing. |
+| 930 | networking | شبکه‌سازی | Networking starts with one message. |
+| 931 | gig | کار کوتاه | She found a small online gig. |
+| 932 | proposal | پیشنهاد | I wrote a short proposal. |
+| 933 | deliverable | تحویلی | The deliverable is due Monday. |
+| 934 | pitch | ارائه کوتاه | I practice my pitch in English. |
+| 935 | feedback | بازخورد | Thank you for honest feedback. |
+| 936 | reputation | شهرت | Good work builds reputation. |
+| 937 | marketing | بازاریابی | She studies marketing online. |
+| 938 | caption | زیرنویس | Write a clear caption in English. |
+| 939 | hashtag | هشتگ | Use one hashtag only. |
+| 940 | algorithm | الگوریتم | The algorithm shows new videos. |
+| 941 | consent | رضایت | Ask for consent before sharing photos. |
+| 942 | boundary | حد | Healthy boundaries protect your time. |
+| 943 | wellbeing | تندرستی | Sleep helps my wellbeing. |
+| 944 | counselor | مشاور | A counselor can listen safely. |
+| 945 | vaccination | واکسین | Vaccination protects the community. |
+| 946 | appointment | وقت ملاقات | I have a doctor appointment. |
+| 947 | symptom | علامت | Tell the nurse your symptom. |
+| 948 | rent | کرایه | Rent is due at the end of month. |
+| 949 | utility | خدمات | We pay the utility bill online. |
+| 950 | passport | پاسپورت | Keep your passport in a safe place. |
+| 951 | visa | ویزه | Visa rules change — check official news. |
+| 952 | commute | رفت‌وآمد | My commute takes forty minutes. |
+| 953 | childcare | مراقبت اطفال | Childcare helps mothers study. |
+| 954 | laundry | شستشوی لباس | I do laundry on Sundays. |
+| 955 | grocery | خرید مواد | I make a grocery list in English. |
+| 956 | ambition | بلندپروازی | Her ambition is to teach English. |
+| 957 | vision | چشم‌انداز | Write your vision for five years. |
+| 958 | milestone | نقطه عطف | Three hundred words is a milestone. |
+| 959 | advocate | مدافع | She advocates for girls' education. |
+| 960 | rights | حقوق | Women have the same rights. |
+| 961 | identity | هویت | Protect your identity online. |
+| 962 | authentic | اصیل | Be authentic in interviews. |
+| 963 | suspicious | مشکوک | A suspicious link can be a scam. |
+| 964 | phishing | فیشینگ | Never click a phishing email. |
+| 965 | harassment | آزار | Report harassment on the platform. |
+| 966 | microloan | وام کوچک | A microloan helped her shop. |
+| 967 | stipend | کمک هزینه | The course offers a small stipend. |
+| 968 | tutor | معلم خصوصی | My tutor corrects my grammar. |
+| 969 | webinar | وبینار | I joined a free webinar. |
+| 970 | transcript | راپور نمرات | Request your school transcript. |
+| 971 | receipt | رسید | Save the receipt for payment. |
+| 972 | expense | مصرف | Track every expense this month. |
+| 973 | landlord | صاحب‌خانه | The landlord fixed the window. |
+| 974 | lease | اجاره‌نامه | Read the lease carefully. |
+| 975 | mindfulness | ذهن‌آگاهی | Mindfulness calms stress before tests. |
+| 976 | self-care | مراقبت از خود | Self-care is not selfish. |
+| 977 | typing | تایپ | Fast typing saves time online. |
+| 978 | troubleshoot | رفع مشکل | I troubleshoot Wi-Fi problems. |
+| 979 | verify | تأیید | Verify the account with a code. |
+| 980 | allowance | پول توجیهی | Her parents give a small allowance. |
+| 981 | currency | پول | Learn currency words for travel. |
+| 982 | exchange | تبادله | We exchange ideas in English. |
+| 983 | rating | درجه | The app has a five-star rating. |
+| 984 | brand | برند | She builds her personal brand. |
+| 985 | announcement | اعلامیه | The teacher made an announcement. |
+| 986 | babysitter | پرستار کودک | A babysitter helps on study nights. |
+| 987 | empower | توانمند ساختن | English can empower your future. |
+| 988 | persist | اصرار | Persist when lessons feel hard. |
+| 989 | resilient | تاب‌آور | You are resilient after hard days. |
+| 990 | gratitude | سپاس | I feel gratitude for my teacher. |
+| 991 | succeed | موفق شدن | You will succeed step by step. |
+| 992 | leadership | رهبری | Leadership starts with listening. |
+| 993 | teamwork | کار گروهی | Teamwork makes hard tasks easier. |
+| 994 | negotiation | مذاکره | Calm negotiation wins respect. |
+| 995 | bonus | پاداش | She earned a small bonus. |
+| 996 | benefits | مزایا | The job offers health benefits. |
+| 997 | translator | مترجم | A translator helps at the clinic. |
+| 998 | fluent | روان | I want to sound fluent someday. |
+| 999 | bilingual | دوزبانه | Bilingual skills open more jobs. |
+| 1000 | rehearsal | تمرین | I do a rehearsal before the interview. |
 
-**Active learning:** 10 words/day + English sentence + speak aloud.
+**Active learning:** 10 words/day + English sentence + speak aloud. To swap words, edit scripts/lib/bank-901-1000.mjs and run pnpm words:generate.
 
 ---
 

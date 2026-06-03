@@ -9,6 +9,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { example } from './lib/examples.mjs';
 import { BANK_901_1000 } from './lib/bank-901-1000.mjs';
+import { scriptOnly } from './lib/dari-format.mjs';
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const dari = JSON.parse(readFileSync(join(root, 'scripts/data/word-dari.json'), 'utf8'));
@@ -21,7 +22,7 @@ function dariKey(word) {
 }
 
 function dariGloss(word) {
-  return dari[dariKey(word)] || '—';
+  return scriptOnly(dari[dariKey(word)] || '—');
 }
 
 function parseWords(str) {
@@ -92,7 +93,7 @@ for (const s of sections300) {
 
 const wl300 = `# First 300 High-Frequency Words
 
-Learn **10–15 per day** with one sentence each. **Dari** = quick meaning (then practice in English).
+Learn **10–15 per day** with one sentence each. **Dari** = meaning in Persian script (then practice in English).
 
 **Legend:** n=noun · v=verb · adj=adjective · adv=adverb · prep=preposition
 
@@ -209,7 +210,7 @@ for (const sec of sections700) {
 const bankRows = BANK_901_1000.map(([word, gloss, ex], i) => {
   const n = 901 + i;
   const sentence = ex || example(word);
-  return `| ${n} | ${word} | ${escCell(gloss)} | ${escCell(sentence)} |`;
+  return `| ${n} | ${word} | ${escCell(scriptOnly(gloss))} | ${escCell(sentence)} |`;
 });
 if (bankRows.length !== 100) throw new Error(`Bank must have 100 rows, got ${bankRows.length}`);
 

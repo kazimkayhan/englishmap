@@ -10,10 +10,10 @@ Use this page **only when stuck** on grammar or sounds — then return to Englis
 
 | English | Dari hint | Note |
 |---------|-----------|------|
-| **a / an** | یک (yak) — general one | English requires *a book*, not just *book* |
-| **the** | آن / همان (specific) | When both know which thing |
-| **am / is / are** | هست (hast) — but English **never drops** | Wrong: *I fine* → *I am fine* |
-| **have / has** | داشتن (dâštan) | *I have time* = وقت دارم |
+| **a / an** | یک — general one | English requires *a book*, not just *book* |
+| **the** | آن / همان — specific | When both know which thing |
+| **am / is / are** | هست — but English **never drops** | Wrong: *I fine* → *I am fine* |
+| **have / has** | داشتن | *I have time* = وقت دارم |
 | **do / does** (questions) | — | Helper verb; Dari uses different question form |
 | **-s** (he goes) | — | Third person always adds **-s** in present |
 | **there is / are** | وجود دارد | *There is a book* = کتاب هست |

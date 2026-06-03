@@ -6,6 +6,7 @@
 import { writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { scriptOnly } from './lib/dari-format.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const OUT_PATH = join(__dirname, 'data', 'word-dari.json');
@@ -1279,7 +1280,7 @@ const sampleExtras = ['scholarship', 'mentor'];
 const outputKeys = new Set([...ORDERED.map(normalizeKey), ...sampleExtras]);
 const output = {};
 for (const key of [...outputKeys].sort()) {
-  if (key in LEX) output[key] = LEX[key];
+  if (key in LEX) output[key] = scriptOnly(LEX[key]);
 }
 
 mkdirSync(dirname(OUT_PATH), { recursive: true });
