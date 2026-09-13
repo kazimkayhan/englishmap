@@ -1,0 +1,583 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Common Hazaragi-English Vocabulary - EnglishMap — English for Dari &amp; Hazaragi Speakers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="A comprehensive self-study English guide for Afghan learners — supporting Dari and Hazaragi speakers learning American English">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="../theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="../welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Getting Started</li><li class="chapter-item expanded "><a href="../quick-start.html"><strong aria-hidden="true">1.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="../how-to-use.html"><strong aria-hidden="true">2.</strong> How to Use This Book</a></li><li class="chapter-item expanded "><a href="../safety-privacy.html"><strong aria-hidden="true">3.</strong> Safety & Privacy Guide</a></li><li class="chapter-item expanded "><a href="../placement-quiz.html"><strong aria-hidden="true">4.</strong> Placement Quiz</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Foundation Skills (A0-A2)</li><li class="chapter-item expanded "><a href="../01-overview.html"><strong aria-hidden="true">5.</strong> Overview — Your English Journey</a></li><li class="chapter-item expanded "><a href="../02-beginner-foundations.html"><strong aria-hidden="true">6.</strong> Beginner Foundations</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../beginner/alphabet.html"><strong aria-hidden="true">6.1.</strong> The Alphabet</a></li><li class="chapter-item "><a href="../beginner/first-words.html"><strong aria-hidden="true">6.2.</strong> First 100 Words</a></li><li class="chapter-item "><a href="../beginner/survival-english.html"><strong aria-hidden="true">6.3.</strong> Survival English</a></li></ol></li><li class="chapter-item expanded "><a href="../03-core-grammar.html"><strong aria-hidden="true">7.</strong> Core Grammar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../grammar/be-have.html"><strong aria-hidden="true">7.1.</strong> Be & Have</a></li><li class="chapter-item "><a href="../grammar/present-simple.html"><strong aria-hidden="true">7.2.</strong> Present Simple</a></li><li class="chapter-item "><a href="../grammar/questions.html"><strong aria-hidden="true">7.3.</strong> Questions & Negatives</a></li><li class="chapter-item "><a href="../grammar/articles.html"><strong aria-hidden="true">7.4.</strong> Articles (a, an, the)</a></li></ol></li><li class="chapter-item expanded "><a href="../04-vocabulary-building.html"><strong aria-hidden="true">8.</strong> Vocabulary Building</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../vocabulary/words-300.html"><strong aria-hidden="true">8.1.</strong> High-Frequency Words (1-300)</a></li><li class="chapter-item "><a href="../vocabulary/words-700.html"><strong aria-hidden="true">8.2.</strong> High-Frequency Words (301-700)</a></li><li class="chapter-item "><a href="../vocabulary/words-1000.html"><strong aria-hidden="true">8.3.</strong> Words 701-1000 (Self-Fill)</a></li><li class="chapter-item "><a href="../vocabulary/memory.html"><strong aria-hidden="true">8.4.</strong> Memory Techniques</a></li></ol></li><li class="chapter-item expanded "><a href="../05-pronunciation.html"><strong aria-hidden="true">9.</strong> Pronunciation (American English)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../pronunciation/vowels.html"><strong aria-hidden="true">9.1.</strong> Vowel Sounds</a></li><li class="chapter-item "><a href="../pronunciation/consonants.html"><strong aria-hidden="true">9.2.</strong> Consonants for Dari Speakers</a></li><li class="chapter-item "><a href="../pronunciation/stress.html"><strong aria-hidden="true">9.3.</strong> Word Stress</a></li><li class="chapter-item "><a href="../pronunciation/dari-challenges.html"><strong aria-hidden="true">9.4.</strong> Common Dari L1 Challenges</a></li><li class="chapter-item "><a href="../pronunciation/hazaragi-notes.html"><strong aria-hidden="true">9.5.</strong> Hazaragi Accent Notes</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Core Skills (A2-B1)</li><li class="chapter-item expanded "><a href="../06-listening.html"><strong aria-hidden="true">10.</strong> Listening</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../listening/strategies.html"><strong aria-hidden="true">10.1.</strong> Active Listening Strategies</a></li><li class="chapter-item "><a href="../listening/dictation.html"><strong aria-hidden="true">10.2.</strong> Dictation Practice</a></li></ol></li><li class="chapter-item expanded "><a href="../07-speaking.html"><strong aria-hidden="true">11.</strong> Speaking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../speaking/confidence.html"><strong aria-hidden="true">11.1.</strong> Building Confidence</a></li><li class="chapter-item "><a href="../speaking/shadowing.html"><strong aria-hidden="true">11.2.</strong> Shadowing Technique</a></li><li class="chapter-item "><a href="../speaking/recording.html"><strong aria-hidden="true">11.3.</strong> Self-Recording</a></li></ol></li><li class="chapter-item expanded "><a href="../08-reading.html"><strong aria-hidden="true">12.</strong> Reading</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../reading/strategies.html"><strong aria-hidden="true">12.1.</strong> Reading Strategies</a></li><li class="chapter-item "><a href="../reading/graded-readings.html"><strong aria-hidden="true">12.2.</strong> Graded Readings</a></li></ol></li><li class="chapter-item expanded "><a href="../09-writing.html"><strong aria-hidden="true">13.</strong> Writing</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../writing/sentences.html"><strong aria-hidden="true">13.1.</strong> Sentence Writing</a></li><li class="chapter-item "><a href="../writing/paragraphs.html"><strong aria-hidden="true">13.2.</strong> Paragraph Structure</a></li><li class="chapter-item "><a href="../writing/journal.html"><strong aria-hidden="true">13.3.</strong> Journal Practice</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Intermediate & Advanced (B1-C2)</li><li class="chapter-item expanded "><a href="../10-intermediate-growth.html"><strong aria-hidden="true">14.</strong> Intermediate Growth (B1-B2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../intermediate/past-tenses.html"><strong aria-hidden="true">14.1.</strong> Past Tenses</a></li><li class="chapter-item "><a href="../intermediate/future.html"><strong aria-hidden="true">14.2.</strong> Future Forms</a></li><li class="chapter-item "><a href="../intermediate/fluency.html"><strong aria-hidden="true">14.3.</strong> Building Fluency</a></li></ol></li><li class="chapter-item expanded "><a href="../11-advanced-skills.html"><strong aria-hidden="true">15.</strong> Advanced Skills (C1-C2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../advanced/grammar.html"><strong aria-hidden="true">15.1.</strong> Complex Grammar</a></li><li class="chapter-item "><a href="../advanced/professional.html"><strong aria-hidden="true">15.2.</strong> Professional English</a></li><li class="chapter-item "><a href="../advanced/academic.html"><strong aria-hidden="true">15.3.</strong> Academic English</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Study Success</li><li class="chapter-item expanded "><a href="../12-study-strategies.html"><strong aria-hidden="true">16.</strong> Study Strategies</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../strategies/habits.html"><strong aria-hidden="true">16.1.</strong> Building Habits</a></li><li class="chapter-item "><a href="../strategies/breaks.html"><strong aria-hidden="true">16.2.</strong> Dealing with Breaks</a></li><li class="chapter-item "><a href="../strategies/motivation.html"><strong aria-hidden="true">16.3.</strong> Maintaining Motivation</a></li><li class="chapter-item "><a href="../strategies/confidence-building.html"><strong aria-hidden="true">16.4.</strong> Overcoming Shame</a></li></ol></li><li class="chapter-item expanded "><a href="../13-practice-plans.html"><strong aria-hidden="true">17.</strong> Practice Plans</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../plans/12-week.html"><strong aria-hidden="true">17.1.</strong> 12-Week Beginner Plan</a></li><li class="chapter-item "><a href="../plans/24-week.html"><strong aria-hidden="true">17.2.</strong> 24-Week Intermediate Plan</a></li><li class="chapter-item "><a href="../plans/52-week.html"><strong aria-hidden="true">17.3.</strong> 52-Week Mastery Path</a></li><li class="chapter-item "><a href="../plans/daily-template.html"><strong aria-hidden="true">17.4.</strong> Daily Practice Template</a></li></ol></li><li class="chapter-item expanded "><a href="../14-assessments.html"><strong aria-hidden="true">18.</strong> Assessments & Tracking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="../assessments/rubrics.html"><strong aria-hidden="true">18.1.</strong> Self-Assessment Rubrics</a></li><li class="chapter-item "><a href="../assessments/quizzes.html"><strong aria-hidden="true">18.2.</strong> Unit Quizzes</a></li><li class="chapter-item "><a href="../assessments/checkpoints.html"><strong aria-hidden="true">18.3.</strong> Checkpoint Tests</a></li></ol></li><li class="chapter-item expanded "><a href="../15-resources.html"><strong aria-hidden="true">19.</strong> Free Resources</a></li><li class="chapter-item expanded "><a href="../16-tracker.html"><strong aria-hidden="true">20.</strong> Progress Tracker</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Exercises & Practice</li><li class="chapter-item expanded "><a href="../exercises/overview.html"><strong aria-hidden="true">21.</strong> Exercise Overview</a></li><li class="chapter-item expanded "><a href="../exercises/02-beginner-drills.html"><strong aria-hidden="true">22.</strong> Beginner Drills</a></li><li class="chapter-item expanded "><a href="../exercises/03-grammar-drills.html"><strong aria-hidden="true">23.</strong> Grammar Drills</a></li><li class="chapter-item expanded "><a href="../exercises/04-vocabulary-drills.html"><strong aria-hidden="true">24.</strong> Vocabulary Drills</a></li><li class="chapter-item expanded "><a href="../exercises/05-pronunciation-drills.html"><strong aria-hidden="true">25.</strong> Pronunciation Drills</a></li><li class="chapter-item expanded "><a href="../exercises/06-listening-drills.html"><strong aria-hidden="true">26.</strong> Listening Drills</a></li><li class="chapter-item expanded "><a href="../exercises/07-speaking-drills.html"><strong aria-hidden="true">27.</strong> Speaking Drills</a></li><li class="chapter-item expanded "><a href="../exercises/08-reading-drills.html"><strong aria-hidden="true">28.</strong> Reading Drills</a></li><li class="chapter-item expanded "><a href="../exercises/09-writing-drills.html"><strong aria-hidden="true">29.</strong> Writing Drills</a></li><li class="chapter-item expanded "><a href="../exercises/10-intermediate-drills.html"><strong aria-hidden="true">30.</strong> Intermediate Drills</a></li><li class="chapter-item expanded "><a href="../exercises/11-advanced-drills.html"><strong aria-hidden="true">31.</strong> Advanced Drills</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Answer Keys</li><li class="chapter-item expanded "><a href="../answer-keys/guide.html"><strong aria-hidden="true">32.</strong> Answer Keys Guide</a></li><li class="chapter-item expanded "><a href="../answer-keys/02-beginner.html"><strong aria-hidden="true">33.</strong> Beginner Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/03-grammar.html"><strong aria-hidden="true">34.</strong> Grammar Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/04-vocabulary.html"><strong aria-hidden="true">35.</strong> Vocabulary Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/05-pronunciation.html"><strong aria-hidden="true">36.</strong> Pronunciation Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/06-listening.html"><strong aria-hidden="true">37.</strong> Listening Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/07-speaking.html"><strong aria-hidden="true">38.</strong> Speaking Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/08-reading.html"><strong aria-hidden="true">39.</strong> Reading Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/09-writing.html"><strong aria-hidden="true">40.</strong> Writing Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/10-intermediate.html"><strong aria-hidden="true">41.</strong> Intermediate Answers</a></li><li class="chapter-item expanded "><a href="../answer-keys/11-advanced.html"><strong aria-hidden="true">42.</strong> Advanced Answers</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Worksheets</li><li class="chapter-item expanded "><a href="../worksheets/overview.html"><strong aria-hidden="true">43.</strong> Worksheet Overview</a></li><li class="chapter-item expanded "><a href="../worksheets/alphabet.html"><strong aria-hidden="true">44.</strong> Alphabet Worksheet</a></li><li class="chapter-item expanded "><a href="../worksheets/be-have.html"><strong aria-hidden="true">45.</strong> Be & Have Worksheet</a></li><li class="chapter-item expanded "><a href="../worksheets/present.html"><strong aria-hidden="true">46.</strong> Present Tense Worksheet</a></li><li class="chapter-item expanded "><a href="../worksheets/vocabulary-log.html"><strong aria-hidden="true">47.</strong> Vocabulary Log</a></li><li class="chapter-item expanded "><a href="../worksheets/phonics.html"><strong aria-hidden="true">48.</strong> Phonics & Blends</a></li><li class="chapter-item expanded "><a href="../worksheets/dictation.html"><strong aria-hidden="true">49.</strong> Listening Dictation</a></li><li class="chapter-item expanded "><a href="../worksheets/journal.html"><strong aria-hidden="true">50.</strong> Writing Journal</a></li><li class="chapter-item expanded "><a href="../worksheets/progress.html"><strong aria-hidden="true">51.</strong> Progress Review</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Dari Companion — راهنمای دری</li><li class="chapter-item expanded "><a href="../companion-dari/00-guide.html"><strong aria-hidden="true">52.</strong> Dari Guide Introduction — راهنمای همراه</a></li><li class="chapter-item expanded "><a href="../companion-dari/01-overview-dari.html"><strong aria-hidden="true">53.</strong> Overview (Dari) — خلاصه</a></li><li class="chapter-item expanded "><a href="../companion-dari/02-beginner-dari.html"><strong aria-hidden="true">54.</strong> Beginner Foundations (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/03-grammar-dari.html"><strong aria-hidden="true">55.</strong> Core Grammar (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/04-vocabulary-dari.html"><strong aria-hidden="true">56.</strong> Vocabulary (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/05-pronunciation-dari.html"><strong aria-hidden="true">57.</strong> Pronunciation (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/06-08-skills-dari.html"><strong aria-hidden="true">58.</strong> Listening, Speaking, Reading (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/09-writing-dari.html"><strong aria-hidden="true">59.</strong> Writing (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/10-11-advanced-dari.html"><strong aria-hidden="true">60.</strong> Intermediate & Advanced (Dari)</a></li><li class="chapter-item expanded "><a href="../companion-dari/12-16-support-dari.html"><strong aria-hidden="true">61.</strong> Study Support (Dari)</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Hazaragi Companion — راهنمای هزارگی</li><li class="chapter-item expanded "><a href="../companion-hazaragi/00-guide.html"><strong aria-hidden="true">62.</strong> Hazaragi Guide Introduction</a></li><li class="chapter-item expanded "><a href="../companion-hazaragi/pronunciation.html"><strong aria-hidden="true">63.</strong> Hazaragi Pronunciation Guide</a></li><li class="chapter-item expanded "><a href="../companion-hazaragi/vocabulary.html" class="active"><strong aria-hidden="true">64.</strong> Common Hazaragi-English Vocabulary</a></li><li class="chapter-item expanded "><a href="../companion-hazaragi/dari-differences.html"><strong aria-hidden="true">65.</strong> Hazaragi vs Dari: Key Differences</a></li><li class="chapter-item expanded "><a href="../companion-hazaragi/learning-notes.html"><strong aria-hidden="true">66.</strong> Hazaragi Learning Notes</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Appendices</li><li class="chapter-item expanded "><a href="../appendices/glossary.html"><strong aria-hidden="true">67.</strong> Glossary of Terms</a></li><li class="chapter-item expanded "><a href="../appendices/dari-glosses.html"><strong aria-hidden="true">68.</strong> Dari Glosses</a></li><li class="chapter-item expanded "><a href="../appendices/pronunciation-audio-guide.html"><strong aria-hidden="true">69.</strong> Pronunciation Audio Guide (A-Z)</a></li><li class="chapter-item expanded "><a href="../appendices/building-confidence.html"><strong aria-hidden="true">70.</strong> Building Confidence</a></li><li class="chapter-item expanded "><a href="../appendices/building-fluency.html"><strong aria-hidden="true">71.</strong> Building Fluency</a></li><li class="chapter-item expanded "><a href="../appendices/exercise-sampler.html"><strong aria-hidden="true">72.</strong> Exercise Sampler</a></li><li class="chapter-item expanded "><a href="../appendices/unit-quiz-schedule.html"><strong aria-hidden="true">73.</strong> Unit Quiz Schedule</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Contributing</li><li class="chapter-item expanded "><a href="../contributing.html"><strong aria-hidden="true">74.</strong> How to Contribute</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">EnglishMap — English for Dari &amp; Hazaragi Speakers</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap/edit/main/src/companion-hazaragi/vocabulary.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="common-hazaragi-english-vocabulary"><a class="header" href="#common-hazaragi-english-vocabulary">Common Hazaragi-English Vocabulary</a></h1>
+<p><strong>Direct translations for everyday Hazaragi words</strong></p>
+<hr />
+<h2 id="how-to-use-this-list"><a class="header" href="#how-to-use-this-list">How to Use This List</a></h2>
+<ul>
+<li><strong>Hazaragi word</strong> → English equivalent</li>
+<li><strong>Dari comparison</strong> (when different)</li>
+<li><strong>Pronunciation</strong> in Latin script</li>
+<li><strong>Example sentences</strong> in both languages</li>
+</ul>
+<p><strong>Note:</strong> Hazaragi has regional variations. If your family uses a different word, that's valid too!</p>
+<hr />
+<h2 id="people--family--مردم-و-خانواده"><a class="header" href="#people--family--مردم-و-خانواده">People &amp; Family — مردم و خانواده</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>مردیم</strong> <em>mardim</em></td><td>مردم <em>mardom</em></td><td>people</td><td>Hazaragi <em>i</em> instead of Dari <em>o</em></td></tr>
+<tr><td><strong>زن</strong> <em>zan</em></td><td>زن <em>zan</em></td><td>woman</td><td>Same</td></tr>
+<tr><td><strong>مرد</strong> <em>mard</em></td><td>مرد <em>mard</em></td><td>man</td><td>Same</td></tr>
+<tr><td><strong>دختر</strong> <em>dokhtar</em></td><td>دختر <em>dokhtar</em></td><td>girl, daughter</td><td>Same</td></tr>
+<tr><td><strong>پسر</strong> <em>pisar</em></td><td>پسر <em>pesar</em></td><td>boy, son</td><td>Same</td></tr>
+<tr><td><strong>مادر / مار</strong> <em>mādar / mār</em></td><td>مادر <em>mādar</em></td><td>mother</td><td>Hazaragi often shortens to <em>mār</em></td></tr>
+<tr><td><strong>پدر / په</strong> <em>padar / pa</em></td><td>پدر <em>pedar</em></td><td>father</td><td>Hazaragi often shortens to <em>pa</em> or <em>bāwa</em></td></tr>
+<tr><td><strong>خوار / خواهر</strong> <em>khwār</em></td><td>خواهر <em>khwāhar</em></td><td>sister</td><td>Hazaragi simplifies</td></tr>
+<tr><td><strong>برار / برادر</strong> <em>barār</em></td><td>برادر <em>barādar</em></td><td>brother</td><td>Hazaragi drops middle <em>d</em></td></tr>
+<tr><td><strong>کاکه</strong> <em>kāka</em></td><td>کاکا <em>kākā</em></td><td>uncle (paternal)</td><td>Slight vowel difference</td></tr>
+<tr><td><strong>مامه</strong> <em>māma</em></td><td>ماما <em>māmā</em></td><td>uncle (maternal)</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences"><a class="header" href="#example-sentences">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Mardim zindagí besyār sakht darand.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"People have a very difficult life."</p>
+</blockquote>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Mār-am dar khor ast.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"My mother is at home."</p>
+</blockquote>
+<hr />
+<h2 id="house--home--کور-و-خانه"><a class="header" href="#house--home--کور-و-خانه">House &amp; Home — کور و خانه</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>کور</strong> <em>kor</em></td><td>خانه <em>khāna</em></td><td>house, home</td><td>Completely different word</td></tr>
+<tr><td><strong>اطاق</strong> <em>otāq</em></td><td>اتاق <em>otāq</em></td><td>room</td><td>Same pronunciation, slightly different spelling</td></tr>
+<tr><td><strong>دروازه</strong> <em>darwāza</em></td><td>دروازه <em>darwāza</em></td><td>door</td><td>Same</td></tr>
+<tr><td><strong>کُنج</strong> <em>kunj</em></td><td>گوشه <em>gōsha</em></td><td>corner</td><td>Different word</td></tr>
+<tr><td><strong>بام</strong> <em>bām</em></td><td>بام <em>bām</em></td><td>roof</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences-1"><a class="header" href="#example-sentences-1">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Kor-am kōchek ast.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"My house is small."</p>
+</blockquote>
+<hr />
+<h2 id="nature--environment--طبیعت"><a class="header" href="#nature--environment--طبیعت">Nature &amp; Environment — طبیعت</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>آفتو</strong> <em>aftow</em></td><td>آفتاب <em>āftāb</em></td><td>sun</td><td>Hazaragi <em>-ow</em> ending instead of <em>-āb</em></td></tr>
+<tr><td><strong>مَه</strong> <em>mah</em></td><td>ماه <em>māh</em></td><td>moon, month</td><td>Same</td></tr>
+<tr><td><strong>ستوره</strong> <em>stōra</em></td><td>ستاره <em>setāra</em></td><td>star</td><td>Hazaragi preserves Pashto-like form</td></tr>
+<tr><td><strong>دریو</strong> <em>daryow</em></td><td>دریا <em>daryā</em></td><td>river, sea</td><td>Hazaragi <em>-ow</em> instead of <em>-ā</em></td></tr>
+<tr><td><strong>کو</strong> <em>kow</em> / <strong>کوه</strong> <em>kōh</em></td><td>کوه <em>kōh</em></td><td>mountain</td><td>Same</td></tr>
+<tr><td><strong>باغ</strong> <em>bāğ</em></td><td>باغ <em>bāğ</em></td><td>garden</td><td>Same (note: <em>ğ</em> is soft)</td></tr>
+<tr><td><strong>گُل</strong> <em>gul</em></td><td>گل <em>gul</em></td><td>flower</td><td>Same</td></tr>
+<tr><td><strong>درخت</strong> <em>darakht</em></td><td>درخت <em>darakht</em></td><td>tree</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences-2"><a class="header" href="#example-sentences-2">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Aftow besyār garm ast.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"The sun is very hot."</p>
+</blockquote>
+<hr />
+<h2 id="food--drink--غذا-و-نوشیدنی"><a class="header" href="#food--drink--غذا-و-نوشیدنی">Food &amp; Drink — غذا و نوشیدنی</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>نون</strong> <em>non</em></td><td>نان <em>nān</em></td><td>bread</td><td>Hazaragi <em>o</em> vs Dari <em>ā</em></td></tr>
+<tr><td><strong>آو</strong> <em>āw</em></td><td>آب <em>āb</em></td><td>water</td><td>Hazaragi <em>-w</em> vs Dari <em>-b</em></td></tr>
+<tr><td><strong>چای / چَی</strong> <em>chay</em></td><td>چای <em>chāy</em></td><td>tea</td><td>Same</td></tr>
+<tr><td><strong>شیر</strong> <em>shir</em></td><td>شیر <em>shir</em></td><td>milk</td><td>Same</td></tr>
+<tr><td><strong>غوشت</strong> <em>ghōsht</em> / <strong>گوشت</strong> <em>gōsht</em></td><td>گوشت <em>gōsht</em></td><td>meat</td><td>Same</td></tr>
+<tr><td><strong>برنج</strong> <em>birinj</em></td><td>برنج <em>berenj</em></td><td>rice</td><td>Hazaragi <em>i</em> vs Dari <em>e</em></td></tr>
+<tr><td><strong>سبزی</strong> <em>sabzí</em></td><td>سبزی <em>sabzí</em></td><td>vegetables, greens</td><td>Same</td></tr>
+<tr><td><strong>میوه</strong> <em>mēwa</em></td><td>میوه <em>mēwa</em></td><td>fruit</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences-3"><a class="header" href="#example-sentences-3">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Āw besyār tandurustí-bakhsh ast.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"Water is very healthy." (Literally: "Water is very health-giving.")</p>
+</blockquote>
+<hr />
+<h2 id="time--daily-life--وقت-و-زندگی-روزمره"><a class="header" href="#time--daily-life--وقت-و-زندگی-روزمره">Time &amp; Daily Life — وقت و زندگی روزمره</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>سحر</strong> <em>sahar</em></td><td>صبح <em>sobh</em></td><td>morning</td><td>Different word (Hazaragi uses <em>sahar</em>)</td></tr>
+<tr><td><strong>شو</strong> <em>shaw</em></td><td>شب <em>shab</em></td><td>night</td><td>Hazaragi <em>-ow</em> sound</td></tr>
+<tr><td><strong>روز</strong> <em>rōz</em></td><td>روز <em>rōz</em></td><td>day</td><td>Same</td></tr>
+<tr><td><strong>هفته</strong> <em>hafta</em></td><td>هفته <em>hafta</em></td><td>week</td><td>Same</td></tr>
+<tr><td><strong>ماه</strong> <em>māh</em></td><td>ماه <em>māh</em></td><td>month</td><td>Same</td></tr>
+<tr><td><strong>سال</strong> <em>sāl</em></td><td>سال <em>sāl</em></td><td>year</td><td>Same</td></tr>
+<tr><td><strong>حالا / الان</strong> <em>hālā</em></td><td>حالا <em>hālā</em></td><td>now</td><td>Same</td></tr>
+<tr><td><strong>دیروز</strong> <em>dērōz</em></td><td>دیروز <em>dērōz</em></td><td>yesterday</td><td>Same</td></tr>
+<tr><td><strong>فردا</strong> <em>fardā</em></td><td>فردا <em>fardā</em></td><td>tomorrow</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences-4"><a class="header" href="#example-sentences-4">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Sahar besyār zūd khāstom.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I woke up very early in the morning."</p>
+</blockquote>
+<hr />
+<h2 id="common-verbs--افعال-رایج"><a class="header" href="#common-verbs--افعال-رایج">Common Verbs — افعال رایج</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi Infinitive</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>بیریم</strong> <em>berem</em></td><td>بروم <em>berawam</em> / <em>mirawam</em></td><td>to go (I go)</td><td>Hazaragi <em>-e-</em> vowel</td></tr>
+<tr><td><strong>بکونیم</strong> <em>bekonim</em></td><td>بکنم <em>bokonam</em></td><td>to do (I do)</td><td>Vowel difference</td></tr>
+<tr><td><strong>بگیم</strong> <em>begēm</em></td><td>بگویم <em>begōyam</em></td><td>to say (I say)</td><td>Simplified</td></tr>
+<tr><td><strong>بُوینیم</strong> <em>bewīnim</em></td><td>ببینم <em>bebinam</em></td><td>to see (I see)</td><td><em>w</em> for <em>b</em> in some Hazaragi</td></tr>
+<tr><td><strong>بخورم</strong> <em>bekhōram</em></td><td>بخورم <em>bekhōram</em></td><td>to eat (I eat)</td><td>Same</td></tr>
+<tr><td><strong>بنوشم</strong> <em>benōsham</em></td><td>بنوشم <em>benōsham</em></td><td>to drink (I drink)</td><td>Same</td></tr>
+<tr><td><strong>بخوم</strong> <em>bekhom</em></td><td>بخوابم <em>bekhābam</em></td><td>to sleep (I sleep)</td><td>Simplified</td></tr>
+<tr><td><strong>بیریم</strong> <em>beyāram</em></td><td>بیاورم <em>beyāwaram</em></td><td>to bring (I bring)</td><td>Simplified</td></tr>
+</tbody></table>
+</div>
+<p><strong>Note:</strong> Hazaragi verbs often drop syllables or simplify compared to Dari. This is normal and systematic.</p>
+<h3 id="example-sentences-5"><a class="header" href="#example-sentences-5">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Har rōz engelīsī mī-khōnam.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I read/study English every day."</p>
+</blockquote>
+<p>(Note: <em>mī-khōnam</em> = present continuous "I am reading/studying")</p>
+<hr />
+<h2 id="emotions--states--احساسات-و-حالات"><a class="header" href="#emotions--states--احساسات-و-حالات">Emotions &amp; States — احساسات و حالات</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>خوش</strong> <em>khōsh</em></td><td>خوش <em>khōsh</em></td><td>happy, good</td><td>Same</td></tr>
+<tr><td><strong>غمگین</strong> <em>ğamgīn</em></td><td>غمگین <em>ğamgīn</em></td><td>sad</td><td>Same</td></tr>
+<tr><td><strong>خسته</strong> <em>khasta</em></td><td>خسته <em>khasta</em></td><td>tired</td><td>Same</td></tr>
+<tr><td><strong>بیمار</strong> <em>bēmār</em></td><td>بیمار <em>bēmār</em></td><td>sick</td><td>Same</td></tr>
+<tr><td><strong>تندرست</strong> <em>tandorust</em></td><td>تندرست <em>tandorust</em></td><td>healthy</td><td>Same</td></tr>
+<tr><td><strong>درد</strong> <em>dard</em></td><td>درد <em>dard</em></td><td>pain, ache</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="school--learning--مکتب-و-آموزش"><a class="header" href="#school--learning--مکتب-و-آموزش">School &amp; Learning — مکتب و آموزش</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th><th>Notes</th></tr></thead><tbody>
+<tr><td><strong>کتو / کتاب</strong> <em>ketow</em></td><td>کتاب <em>ketāb</em></td><td>book</td><td>Hazaragi <em>-ow</em> ending</td></tr>
+<tr><td><strong>قلم</strong> <em>qalam</em></td><td>قلم <em>qalam</em></td><td>pen</td><td>Same</td></tr>
+<tr><td><strong>کاغذ</strong> <em>kāğaz</em></td><td>کاغذ <em>kāğaz</em></td><td>paper</td><td>Same</td></tr>
+<tr><td><strong>درس</strong> <em>dars</em></td><td>درس <em>dars</em></td><td>lesson</td><td>Same</td></tr>
+<tr><td><strong>تعلیم / آموزش</strong> <em>ta'līm</em></td><td>آموزش <em>āmōzesh</em></td><td>education, learning</td><td>Hazaragi uses more Arabic <em>ta'līm</em></td></tr>
+<tr><td><strong>شاگرد</strong> <em>shāgird</em></td><td>شاگرد <em>shāgird</em></td><td>student</td><td>Same</td></tr>
+<tr><td><strong>معلم</strong> <em>mu'allim</em></td><td>معلم <em>mo'allem</em></td><td>teacher</td><td>Same</td></tr>
+</tbody></table>
+</div>
+<h3 id="example-sentences-6"><a class="header" href="#example-sentences-6">Example Sentences</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Har rōz ketow-am mī-khōnam.</em></p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I read my book every day."</p>
+</blockquote>
+<hr />
+<h2 id="numbers-1-10--اعداد"><a class="header" href="#numbers-1-10--اعداد">Numbers 1-10 — اعداد</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th></tr></thead><tbody>
+<tr><td><strong>یک</strong> <em>yak</em></td><td>یک <em>yak</em></td><td>one</td></tr>
+<tr><td><strong>دو</strong> <em>do</em></td><td>دو <em>do</em></td><td>two</td></tr>
+<tr><td><strong>سه</strong> <em>se</em></td><td>سه <em>se</em></td><td>three</td></tr>
+<tr><td><strong>چهار / چار</strong> <em>chahār / chār</em></td><td>چهار <em>chahār</em></td><td>four</td></tr>
+<tr><td><strong>پنج</strong> <em>panj</em></td><td>پنج <em>panj</em></td><td>five</td></tr>
+<tr><td><strong>شش</strong> <em>shash</em></td><td>شش <em>shash</em></td><td>six</td></tr>
+<tr><td><strong>هفت</strong> <em>haft</em></td><td>هفت <em>haft</em></td><td>seven</td></tr>
+<tr><td><strong>هشت</strong> <em>hasht</em></td><td>هشت <em>hasht</em></td><td>eight</td></tr>
+<tr><td><strong>نه</strong> <em>no</em></td><td>نه <em>no</em></td><td>nine</td></tr>
+<tr><td><strong>ده</strong> <em>dah</em></td><td>ده <em>dah</em></td><td>ten</td></tr>
+</tbody></table>
+</div>
+<p><strong>Numbers in Hazaragi are nearly identical to Dari.</strong></p>
+<hr />
+<h2 id="common-phrases--عبارات-رایج"><a class="header" href="#common-phrases--عبارات-رایج">Common Phrases — عبارات رایج</a></h2>
+<h3 id="greetings"><a class="header" href="#greetings">Greetings</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>Dari</th><th>English</th></tr></thead><tbody>
+<tr><td><strong>سلام</strong> <em>salām</em></td><td>سلام <em>salām</em></td><td>hello</td></tr>
+<tr><td><strong>صبح به‌خیر</strong> <em>sobh bekheyr</em></td><td>صبح بخیر <em>sobh be kheyr</em></td><td>good morning</td></tr>
+<tr><td><strong>شو به‌خیر</strong> <em>shaw bekheyr</em></td><td>شب بخیر <em>shab be kheyr</em></td><td>good night</td></tr>
+<tr><td><strong>خدا حافظ</strong> <em>khodā hāfez</em></td><td>خدا حافظ <em>khodā hāfez</em></td><td>goodbye</td></tr>
+</tbody></table>
+</div>
+<h3 id="politeness"><a class="header" href="#politeness">Politeness</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>English</th></tr></thead><tbody>
+<tr><td><strong>لطفاً</strong> <em>lotfan</em></td><td>please</td></tr>
+<tr><td><strong>تشکر / ممنون</strong> <em>tashakor / mamnōn</em></td><td>thank you</td></tr>
+<tr><td><strong>عفو</strong> <em>afu</em></td><td>you're welcome</td></tr>
+<tr><td><strong>ببخشید</strong> <em>bebakhshīd</em></td><td>excuse me / sorry</td></tr>
+</tbody></table>
+</div>
+<h3 id="useful-expressions"><a class="header" href="#useful-expressions">Useful Expressions</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Hazaragi</th><th>English</th></tr></thead><tbody>
+<tr><td><strong>نمی‌فهمم</strong> <em>nemī-fahmam</em></td><td>I don't understand</td></tr>
+<tr><td><strong>کمک می‌خوام</strong> <em>komak mī-khwām</em></td><td>I need help</td></tr>
+<tr><td><strong>به‌انگلیسی چی می‌گیند؟</strong> <em>be engelīsī chī mī-gēnd?</em></td><td>What is this called in English?</td></tr>
+<tr><td><strong>دوباره بگید</strong> <em>dobāra begīd</em></td><td>Say it again (please repeat)</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="hazaragi-english-sentence-patterns"><a class="header" href="#hazaragi-english-sentence-patterns">Hazaragi-English Sentence Patterns</a></h2>
+<h3 id="present-tense"><a class="header" href="#present-tense">Present Tense</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Man engelīsī mī-khōnam.</em></p>
+</blockquote>
+<p><strong>Word-for-word:</strong></p>
+<blockquote>
+<p>"I English [present marker]-read."</p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I study/read English."</p>
+</blockquote>
+<h3 id="past-tense"><a class="header" href="#past-tense">Past Tense</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Man dērōz ketow khāndom.</em></p>
+</blockquote>
+<p><strong>Word-for-word:</strong></p>
+<blockquote>
+<p>"I yesterday book read-[past]."</p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I read a book yesterday."</p>
+</blockquote>
+<h3 id="future-using-khāham--i-will"><a class="header" href="#future-using-khāham--i-will">Future (using <em>khāham</em> / "I will")</a></h3>
+<p><strong>Hazaragi:</strong></p>
+<blockquote>
+<p><em>Man fardā be maktab khāham raft.</em></p>
+</blockquote>
+<p><strong>Word-for-word:</strong></p>
+<blockquote>
+<p>"I tomorrow to school will go-[past participle]."</p>
+</blockquote>
+<p><strong>English:</strong></p>
+<blockquote>
+<p>"I will go to school tomorrow."</p>
+</blockquote>
+<hr />
+<h2 id="study-tips-hazaragi--english"><a class="header" href="#study-tips-hazaragi--english">Study Tips: Hazaragi → English</a></h2>
+<ol>
+<li>
+<p><strong>Don't translate word-for-word</strong></p>
+<ul>
+<li>Hazaragi: SOV (Subject-Object-Verb)</li>
+<li>English: SVO (Subject-Verb-Object)</li>
+<li>Example: <em>"I book read"</em> → <em>"I read a book"</em></li>
+</ul>
+</li>
+<li>
+<p><strong>Add articles</strong> (<em>a, an, the</em>)</p>
+<ul>
+<li>Hazaragi has no articles</li>
+<li>English requires them: <em>"I have book"</em> → <em>"I have <strong>a</strong> book"</em></li>
+</ul>
+</li>
+<li>
+<p><strong>English needs pronouns as subjects</strong></p>
+<ul>
+<li>Hazaragi: <em>Mī-khōnam</em> (verb alone, "I read/am reading")</li>
+<li>English: <em>I read</em> (subject required)</li>
+</ul>
+</li>
+<li>
+<p><strong>Hazaragi plurals are flexible; English plurals are strict</strong></p>
+<ul>
+<li>Hazaragi: <em>mardim</em> can mean "people" (already plural)</li>
+<li>English: <em>man</em> → <em>men</em>, <em>woman</em> → <em>women</em> (irregular)</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h2 id="regional-variations-note"><a class="header" href="#regional-variations-note">Regional Variations Note</a></h2>
+<p>Hazaragi varies across:</p>
+<ul>
+<li><strong>Hazarajat (Bamyan, Daikundi, Ghazni, etc.)</strong> — Central Afghan Hazaragi</li>
+<li><strong>Quetta (Pakistan)</strong> — Quetta Hazaragi has Urdu/Pashto influence</li>
+<li><strong>Iran</strong> — Iranian Hazaragi has more Persian influence</li>
+<li><strong>Diaspora</strong> — Mixed features</li>
+</ul>
+<p><strong>This guide uses Central Afghan Hazaragi as the baseline.</strong> If your words differ, they're still valid!</p>
+<hr />
+<h2 id="practice-exercises"><a class="header" href="#practice-exercises">Practice Exercises</a></h2>
+<h3 id="exercise-1-translate-to-english"><a class="header" href="#exercise-1-translate-to-english">Exercise 1: Translate to English</a></h3>
+<ol>
+<li><em>Man dar kor-am engelīsī mī-khōnam.</em></li>
+<li><em>Mār-am ketow mī-khōnad.</em></li>
+<li><em>Aftow besyār garm ast.</em></li>
+</ol>
+<p><strong>Answers:</strong></p>
+<ol>
+<li>I study English at home.</li>
+<li>My mother reads a book.</li>
+<li>The sun is very hot.</li>
+</ol>
+<h3 id="exercise-2-translate-to-hazaragi-try-first-then-check"><a class="header" href="#exercise-2-translate-to-hazaragi-try-first-then-check">Exercise 2: Translate to Hazaragi (try first, then check)</a></h3>
+<ol>
+<li>I drink water every day.</li>
+<li>My brother goes to school.</li>
+<li>She is tired.</li>
+</ol>
+<p><strong>Suggested Hazaragi:</strong></p>
+<ol>
+<li><em>Man har rōz āw mī-nōsham.</em></li>
+<li><em>Barār-am be maktab mī-berem.</em></li>
+<li><em>Ow khasta ast.</em> (ow = she/he)</li>
+</ol>
+<hr />
+<h2 id="next-steps"><a class="header" href="#next-steps">Next Steps</a></h2>
+<ul>
+<li><strong>Expand vocabulary</strong> with <a href="../04-vocabulary-building.html">Main Vocabulary Chapter</a></li>
+<li><strong>Learn English grammar</strong> (very different from Hazaragi): <a href="../03-core-grammar.html">Core Grammar</a></li>
+<li><strong>Check Dari translations</strong> if needed: <a href="../companion-dari/04-vocabulary-dari.html">Dari Vocabulary</a></li>
+</ul>
+<hr />
+<p><strong>Back:</strong> <a href="./pronunciation.html">Hazaragi Pronunciation</a></p>
+<p><strong>Next:</strong> <a href="./dari-differences.html">Hazaragi vs Dari Differences</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../companion-hazaragi/pronunciation.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../companion-hazaragi/dari-differences.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../companion-hazaragi/pronunciation.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../companion-hazaragi/dari-differences.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="../theme/custom.js"></script>
+
+
+    </div>
+    </body>
+</html>

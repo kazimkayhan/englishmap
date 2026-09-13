@@ -1,0 +1,535 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Safety &amp; Privacy Guide - EnglishMap — English for Dari &amp; Hazaragi Speakers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="A comprehensive self-study English guide for Afghan learners — supporting Dari and Hazaragi speakers learning American English">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Getting Started</li><li class="chapter-item expanded "><a href="quick-start.html"><strong aria-hidden="true">1.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="how-to-use.html"><strong aria-hidden="true">2.</strong> How to Use This Book</a></li><li class="chapter-item expanded "><a href="safety-privacy.html" class="active"><strong aria-hidden="true">3.</strong> Safety & Privacy Guide</a></li><li class="chapter-item expanded "><a href="placement-quiz.html"><strong aria-hidden="true">4.</strong> Placement Quiz</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Foundation Skills (A0-A2)</li><li class="chapter-item expanded "><a href="01-overview.html"><strong aria-hidden="true">5.</strong> Overview — Your English Journey</a></li><li class="chapter-item expanded "><a href="02-beginner-foundations.html"><strong aria-hidden="true">6.</strong> Beginner Foundations</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="beginner/alphabet.html"><strong aria-hidden="true">6.1.</strong> The Alphabet</a></li><li class="chapter-item "><a href="beginner/first-words.html"><strong aria-hidden="true">6.2.</strong> First 100 Words</a></li><li class="chapter-item "><a href="beginner/survival-english.html"><strong aria-hidden="true">6.3.</strong> Survival English</a></li></ol></li><li class="chapter-item expanded "><a href="03-core-grammar.html"><strong aria-hidden="true">7.</strong> Core Grammar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="grammar/be-have.html"><strong aria-hidden="true">7.1.</strong> Be & Have</a></li><li class="chapter-item "><a href="grammar/present-simple.html"><strong aria-hidden="true">7.2.</strong> Present Simple</a></li><li class="chapter-item "><a href="grammar/questions.html"><strong aria-hidden="true">7.3.</strong> Questions & Negatives</a></li><li class="chapter-item "><a href="grammar/articles.html"><strong aria-hidden="true">7.4.</strong> Articles (a, an, the)</a></li></ol></li><li class="chapter-item expanded "><a href="04-vocabulary-building.html"><strong aria-hidden="true">8.</strong> Vocabulary Building</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="vocabulary/words-300.html"><strong aria-hidden="true">8.1.</strong> High-Frequency Words (1-300)</a></li><li class="chapter-item "><a href="vocabulary/words-700.html"><strong aria-hidden="true">8.2.</strong> High-Frequency Words (301-700)</a></li><li class="chapter-item "><a href="vocabulary/words-1000.html"><strong aria-hidden="true">8.3.</strong> Words 701-1000 (Self-Fill)</a></li><li class="chapter-item "><a href="vocabulary/memory.html"><strong aria-hidden="true">8.4.</strong> Memory Techniques</a></li></ol></li><li class="chapter-item expanded "><a href="05-pronunciation.html"><strong aria-hidden="true">9.</strong> Pronunciation (American English)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="pronunciation/vowels.html"><strong aria-hidden="true">9.1.</strong> Vowel Sounds</a></li><li class="chapter-item "><a href="pronunciation/consonants.html"><strong aria-hidden="true">9.2.</strong> Consonants for Dari Speakers</a></li><li class="chapter-item "><a href="pronunciation/stress.html"><strong aria-hidden="true">9.3.</strong> Word Stress</a></li><li class="chapter-item "><a href="pronunciation/dari-challenges.html"><strong aria-hidden="true">9.4.</strong> Common Dari L1 Challenges</a></li><li class="chapter-item "><a href="pronunciation/hazaragi-notes.html"><strong aria-hidden="true">9.5.</strong> Hazaragi Accent Notes</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Core Skills (A2-B1)</li><li class="chapter-item expanded "><a href="06-listening.html"><strong aria-hidden="true">10.</strong> Listening</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="listening/strategies.html"><strong aria-hidden="true">10.1.</strong> Active Listening Strategies</a></li><li class="chapter-item "><a href="listening/dictation.html"><strong aria-hidden="true">10.2.</strong> Dictation Practice</a></li></ol></li><li class="chapter-item expanded "><a href="07-speaking.html"><strong aria-hidden="true">11.</strong> Speaking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="speaking/confidence.html"><strong aria-hidden="true">11.1.</strong> Building Confidence</a></li><li class="chapter-item "><a href="speaking/shadowing.html"><strong aria-hidden="true">11.2.</strong> Shadowing Technique</a></li><li class="chapter-item "><a href="speaking/recording.html"><strong aria-hidden="true">11.3.</strong> Self-Recording</a></li></ol></li><li class="chapter-item expanded "><a href="08-reading.html"><strong aria-hidden="true">12.</strong> Reading</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="reading/strategies.html"><strong aria-hidden="true">12.1.</strong> Reading Strategies</a></li><li class="chapter-item "><a href="reading/graded-readings.html"><strong aria-hidden="true">12.2.</strong> Graded Readings</a></li></ol></li><li class="chapter-item expanded "><a href="09-writing.html"><strong aria-hidden="true">13.</strong> Writing</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="writing/sentences.html"><strong aria-hidden="true">13.1.</strong> Sentence Writing</a></li><li class="chapter-item "><a href="writing/paragraphs.html"><strong aria-hidden="true">13.2.</strong> Paragraph Structure</a></li><li class="chapter-item "><a href="writing/journal.html"><strong aria-hidden="true">13.3.</strong> Journal Practice</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Intermediate & Advanced (B1-C2)</li><li class="chapter-item expanded "><a href="10-intermediate-growth.html"><strong aria-hidden="true">14.</strong> Intermediate Growth (B1-B2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="intermediate/past-tenses.html"><strong aria-hidden="true">14.1.</strong> Past Tenses</a></li><li class="chapter-item "><a href="intermediate/future.html"><strong aria-hidden="true">14.2.</strong> Future Forms</a></li><li class="chapter-item "><a href="intermediate/fluency.html"><strong aria-hidden="true">14.3.</strong> Building Fluency</a></li></ol></li><li class="chapter-item expanded "><a href="11-advanced-skills.html"><strong aria-hidden="true">15.</strong> Advanced Skills (C1-C2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="advanced/grammar.html"><strong aria-hidden="true">15.1.</strong> Complex Grammar</a></li><li class="chapter-item "><a href="advanced/professional.html"><strong aria-hidden="true">15.2.</strong> Professional English</a></li><li class="chapter-item "><a href="advanced/academic.html"><strong aria-hidden="true">15.3.</strong> Academic English</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Study Success</li><li class="chapter-item expanded "><a href="12-study-strategies.html"><strong aria-hidden="true">16.</strong> Study Strategies</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="strategies/habits.html"><strong aria-hidden="true">16.1.</strong> Building Habits</a></li><li class="chapter-item "><a href="strategies/breaks.html"><strong aria-hidden="true">16.2.</strong> Dealing with Breaks</a></li><li class="chapter-item "><a href="strategies/motivation.html"><strong aria-hidden="true">16.3.</strong> Maintaining Motivation</a></li><li class="chapter-item "><a href="strategies/confidence-building.html"><strong aria-hidden="true">16.4.</strong> Overcoming Shame</a></li></ol></li><li class="chapter-item expanded "><a href="13-practice-plans.html"><strong aria-hidden="true">17.</strong> Practice Plans</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="plans/12-week.html"><strong aria-hidden="true">17.1.</strong> 12-Week Beginner Plan</a></li><li class="chapter-item "><a href="plans/24-week.html"><strong aria-hidden="true">17.2.</strong> 24-Week Intermediate Plan</a></li><li class="chapter-item "><a href="plans/52-week.html"><strong aria-hidden="true">17.3.</strong> 52-Week Mastery Path</a></li><li class="chapter-item "><a href="plans/daily-template.html"><strong aria-hidden="true">17.4.</strong> Daily Practice Template</a></li></ol></li><li class="chapter-item expanded "><a href="14-assessments.html"><strong aria-hidden="true">18.</strong> Assessments & Tracking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="assessments/rubrics.html"><strong aria-hidden="true">18.1.</strong> Self-Assessment Rubrics</a></li><li class="chapter-item "><a href="assessments/quizzes.html"><strong aria-hidden="true">18.2.</strong> Unit Quizzes</a></li><li class="chapter-item "><a href="assessments/checkpoints.html"><strong aria-hidden="true">18.3.</strong> Checkpoint Tests</a></li></ol></li><li class="chapter-item expanded "><a href="15-resources.html"><strong aria-hidden="true">19.</strong> Free Resources</a></li><li class="chapter-item expanded "><a href="16-tracker.html"><strong aria-hidden="true">20.</strong> Progress Tracker</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Exercises & Practice</li><li class="chapter-item expanded "><a href="exercises/overview.html"><strong aria-hidden="true">21.</strong> Exercise Overview</a></li><li class="chapter-item expanded "><a href="exercises/02-beginner-drills.html"><strong aria-hidden="true">22.</strong> Beginner Drills</a></li><li class="chapter-item expanded "><a href="exercises/03-grammar-drills.html"><strong aria-hidden="true">23.</strong> Grammar Drills</a></li><li class="chapter-item expanded "><a href="exercises/04-vocabulary-drills.html"><strong aria-hidden="true">24.</strong> Vocabulary Drills</a></li><li class="chapter-item expanded "><a href="exercises/05-pronunciation-drills.html"><strong aria-hidden="true">25.</strong> Pronunciation Drills</a></li><li class="chapter-item expanded "><a href="exercises/06-listening-drills.html"><strong aria-hidden="true">26.</strong> Listening Drills</a></li><li class="chapter-item expanded "><a href="exercises/07-speaking-drills.html"><strong aria-hidden="true">27.</strong> Speaking Drills</a></li><li class="chapter-item expanded "><a href="exercises/08-reading-drills.html"><strong aria-hidden="true">28.</strong> Reading Drills</a></li><li class="chapter-item expanded "><a href="exercises/09-writing-drills.html"><strong aria-hidden="true">29.</strong> Writing Drills</a></li><li class="chapter-item expanded "><a href="exercises/10-intermediate-drills.html"><strong aria-hidden="true">30.</strong> Intermediate Drills</a></li><li class="chapter-item expanded "><a href="exercises/11-advanced-drills.html"><strong aria-hidden="true">31.</strong> Advanced Drills</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Answer Keys</li><li class="chapter-item expanded "><a href="answer-keys/guide.html"><strong aria-hidden="true">32.</strong> Answer Keys Guide</a></li><li class="chapter-item expanded "><a href="answer-keys/02-beginner.html"><strong aria-hidden="true">33.</strong> Beginner Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/03-grammar.html"><strong aria-hidden="true">34.</strong> Grammar Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/04-vocabulary.html"><strong aria-hidden="true">35.</strong> Vocabulary Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/05-pronunciation.html"><strong aria-hidden="true">36.</strong> Pronunciation Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/06-listening.html"><strong aria-hidden="true">37.</strong> Listening Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/07-speaking.html"><strong aria-hidden="true">38.</strong> Speaking Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/08-reading.html"><strong aria-hidden="true">39.</strong> Reading Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/09-writing.html"><strong aria-hidden="true">40.</strong> Writing Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/10-intermediate.html"><strong aria-hidden="true">41.</strong> Intermediate Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/11-advanced.html"><strong aria-hidden="true">42.</strong> Advanced Answers</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Worksheets</li><li class="chapter-item expanded "><a href="worksheets/overview.html"><strong aria-hidden="true">43.</strong> Worksheet Overview</a></li><li class="chapter-item expanded "><a href="worksheets/alphabet.html"><strong aria-hidden="true">44.</strong> Alphabet Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/be-have.html"><strong aria-hidden="true">45.</strong> Be & Have Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/present.html"><strong aria-hidden="true">46.</strong> Present Tense Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/vocabulary-log.html"><strong aria-hidden="true">47.</strong> Vocabulary Log</a></li><li class="chapter-item expanded "><a href="worksheets/phonics.html"><strong aria-hidden="true">48.</strong> Phonics & Blends</a></li><li class="chapter-item expanded "><a href="worksheets/dictation.html"><strong aria-hidden="true">49.</strong> Listening Dictation</a></li><li class="chapter-item expanded "><a href="worksheets/journal.html"><strong aria-hidden="true">50.</strong> Writing Journal</a></li><li class="chapter-item expanded "><a href="worksheets/progress.html"><strong aria-hidden="true">51.</strong> Progress Review</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Dari Companion — راهنمای دری</li><li class="chapter-item expanded "><a href="companion-dari/00-guide.html"><strong aria-hidden="true">52.</strong> Dari Guide Introduction — راهنمای همراه</a></li><li class="chapter-item expanded "><a href="companion-dari/01-overview-dari.html"><strong aria-hidden="true">53.</strong> Overview (Dari) — خلاصه</a></li><li class="chapter-item expanded "><a href="companion-dari/02-beginner-dari.html"><strong aria-hidden="true">54.</strong> Beginner Foundations (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/03-grammar-dari.html"><strong aria-hidden="true">55.</strong> Core Grammar (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/04-vocabulary-dari.html"><strong aria-hidden="true">56.</strong> Vocabulary (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/05-pronunciation-dari.html"><strong aria-hidden="true">57.</strong> Pronunciation (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/06-08-skills-dari.html"><strong aria-hidden="true">58.</strong> Listening, Speaking, Reading (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/09-writing-dari.html"><strong aria-hidden="true">59.</strong> Writing (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/10-11-advanced-dari.html"><strong aria-hidden="true">60.</strong> Intermediate & Advanced (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/12-16-support-dari.html"><strong aria-hidden="true">61.</strong> Study Support (Dari)</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Hazaragi Companion — راهنمای هزارگی</li><li class="chapter-item expanded "><a href="companion-hazaragi/00-guide.html"><strong aria-hidden="true">62.</strong> Hazaragi Guide Introduction</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/pronunciation.html"><strong aria-hidden="true">63.</strong> Hazaragi Pronunciation Guide</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/vocabulary.html"><strong aria-hidden="true">64.</strong> Common Hazaragi-English Vocabulary</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/dari-differences.html"><strong aria-hidden="true">65.</strong> Hazaragi vs Dari: Key Differences</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/learning-notes.html"><strong aria-hidden="true">66.</strong> Hazaragi Learning Notes</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Appendices</li><li class="chapter-item expanded "><a href="appendices/glossary.html"><strong aria-hidden="true">67.</strong> Glossary of Terms</a></li><li class="chapter-item expanded "><a href="appendices/dari-glosses.html"><strong aria-hidden="true">68.</strong> Dari Glosses</a></li><li class="chapter-item expanded "><a href="appendices/pronunciation-audio-guide.html"><strong aria-hidden="true">69.</strong> Pronunciation Audio Guide (A-Z)</a></li><li class="chapter-item expanded "><a href="appendices/building-confidence.html"><strong aria-hidden="true">70.</strong> Building Confidence</a></li><li class="chapter-item expanded "><a href="appendices/building-fluency.html"><strong aria-hidden="true">71.</strong> Building Fluency</a></li><li class="chapter-item expanded "><a href="appendices/exercise-sampler.html"><strong aria-hidden="true">72.</strong> Exercise Sampler</a></li><li class="chapter-item expanded "><a href="appendices/unit-quiz-schedule.html"><strong aria-hidden="true">73.</strong> Unit Quiz Schedule</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Contributing</li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">74.</strong> How to Contribute</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">EnglishMap — English for Dari &amp; Hazaragi Speakers</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap/edit/main/src/safety-privacy.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="safety--privacy-guide"><a class="header" href="#safety--privacy-guide">Safety &amp; Privacy Guide</a></h1>
+<p><strong>For young women studying English at home in Afghanistan</strong></p>
+<p>Learning English is your right. This guide helps you study safely, privately, and without unnecessary risk.</p>
+<hr />
+<h2 id="physical-safety"><a class="header" href="#physical-safety">Physical Safety</a></h2>
+<h3 id="choosing-your-study-space"><a class="header" href="#choosing-your-study-space">Choosing Your Study Space</a></h3>
+<p><strong>Safe spaces:</strong></p>
+<ul>
+<li>✅ Private room with a door you can close</li>
+<li>✅ Quiet corner where you won't be interrupted</li>
+<li>✅ Shared space during times when you feel comfortable</li>
+<li>✅ Any place where you can focus without fear</li>
+</ul>
+<p><strong>Tips:</strong></p>
+<ul>
+<li>Use <strong>headphones</strong> for listening practice</li>
+<li>Keep your study materials in a discrete folder or app</li>
+<li>If questioned, simple answers work: <em>"I'm learning a skill"</em> or <em>"I'm studying for my future"</em></li>
+<li>You don't owe detailed explanations to anyone</li>
+</ul>
+<h3 id="recording-yourself-speaking-practice"><a class="header" href="#recording-yourself-speaking-practice">Recording Yourself (Speaking Practice)</a></h3>
+<p>Voice recording is essential for pronunciation practice, but be cautious:</p>
+<p><strong>Safe practices:</strong></p>
+<ul>
+<li>✅ Use voice memos app with a <strong>strong passcode/lock</strong></li>
+<li>✅ Store recordings in a <strong>private folder</strong></li>
+<li>✅ <strong>Delete old recordings</strong> after reviewing (weekly cleanup)</li>
+<li>✅ Never upload recordings to public platforms</li>
+<li>✅ Avoid saying your full name or location in recordings</li>
+</ul>
+<p><strong>What to record:</strong></p>
+<ul>
+<li>Practice sentences: <em>"Hello. I study English."</em></li>
+<li>Reading passages from this book</li>
+<li>Describing simple topics: <em>"My daily routine"</em> (generic)</li>
+</ul>
+<p><strong>What NOT to record:</strong></p>
+<ul>
+<li>Personal identifying information</li>
+<li>Political opinions or sensitive topics</li>
+<li>Your location or family details</li>
+</ul>
+<hr />
+<h2 id="digital-safety"><a class="header" href="#digital-safety">Digital Safety</a></h2>
+<h3 id="device--app-security"><a class="header" href="#device--app-security">Device &amp; App Security</a></h3>
+<p><strong>Essential protections:</strong></p>
+<ol>
+<li><strong>Strong passcode</strong> on your phone/tablet (not 0000 or 1234)</li>
+<li><strong>Biometric lock</strong> (fingerprint/face) if available</li>
+<li><strong>Private browsing mode</strong> when using shared devices</li>
+<li><strong>Clear browser history</strong> after study sessions on shared devices</li>
+</ol>
+<h3 id="learning-apps--websites"><a class="header" href="#learning-apps--websites">Learning Apps &amp; Websites</a></h3>
+<p><strong>Trusted sources (free &amp; safe):</strong></p>
+<ul>
+<li>This book (offline mdBook)</li>
+<li>BBC Learning English (reputable)</li>
+<li>Duolingo (privacy-conscious)</li>
+<li>YouTube channels from known institutions (no account needed)</li>
+</ul>
+<p><strong>Red flags (avoid):</strong></p>
+<ul>
+<li>Apps requesting excessive permissions (contacts, camera, microphone for a vocabulary app?)</li>
+<li>"Free trials" requiring credit card info</li>
+<li>Apps from unknown developers</li>
+<li>Platforms asking for real name, photo, and location for basic use</li>
+</ul>
+<h3 id="account-safety"><a class="header" href="#account-safety">Account Safety</a></h3>
+<p><strong>When creating accounts:</strong></p>
+<ul>
+<li>Use a <strong>username</strong>, not your real name</li>
+<li>Create a <strong>separate email</strong> for learning apps (e.g., Gmail with pseudonym)</li>
+<li><strong>Strong, unique passwords</strong> (write them in a hidden notebook or password manager)</li>
+<li><strong>Skip optional fields</strong> (real name, phone, photo)</li>
+<li>Never share personal information in profile or bio</li>
+</ul>
+<p><strong>Two-factor authentication (2FA):</strong></p>
+<ul>
+<li>Enable it if the platform offers it</li>
+<li>Use authenticator apps (Google Authenticator, Authy) rather than SMS if possible</li>
+<li>Protects your account even if password is guessed</li>
+</ul>
+<hr />
+<h2 id="language-exchange--online-practice"><a class="header" href="#language-exchange--online-practice">Language Exchange &amp; Online Practice</a></h2>
+<h3 id="safer-options"><a class="header" href="#safer-options">Safer Options</a></h3>
+<ul>
+<li>✅ Text-based platforms (no video/voice)</li>
+<li>✅ Apps with reporting and blocking features</li>
+<li>✅ Group learning communities (not 1-on-1 chats)</li>
+<li>✅ Platforms with moderation (Hello Talk, Tandem have reports/blocks)</li>
+</ul>
+<h3 id="what-not-to-share"><a class="header" href="#what-not-to-share">What NOT to Share</a></h3>
+<ul>
+<li>❌ Real name or nickname others can trace</li>
+<li>❌ Location (city, neighborhood, school, landmarks)</li>
+<li>❌ Photos of yourself or family</li>
+<li>❌ Phone number or personal social media</li>
+<li>❌ Daily schedule or routines</li>
+<li>❌ Political or religious views (even if asked)</li>
+</ul>
+<h3 id="red-flags--end-conversation-immediately-if"><a class="header" href="#red-flags--end-conversation-immediately-if">Red Flags — End Conversation Immediately If:</a></h3>
+<ul>
+<li>Someone asks where you live (city/country is max)</li>
+<li>Requests move from app to WhatsApp/Telegram right away</li>
+<li>Asks for photos or video calls</li>
+<li>Sends inappropriate messages</li>
+<li>Pressures you to meet in person</li>
+<li>Shows too much interest in your personal life</li>
+<li>Makes you feel uncomfortable in any way</li>
+</ul>
+<p><strong>Action:</strong> Block, report, and move on. You owe no explanation.</p>
+<hr />
+<h2 id="emotional-safety"><a class="header" href="#emotional-safety">Emotional Safety</a></h2>
+<h3 id="managing-shame--guilt"><a class="header" href="#managing-shame--guilt">Managing Shame &amp; Guilt</a></h3>
+<p><strong>Remember:</strong></p>
+<ul>
+<li><strong>Learning is not forbidden by any religion</strong> — all major faiths encourage education</li>
+<li>You have the <strong>right</strong> to learn and grow</li>
+<li>Taking breaks is normal, not failure</li>
+<li>Missing days doesn't erase your progress</li>
+<li>You are not "behind" — you are on your own path</li>
+</ul>
+<h3 id="dealing-with-discouragement"><a class="header" href="#dealing-with-discouragement">Dealing with Discouragement</a></h3>
+<p><strong>When you feel:</strong></p>
+<ul>
+<li>"I'm not smart enough" → <strong>False.</strong> You can learn any skill with practice.</li>
+<li>"It's too late for me" → <strong>False.</strong> Adults learn languages successfully every day.</li>
+<li>"I'll never be fluent" → Fluency is a journey, not a destination. Progress counts.</li>
+<li>"I've forgotten everything after a break" → Review is faster than learning. You'll catch up quickly.</li>
+</ul>
+<p><strong>Action:</strong></p>
+<ul>
+<li>Read <a href="./appendices/building-confidence.html">Building Confidence</a></li>
+<li>Review your <a href="./16-tracker.html">Progress Tracker</a> — see how far you've come</li>
+<li>Restart with 10 minutes today — that's enough</li>
+</ul>
+<h3 id="comparison--social-media"><a class="header" href="#comparison--social-media">Comparison &amp; Social Media</a></h3>
+<p><strong>Avoid:</strong></p>
+<ul>
+<li>Comparing yourself to fluent speakers online (they have different histories)</li>
+<li>Following "polyglot influencers" who make you feel bad</li>
+<li>Perfectionism — "If I can't study 2 hours, I won't study at all" (wrong mindset)</li>
+</ul>
+<p><strong>Practice:</strong></p>
+<ul>
+<li>Compare yourself to <strong>yesterday's you</strong></li>
+<li>Celebrate small wins: learned 5 words, spoke 3 sentences, studied 15 minutes</li>
+<li>Unfollow accounts that make you feel inadequate</li>
+</ul>
+<hr />
+<h2 id="privacy-in-this-book"><a class="header" href="#privacy-in-this-book">Privacy in This Book</a></h2>
+<h3 id="what-this-book-does-not-do"><a class="header" href="#what-this-book-does-not-do">What This Book Does NOT Do</a></h3>
+<ul>
+<li>❌ No tracking or analytics</li>
+<li>❌ No account required</li>
+<li>❌ No data collection</li>
+<li>❌ No internet needed after initial load</li>
+<li>❌ No ads or third-party scripts</li>
+</ul>
+<h3 id="what-this-book-does"><a class="header" href="#what-this-book-does">What This Book DOES</a></h3>
+<ul>
+<li>✅ Works completely offline</li>
+<li>✅ Stored locally on your device</li>
+<li>✅ No record of what you read or when</li>
+<li>✅ Private search (nothing leaves your device)</li>
+</ul>
+<h3 id="keeping-this-book-private"><a class="header" href="#keeping-this-book-private">Keeping This Book Private</a></h3>
+<ul>
+<li>Bookmark as <strong>"Study Notes"</strong> or a generic name</li>
+<li>Add to home screen with a discrete icon (mobile)</li>
+<li>Use private/incognito browser if sharing device</li>
+<li>Clear cache/history on shared devices</li>
+</ul>
+<hr />
+<h2 id="emergency-protocol"><a class="header" href="#emergency-protocol">Emergency Protocol</a></h2>
+<h3 id="if-someone-finds-your-study-materials"><a class="header" href="#if-someone-finds-your-study-materials">If Someone Finds Your Study Materials</a></h3>
+<p><strong>Stay calm. Options:</strong></p>
+<ol>
+<li>
+<p><strong>Minimize:</strong></p>
+<ul>
+<li>"It's just English vocabulary for reading."</li>
+<li>"I'm learning to read instructions better."</li>
+<li>"It's for work/online tasks someday."</li>
+</ul>
+</li>
+<li>
+<p><strong>Redirect:</strong></p>
+<ul>
+<li>Change subject</li>
+<li>Offer to help them with something</li>
+<li>Close the app calmly (don't panic)</li>
+</ul>
+</li>
+<li>
+<p><strong>Hide in Plain Sight:</strong></p>
+<ul>
+<li>Keep book in a folder named "Recipes" or "Notes"</li>
+<li>Mix study files with other documents</li>
+<li>Use apps that look like games or utilities</li>
+</ul>
+</li>
+</ol>
+<h3 id="if-you-feel-unsafe"><a class="header" href="#if-you-feel-unsafe">If You Feel Unsafe</a></h3>
+<ul>
+<li><strong>Stop studying temporarily</strong> — your safety comes first</li>
+<li>Delete apps if needed (you can reinstall later)</li>
+<li>Study in shorter bursts when alone</li>
+<li>Consider less obvious study materials (e.g., listening looks like music, reading looks like browsing)</li>
+</ul>
+<h3 id="resources-for-safety"><a class="header" href="#resources-for-safety">Resources for Safety</a></h3>
+<p>If you need help with digital safety or privacy:</p>
+<ul>
+<li>Access Now (digital security hotline)</li>
+<li>Electronic Frontier Foundation (EFF) guides</li>
+<li>Internews (safety resources for women)</li>
+</ul>
+<hr />
+<h2 id="long-term-privacy-habits"><a class="header" href="#long-term-privacy-habits">Long-Term Privacy Habits</a></h2>
+<h3 id="1-regular-cleanups"><a class="header" href="#1-regular-cleanups">1. Regular Cleanups</a></h3>
+<ul>
+<li>Delete old voice recordings weekly</li>
+<li>Clear browser history on shared devices</li>
+<li>Remove apps you no longer use</li>
+<li>Check app permissions quarterly</li>
+</ul>
+<h3 id="2-separate-identities"><a class="header" href="#2-separate-identities">2. Separate Identities</a></h3>
+<ul>
+<li>Learning account ≠ personal account</li>
+<li>Different passwords for different purposes</li>
+<li>Use pseudonyms consistently</li>
+</ul>
+<h3 id="3-trust-your-instincts"><a class="header" href="#3-trust-your-instincts">3. Trust Your Instincts</a></h3>
+<ul>
+<li>If something feels wrong, stop</li>
+<li>If someone makes you uncomfortable, block them</li>
+<li>If an app feels sketchy, delete it</li>
+<li>Your gut is usually right</li>
+</ul>
+<hr />
+<h2 id="specific-safety-scenarios"><a class="header" href="#specific-safety-scenarios">Specific Safety Scenarios</a></h2>
+<h3 id="scenario-1-shared-family-phone"><a class="header" href="#scenario-1-shared-family-phone">Scenario 1: Shared Family Phone</a></h3>
+<p><strong>Strategy:</strong></p>
+<ul>
+<li>Study in private browsing mode</li>
+<li>Clear history after each session</li>
+<li>Use apps that can be hidden or password-protected</li>
+<li>Alternatively, use this book offline without leaving traces</li>
+</ul>
+<h3 id="scenario-2-limited-privacy-at-home"><a class="header" href="#scenario-2-limited-privacy-at-home">Scenario 2: Limited Privacy at Home</a></h3>
+<p><strong>Strategy:</strong></p>
+<ul>
+<li>Study during times when you're alone</li>
+<li>Use headphones always (looks like listening to music)</li>
+<li>Keep screen angled away from doors/windows</li>
+<li>Have a cover activity ready to switch to (recipes, news, games)</li>
+</ul>
+<h3 id="scenario-3-public-wi-fi"><a class="header" href="#scenario-3-public-wi-fi">Scenario 3: Public Wi-Fi</a></h3>
+<p><strong>Strategy:</strong></p>
+<ul>
+<li>Download lessons when on home Wi-Fi</li>
+<li>Use offline mode in public</li>
+<li>Avoid logging into accounts on public networks</li>
+<li>Use VPN if available and legal in your area</li>
+</ul>
+<hr />
+<h2 id="balancing-safety--learning"><a class="header" href="#balancing-safety--learning">Balancing Safety &amp; Learning</a></h2>
+<p><strong>Your education matters. Your safety matters more.</strong></p>
+<p>If you must choose between:</p>
+<ul>
+<li>Studying openly but at risk → Choose safety, study discreetly</li>
+<li>Perfect practice vs. safe practice → Choose safe</li>
+<li>Recording yourself vs. staying silent → Silent practice is still practice</li>
+</ul>
+<p><strong>Alternative low-profile study methods:</strong></p>
+<ul>
+<li>Read silently (still effective)</li>
+<li>Write vocabulary in a regular notebook (looks like any notes)</li>
+<li>Listen to English as "music" with headphones</li>
+<li>Practice pronunciation silently (mouth movements only)</li>
+</ul>
+<hr />
+<h2 id="remember"><a class="header" href="#remember">Remember</a></h2>
+<ul>
+<li><strong>You have the right to learn</strong> — this is not wrong or shameful</li>
+<li><strong>Small risks for big rewards</strong> — but assess them honestly</li>
+<li><strong>Privacy is protection</strong> — use it wisely</li>
+<li><strong>You are not alone</strong> — millions of women study discreetly worldwide</li>
+<li><strong>Breaks for safety are not failure</strong> — come back when you can</li>
+</ul>
+<hr />
+<h2 id="additional-resources"><a class="header" href="#additional-resources">Additional Resources</a></h2>
+<ul>
+<li><strong><a href="./12-study-strategies.html">Study Strategies</a></strong> — building sustainable habits</li>
+<li><strong><a href="./appendices/building-confidence.html">Building Confidence</a></strong> — overcoming doubt</li>
+<li><strong><a href="./15-resources.html">Free Resources</a></strong> — safe apps and tools</li>
+</ul>
+<hr />
+<p><strong>Ready to start safely?</strong> → <a href="./quick-start.html">Quick Start</a></p>
+<p><strong>Need study motivation?</strong> → <a href="./appendices/building-confidence.html">Building Confidence</a></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="how-to-use.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="placement-quiz.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="how-to-use.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="placement-quiz.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/custom.js"></script>
+
+
+    </div>
+    </body>
+</html>
