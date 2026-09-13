@@ -16,7 +16,6 @@ preferred-dark-theme = "navy"
 git-repository-url = "https://github.com/kazimkayhan/englishmap"
 edit-url-template = "https://github.com/kazimkayhan/englishmap/edit/main/{path}"
 site-url = "/englishmap/"
-cname = "kazimkayhan.github.io"
 additional-css = ["theme/custom.css"]
 additional-js = ["theme/custom.js"]
 
