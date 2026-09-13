@@ -1,173 +1,161 @@
-// EnglishMap Custom JavaScript - RTL Support & Enhancements
+/**
+ * EnglishMap Professional Theme - JavaScript Enhancements
+ * 
+ * Minimal, professional enhancements:
+ * - RTL content detection
+ * - Smooth scrolling
+ * - Table responsiveness
+ * - Accessible external link handling
+ */
 
 (function() {
     'use strict';
 
-    // Auto-detect RTL content and add appropriate classes
+    /**
+     * Detect and properly mark RTL (Right-to-Left) content
+     * Important for Dari and Hazaragi text blocks
+     */
     function enhanceRTLSupport() {
         const rtlPatterns = [
-            /[\u0600-\u06FF]/, // Arabic/Persian script
-            /[\u0750-\u077F]/, // Arabic Supplement
-            /[\uFB50-\uFDFF]/, // Arabic Presentation Forms
-            /[\uFE70-\uFEFF]/  // Arabic Presentation Forms B
+            /[\u0600-\u06FF]/,  // Arabic/Persian script
+            /[\u0750-\u077F]/,  // Arabic Supplement
+            /[\uFB50-\uFDFF]/,  // Arabic Presentation Forms-A
+            /[\uFE70-\uFEFF]/   // Arabic Presentation Forms-B
         ];
 
-        document.querySelectorAll('p, div, blockquote').forEach(element => {
-            const text = element.textContent;
+        document.querySelectorAll('p, div, li, td, th').forEach(element => {
+            const text = element.textContent || '';
             const hasRTLChars = rtlPatterns.some(pattern => pattern.test(text));
             
-            if (hasRTLChars) {
-                // Check if element already has RTL styling
-                if (!element.classList.contains('dari') && 
-                    !element.classList.contains('hazaragi') &&
-                    element.getAttribute('dir') !== 'rtl') {
-                    element.setAttribute('dir', 'rtl');
-                    element.style.textAlign = 'right';
-                }
+            if (hasRTLChars && !element.closest('[dir="rtl"]') && 
+                !element.classList.contains('dari') && 
+                !element.classList.contains('hazaragi')) {
+                element.setAttribute('dir', 'rtl');
+                element.style.textAlign = 'right';
             }
         });
     }
 
-    // Add smooth scroll behavior
+    /**
+     * Enable smooth scrolling for anchor links
+     */
     function enableSmoothScroll() {
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
-                if (href === '#') return;
+                if (!href || href === '#') return;
                 
-                e.preventDefault();
                 const target = document.querySelector(href);
                 if (target) {
+                    e.preventDefault();
                     target.scrollIntoView({
                         behavior: 'smooth',
                         block: 'start'
                     });
+                    
+                    // Update URL without jumping
+                    if (history.pushState) {
+                        history.pushState(null, null, href);
+                    }
                 }
             });
         });
     }
 
-    // Add copy button to code blocks
-    function addCopyButtons() {
-        document.querySelectorAll('pre').forEach(pre => {
-            const button = document.createElement('button');
-            button.textContent = 'Copy';
-            button.className = 'copy-button';
-            button.style.cssText = `
-                position: absolute;
-                top: 0.5rem;
-                right: 0.5rem;
-                padding: 0.25rem 0.5rem;
-                background: var(--primary-color);
-                color: white;
-                border: none;
-                border-radius: 0.25rem;
-                cursor: pointer;
-                font-size: 0.85rem;
-            `;
-            
-            button.addEventListener('click', () => {
-                const code = pre.querySelector('code');
-                const text = code ? code.textContent : pre.textContent;
-                navigator.clipboard.writeText(text).then(() => {
-                    button.textContent = 'Copied!';
-                    setTimeout(() => {
-                        button.textContent = 'Copy';
-                    }, 2000);
-                });
-            });
-            
-            pre.style.position = 'relative';
-            pre.appendChild(button);
-        });
-    }
-
-    // Track reading progress
-    function initProgressBar() {
-        const progressBar = document.createElement('div');
-        progressBar.id = 'reading-progress';
-        progressBar.style.cssText = `
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 0%;
-            height: 3px;
-            background: var(--primary-color);
-            z-index: 9999;
-            transition: width 0.1s ease;
-        `;
-        document.body.appendChild(progressBar);
-
-        window.addEventListener('scroll', () => {
-            const windowHeight = window.innerHeight;
-            const documentHeight = document.documentElement.scrollHeight - windowHeight;
-            const scrolled = (window.scrollY / documentHeight) * 100;
-            progressBar.style.width = scrolled + '%';
-        });
-    }
-
-    // Improve table responsiveness
+    /**
+     * Wrap tables in responsive containers for mobile
+     */
     function enhanceTableResponsiveness() {
         document.querySelectorAll('table').forEach(table => {
             if (!table.parentElement.classList.contains('table-wrapper')) {
                 const wrapper = document.createElement('div');
                 wrapper.className = 'table-wrapper';
-                wrapper.style.cssText = 'overflow-x: auto; margin: 1.5rem 0;';
+                wrapper.style.cssText = 'overflow-x: auto; -webkit-overflow-scrolling: touch;';
                 table.parentNode.insertBefore(wrapper, table);
                 wrapper.appendChild(table);
             }
         });
     }
 
-    // Add "Back to Top" button
-    function addBackToTop() {
-        const button = document.createElement('button');
-        button.innerHTML = '↑';
-        button.id = 'back-to-top';
-        button.title = 'Back to top';
-        button.style.cssText = `
-            position: fixed;
-            bottom: 2rem;
-            right: 2rem;
-            width: 3rem;
-            height: 3rem;
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            border-radius: 50%;
-            font-size: 1.5rem;
-            cursor: pointer;
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            z-index: 1000;
-            box-shadow: var(--shadow-lg);
-        `;
-        button.addEventListener('click', () => {
-            window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-        document.body.appendChild(button);
-
-        window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-                button.style.opacity = '1';
-            } else {
-                button.style.opacity = '0';
-            }
-        });
-    }
-
-    // External link indicator
+    /**
+     * Mark external links with proper attributes
+     * Opens in new tab with security attributes
+     */
     function markExternalLinks() {
+        const hostname = window.location.hostname;
+        
         document.querySelectorAll('a[href^="http"]').forEach(link => {
-            if (!link.hostname.includes(window.location.hostname)) {
+            const linkHostname = new URL(link.href).hostname;
+            
+            if (linkHostname !== hostname) {
                 link.setAttribute('target', '_blank');
                 link.setAttribute('rel', 'noopener noreferrer');
-                link.innerHTML += ' ↗';
+                
+                // Add accessible label
+                const currentTitle = link.getAttribute('title') || '';
+                if (!currentTitle.includes('opens in new window')) {
+                    link.setAttribute('title', 
+                        currentTitle ? `${currentTitle} (opens in new window)` : 
+                        'Opens in new window');
+                }
             }
         });
     }
 
-    // Initialize all enhancements
+    /**
+     * Add subtle visual indicator to the current reading position
+     * Non-intrusive, no flashy progress bars
+     */
+    function enhanceReadingExperience() {
+        // Add gentle fade-in for content on load
+        const content = document.querySelector('.content');
+        if (content) {
+            content.style.opacity = '0';
+            content.style.transition = 'opacity 0.3s ease';
+            setTimeout(() => {
+                content.style.opacity = '1';
+            }, 50);
+        }
+    }
+
+    /**
+     * Improve keyboard navigation
+     */
+    function enhanceKeyboardNavigation() {
+        // Make chapter links more accessible
+        document.querySelectorAll('.chapter a').forEach(link => {
+            if (!link.getAttribute('tabindex')) {
+                link.setAttribute('tabindex', '0');
+            }
+        });
+    }
+
+    /**
+     * Handle code block accessibility
+     */
+    function enhanceCodeBlocks() {
+        document.querySelectorAll('pre code').forEach(code => {
+            const pre = code.parentElement;
+            
+            // Add language label for screen readers if detectable
+            const classes = code.className.split(' ');
+            const langClass = classes.find(c => c.startsWith('language-'));
+            
+            if (langClass) {
+                const lang = langClass.replace('language-', '');
+                pre.setAttribute('aria-label', `Code block in ${lang}`);
+            } else {
+                pre.setAttribute('aria-label', 'Code block');
+            }
+            
+            // Make code blocks keyboard-focusable for easy selection
+            pre.setAttribute('tabindex', '0');
+        });
+    }
+
+    /**
+     * Initialize all enhancements
+     */
     function init() {
         // Wait for DOM to be fully loaded
         if (document.readyState === 'loading') {
@@ -175,16 +163,42 @@
             return;
         }
 
-        enhanceRTLSupport();
-        enableSmoothScroll();
-        addCopyButtons();
-        initProgressBar();
-        enhanceTableResponsiveness();
-        addBackToTop();
-        markExternalLinks();
-
-        console.log('EnglishMap enhancements loaded');
+        try {
+            enhanceRTLSupport();
+            enableSmoothScroll();
+            enhanceTableResponsiveness();
+            markExternalLinks();
+            enhanceReadingExperience();
+            enhanceKeyboardNavigation();
+            enhanceCodeBlocks();
+            
+            // Re-run RTL detection after dynamic content loads
+            // (e.g., search results, mdBook navigation)
+            const observer = new MutationObserver((mutations) => {
+                let shouldRecheck = false;
+                
+                mutations.forEach(mutation => {
+                    if (mutation.addedNodes.length > 0) {
+                        shouldRecheck = true;
+                    }
+                });
+                
+                if (shouldRecheck) {
+                    enhanceRTLSupport();
+                }
+            });
+            
+            observer.observe(document.body, {
+                childList: true,
+                subtree: true
+            });
+            
+            console.log('✓ EnglishMap professional theme loaded');
+        } catch (error) {
+            console.error('EnglishMap theme error:', error);
+        }
     }
 
+    // Start initialization
     init();
 })();
