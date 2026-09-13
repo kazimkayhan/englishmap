@@ -1,0 +1,481 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Core Grammar - EnglishMap — English for Dari &amp; Hazaragi Speakers</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="A comprehensive self-study English guide for Afghan learners — supporting Dari and Hazaragi speakers learning American English">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="theme/custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="welcome.html">Welcome</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Getting Started</li><li class="chapter-item expanded "><a href="quick-start.html"><strong aria-hidden="true">1.</strong> Quick Start</a></li><li class="chapter-item expanded "><a href="how-to-use.html"><strong aria-hidden="true">2.</strong> How to Use This Book</a></li><li class="chapter-item expanded "><a href="safety-privacy.html"><strong aria-hidden="true">3.</strong> Safety & Privacy Guide</a></li><li class="chapter-item expanded "><a href="placement-quiz.html"><strong aria-hidden="true">4.</strong> Placement Quiz</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Foundation Skills (A0-A2)</li><li class="chapter-item expanded "><a href="01-overview.html"><strong aria-hidden="true">5.</strong> Overview — Your English Journey</a></li><li class="chapter-item expanded "><a href="02-beginner-foundations.html"><strong aria-hidden="true">6.</strong> Beginner Foundations</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="beginner/alphabet.html"><strong aria-hidden="true">6.1.</strong> The Alphabet</a></li><li class="chapter-item "><a href="beginner/first-words.html"><strong aria-hidden="true">6.2.</strong> First 100 Words</a></li><li class="chapter-item "><a href="beginner/survival-english.html"><strong aria-hidden="true">6.3.</strong> Survival English</a></li></ol></li><li class="chapter-item expanded "><a href="03-core-grammar.html" class="active"><strong aria-hidden="true">7.</strong> Core Grammar</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="grammar/be-have.html"><strong aria-hidden="true">7.1.</strong> Be & Have</a></li><li class="chapter-item "><a href="grammar/present-simple.html"><strong aria-hidden="true">7.2.</strong> Present Simple</a></li><li class="chapter-item "><a href="grammar/questions.html"><strong aria-hidden="true">7.3.</strong> Questions & Negatives</a></li><li class="chapter-item "><a href="grammar/articles.html"><strong aria-hidden="true">7.4.</strong> Articles (a, an, the)</a></li></ol></li><li class="chapter-item expanded "><a href="04-vocabulary-building.html"><strong aria-hidden="true">8.</strong> Vocabulary Building</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="vocabulary/words-300.html"><strong aria-hidden="true">8.1.</strong> High-Frequency Words (1-300)</a></li><li class="chapter-item "><a href="vocabulary/words-700.html"><strong aria-hidden="true">8.2.</strong> High-Frequency Words (301-700)</a></li><li class="chapter-item "><a href="vocabulary/words-1000.html"><strong aria-hidden="true">8.3.</strong> Words 701-1000 (Self-Fill)</a></li><li class="chapter-item "><a href="vocabulary/memory.html"><strong aria-hidden="true">8.4.</strong> Memory Techniques</a></li></ol></li><li class="chapter-item expanded "><a href="05-pronunciation.html"><strong aria-hidden="true">9.</strong> Pronunciation (American English)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="pronunciation/vowels.html"><strong aria-hidden="true">9.1.</strong> Vowel Sounds</a></li><li class="chapter-item "><a href="pronunciation/consonants.html"><strong aria-hidden="true">9.2.</strong> Consonants for Dari Speakers</a></li><li class="chapter-item "><a href="pronunciation/stress.html"><strong aria-hidden="true">9.3.</strong> Word Stress</a></li><li class="chapter-item "><a href="pronunciation/dari-challenges.html"><strong aria-hidden="true">9.4.</strong> Common Dari L1 Challenges</a></li><li class="chapter-item "><a href="pronunciation/hazaragi-notes.html"><strong aria-hidden="true">9.5.</strong> Hazaragi Accent Notes</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Core Skills (A2-B1)</li><li class="chapter-item expanded "><a href="06-listening.html"><strong aria-hidden="true">10.</strong> Listening</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="listening/strategies.html"><strong aria-hidden="true">10.1.</strong> Active Listening Strategies</a></li><li class="chapter-item "><a href="listening/dictation.html"><strong aria-hidden="true">10.2.</strong> Dictation Practice</a></li></ol></li><li class="chapter-item expanded "><a href="07-speaking.html"><strong aria-hidden="true">11.</strong> Speaking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="speaking/confidence.html"><strong aria-hidden="true">11.1.</strong> Building Confidence</a></li><li class="chapter-item "><a href="speaking/shadowing.html"><strong aria-hidden="true">11.2.</strong> Shadowing Technique</a></li><li class="chapter-item "><a href="speaking/recording.html"><strong aria-hidden="true">11.3.</strong> Self-Recording</a></li></ol></li><li class="chapter-item expanded "><a href="08-reading.html"><strong aria-hidden="true">12.</strong> Reading</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="reading/strategies.html"><strong aria-hidden="true">12.1.</strong> Reading Strategies</a></li><li class="chapter-item "><a href="reading/graded-readings.html"><strong aria-hidden="true">12.2.</strong> Graded Readings</a></li></ol></li><li class="chapter-item expanded "><a href="09-writing.html"><strong aria-hidden="true">13.</strong> Writing</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="writing/sentences.html"><strong aria-hidden="true">13.1.</strong> Sentence Writing</a></li><li class="chapter-item "><a href="writing/paragraphs.html"><strong aria-hidden="true">13.2.</strong> Paragraph Structure</a></li><li class="chapter-item "><a href="writing/journal.html"><strong aria-hidden="true">13.3.</strong> Journal Practice</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Intermediate & Advanced (B1-C2)</li><li class="chapter-item expanded "><a href="10-intermediate-growth.html"><strong aria-hidden="true">14.</strong> Intermediate Growth (B1-B2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="intermediate/past-tenses.html"><strong aria-hidden="true">14.1.</strong> Past Tenses</a></li><li class="chapter-item "><a href="intermediate/future.html"><strong aria-hidden="true">14.2.</strong> Future Forms</a></li><li class="chapter-item "><a href="intermediate/fluency.html"><strong aria-hidden="true">14.3.</strong> Building Fluency</a></li></ol></li><li class="chapter-item expanded "><a href="11-advanced-skills.html"><strong aria-hidden="true">15.</strong> Advanced Skills (C1-C2)</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="advanced/grammar.html"><strong aria-hidden="true">15.1.</strong> Complex Grammar</a></li><li class="chapter-item "><a href="advanced/professional.html"><strong aria-hidden="true">15.2.</strong> Professional English</a></li><li class="chapter-item "><a href="advanced/academic.html"><strong aria-hidden="true">15.3.</strong> Academic English</a></li></ol></li><li class="chapter-item expanded "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Study Success</li><li class="chapter-item expanded "><a href="12-study-strategies.html"><strong aria-hidden="true">16.</strong> Study Strategies</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="strategies/habits.html"><strong aria-hidden="true">16.1.</strong> Building Habits</a></li><li class="chapter-item "><a href="strategies/breaks.html"><strong aria-hidden="true">16.2.</strong> Dealing with Breaks</a></li><li class="chapter-item "><a href="strategies/motivation.html"><strong aria-hidden="true">16.3.</strong> Maintaining Motivation</a></li><li class="chapter-item "><a href="strategies/confidence-building.html"><strong aria-hidden="true">16.4.</strong> Overcoming Shame</a></li></ol></li><li class="chapter-item expanded "><a href="13-practice-plans.html"><strong aria-hidden="true">17.</strong> Practice Plans</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="plans/12-week.html"><strong aria-hidden="true">17.1.</strong> 12-Week Beginner Plan</a></li><li class="chapter-item "><a href="plans/24-week.html"><strong aria-hidden="true">17.2.</strong> 24-Week Intermediate Plan</a></li><li class="chapter-item "><a href="plans/52-week.html"><strong aria-hidden="true">17.3.</strong> 52-Week Mastery Path</a></li><li class="chapter-item "><a href="plans/daily-template.html"><strong aria-hidden="true">17.4.</strong> Daily Practice Template</a></li></ol></li><li class="chapter-item expanded "><a href="14-assessments.html"><strong aria-hidden="true">18.</strong> Assessments & Tracking</a><a class="toggle"><div>❱</div></a></li><li><ol class="section"><li class="chapter-item "><a href="assessments/rubrics.html"><strong aria-hidden="true">18.1.</strong> Self-Assessment Rubrics</a></li><li class="chapter-item "><a href="assessments/quizzes.html"><strong aria-hidden="true">18.2.</strong> Unit Quizzes</a></li><li class="chapter-item "><a href="assessments/checkpoints.html"><strong aria-hidden="true">18.3.</strong> Checkpoint Tests</a></li></ol></li><li class="chapter-item expanded "><a href="15-resources.html"><strong aria-hidden="true">19.</strong> Free Resources</a></li><li class="chapter-item expanded "><a href="16-tracker.html"><strong aria-hidden="true">20.</strong> Progress Tracker</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Exercises & Practice</li><li class="chapter-item expanded "><a href="exercises/overview.html"><strong aria-hidden="true">21.</strong> Exercise Overview</a></li><li class="chapter-item expanded "><a href="exercises/02-beginner-drills.html"><strong aria-hidden="true">22.</strong> Beginner Drills</a></li><li class="chapter-item expanded "><a href="exercises/03-grammar-drills.html"><strong aria-hidden="true">23.</strong> Grammar Drills</a></li><li class="chapter-item expanded "><a href="exercises/04-vocabulary-drills.html"><strong aria-hidden="true">24.</strong> Vocabulary Drills</a></li><li class="chapter-item expanded "><a href="exercises/05-pronunciation-drills.html"><strong aria-hidden="true">25.</strong> Pronunciation Drills</a></li><li class="chapter-item expanded "><a href="exercises/06-listening-drills.html"><strong aria-hidden="true">26.</strong> Listening Drills</a></li><li class="chapter-item expanded "><a href="exercises/07-speaking-drills.html"><strong aria-hidden="true">27.</strong> Speaking Drills</a></li><li class="chapter-item expanded "><a href="exercises/08-reading-drills.html"><strong aria-hidden="true">28.</strong> Reading Drills</a></li><li class="chapter-item expanded "><a href="exercises/09-writing-drills.html"><strong aria-hidden="true">29.</strong> Writing Drills</a></li><li class="chapter-item expanded "><a href="exercises/10-intermediate-drills.html"><strong aria-hidden="true">30.</strong> Intermediate Drills</a></li><li class="chapter-item expanded "><a href="exercises/11-advanced-drills.html"><strong aria-hidden="true">31.</strong> Advanced Drills</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Answer Keys</li><li class="chapter-item expanded "><a href="answer-keys/guide.html"><strong aria-hidden="true">32.</strong> Answer Keys Guide</a></li><li class="chapter-item expanded "><a href="answer-keys/02-beginner.html"><strong aria-hidden="true">33.</strong> Beginner Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/03-grammar.html"><strong aria-hidden="true">34.</strong> Grammar Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/04-vocabulary.html"><strong aria-hidden="true">35.</strong> Vocabulary Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/05-pronunciation.html"><strong aria-hidden="true">36.</strong> Pronunciation Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/06-listening.html"><strong aria-hidden="true">37.</strong> Listening Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/07-speaking.html"><strong aria-hidden="true">38.</strong> Speaking Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/08-reading.html"><strong aria-hidden="true">39.</strong> Reading Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/09-writing.html"><strong aria-hidden="true">40.</strong> Writing Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/10-intermediate.html"><strong aria-hidden="true">41.</strong> Intermediate Answers</a></li><li class="chapter-item expanded "><a href="answer-keys/11-advanced.html"><strong aria-hidden="true">42.</strong> Advanced Answers</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Worksheets</li><li class="chapter-item expanded "><a href="worksheets/overview.html"><strong aria-hidden="true">43.</strong> Worksheet Overview</a></li><li class="chapter-item expanded "><a href="worksheets/alphabet.html"><strong aria-hidden="true">44.</strong> Alphabet Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/be-have.html"><strong aria-hidden="true">45.</strong> Be & Have Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/present.html"><strong aria-hidden="true">46.</strong> Present Tense Worksheet</a></li><li class="chapter-item expanded "><a href="worksheets/vocabulary-log.html"><strong aria-hidden="true">47.</strong> Vocabulary Log</a></li><li class="chapter-item expanded "><a href="worksheets/phonics.html"><strong aria-hidden="true">48.</strong> Phonics & Blends</a></li><li class="chapter-item expanded "><a href="worksheets/dictation.html"><strong aria-hidden="true">49.</strong> Listening Dictation</a></li><li class="chapter-item expanded "><a href="worksheets/journal.html"><strong aria-hidden="true">50.</strong> Writing Journal</a></li><li class="chapter-item expanded "><a href="worksheets/progress.html"><strong aria-hidden="true">51.</strong> Progress Review</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Dari Companion — راهنمای دری</li><li class="chapter-item expanded "><a href="companion-dari/00-guide.html"><strong aria-hidden="true">52.</strong> Dari Guide Introduction — راهنمای همراه</a></li><li class="chapter-item expanded "><a href="companion-dari/01-overview-dari.html"><strong aria-hidden="true">53.</strong> Overview (Dari) — خلاصه</a></li><li class="chapter-item expanded "><a href="companion-dari/02-beginner-dari.html"><strong aria-hidden="true">54.</strong> Beginner Foundations (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/03-grammar-dari.html"><strong aria-hidden="true">55.</strong> Core Grammar (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/04-vocabulary-dari.html"><strong aria-hidden="true">56.</strong> Vocabulary (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/05-pronunciation-dari.html"><strong aria-hidden="true">57.</strong> Pronunciation (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/06-08-skills-dari.html"><strong aria-hidden="true">58.</strong> Listening, Speaking, Reading (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/09-writing-dari.html"><strong aria-hidden="true">59.</strong> Writing (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/10-11-advanced-dari.html"><strong aria-hidden="true">60.</strong> Intermediate & Advanced (Dari)</a></li><li class="chapter-item expanded "><a href="companion-dari/12-16-support-dari.html"><strong aria-hidden="true">61.</strong> Study Support (Dari)</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Hazaragi Companion — راهنمای هزارگی</li><li class="chapter-item expanded "><a href="companion-hazaragi/00-guide.html"><strong aria-hidden="true">62.</strong> Hazaragi Guide Introduction</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/pronunciation.html"><strong aria-hidden="true">63.</strong> Hazaragi Pronunciation Guide</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/vocabulary.html"><strong aria-hidden="true">64.</strong> Common Hazaragi-English Vocabulary</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/dari-differences.html"><strong aria-hidden="true">65.</strong> Hazaragi vs Dari: Key Differences</a></li><li class="chapter-item expanded "><a href="companion-hazaragi/learning-notes.html"><strong aria-hidden="true">66.</strong> Hazaragi Learning Notes</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Appendices</li><li class="chapter-item expanded "><a href="appendices/glossary.html"><strong aria-hidden="true">67.</strong> Glossary of Terms</a></li><li class="chapter-item expanded "><a href="appendices/dari-glosses.html"><strong aria-hidden="true">68.</strong> Dari Glosses</a></li><li class="chapter-item expanded "><a href="appendices/pronunciation-audio-guide.html"><strong aria-hidden="true">69.</strong> Pronunciation Audio Guide (A-Z)</a></li><li class="chapter-item expanded "><a href="appendices/building-confidence.html"><strong aria-hidden="true">70.</strong> Building Confidence</a></li><li class="chapter-item expanded "><a href="appendices/building-fluency.html"><strong aria-hidden="true">71.</strong> Building Fluency</a></li><li class="chapter-item expanded "><a href="appendices/exercise-sampler.html"><strong aria-hidden="true">72.</strong> Exercise Sampler</a></li><li class="chapter-item expanded "><a href="appendices/unit-quiz-schedule.html"><strong aria-hidden="true">73.</strong> Unit Quiz Schedule</a></li><li class="chapter-item expanded affix "><li class="spacer"></li><li class="chapter-item expanded affix "><li class="part-title">Contributing</li><li class="chapter-item expanded "><a href="contributing.html"><strong aria-hidden="true">74.</strong> How to Contribute</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">EnglishMap — English for Dari &amp; Hazaragi Speakers</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap" title="Git repository" aria-label="Git repository">
+                            <i id="git-repository-button" class="fa fa-github"></i>
+                        </a>
+                        <a href="https://github.com/kazimkayhan/englishmap/edit/main/src/03-core-grammar.md" title="Suggest an edit" aria-label="Suggest an edit">
+                            <i id="git-edit-button" class="fa fa-edit"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="core-grammar"><a class="header" href="#core-grammar">Core Grammar</a></h1>
+<p><strong>Stage 1</strong> · Months 1–3 (with foundations)</p>
+<hr />
+<h2 id="learning-goals"><a class="header" href="#learning-goals">Learning goals</a></h2>
+<ol>
+<li>Use <strong>verb be</strong> (am, is, are) correctly</li>
+<li>Use <strong>have / has</strong> for possession and facts</li>
+<li>Build <strong>present simple</strong> sentences (habits and facts)</li>
+<li>Ask <strong>yes/no</strong> and <strong>wh-</strong> questions</li>
+<li>Use <strong>negatives</strong> (don't, doesn't, not)</li>
+<li>Use <strong>there is / there are</strong></li>
+</ol>
+<hr />
+<h2 id="why-this-skill-matters"><a class="header" href="#why-this-skill-matters">Why this skill matters</a></h2>
+<p>Grammar is the skeleton of English. With these patterns, you can describe your life, ask questions, and stop guessing word order.</p>
+<blockquote>
+<p><em>Learn patterns, not single sentences. Swap one word — make a new sentence.</em></p>
+</blockquote>
+<hr />
+<h2 id="level-focus"><a class="header" href="#level-focus">Level focus</a></h2>
+<p><strong>Stage 1</strong> (A1–A2).</p>
+<hr />
+<h2 id="step-by-step-lessons"><a class="header" href="#step-by-step-lessons">Step-by-step lessons</a></h2>
+<h3 id="lesson-1--subject--be-20-min"><a class="header" href="#lesson-1--subject--be-20-min">Lesson 1 — Subject + be (20 min)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Subject</th><th>Be</th><th>Example</th></tr></thead><tbody>
+<tr><td>I</td><td>am</td><td>I am tired.</td></tr>
+<tr><td>You</td><td>you are</td><td>You are kind.</td></tr>
+<tr><td>He / she / it</td><td>is</td><td>She is at home.</td></tr>
+<tr><td>We / they</td><td>are</td><td>We are students.</td></tr>
+</tbody></table>
+</div>
+<p><strong>Negative:</strong> add <strong>not</strong></p>
+<ul>
+<li>I am <strong>not</strong> busy.</li>
+<li>She is <strong>not</strong> here.</li>
+</ul>
+<p><strong>Questions:</strong> swap order</p>
+<ul>
+<li><strong>Are</strong> you fine? → Yes, I am. / No, I am not.</li>
+<li><strong>Is</strong> he home?</li>
+</ul>
+<blockquote>
+<p><strong>Dari note:</strong> Dari often drops “to be” in present. In English, <strong>do not drop it</strong>: say <em>I am fine</em>, not <em>I fine</em>.</p>
+</blockquote>
+<hr />
+<h3 id="lesson-2--have--has-20-min"><a class="header" href="#lesson-2--have--has-20-min">Lesson 2 — Have / has (20 min)</a></h3>
+<p>Use <strong>have</strong> and <strong>has</strong> to show <strong>possession</strong> (I have a book) or some <strong>states</strong> (I have time / She has a problem).</p>
+<div class="table-wrapper"><table><thead><tr><th>Subject</th><th>Form</th><th>Example</th></tr></thead><tbody>
+<tr><td>I / you / we / they</td><td><strong>have</strong></td><td>I have a phone.</td></tr>
+<tr><td>He / she / it</td><td><strong>has</strong></td><td>She has a sister.</td></tr>
+</tbody></table>
+</div>
+<p><strong>Negative:</strong></p>
+<ul>
+<li>I <strong>do not have</strong> (don't have) Wi-Fi today.</li>
+<li>He <strong>does not have</strong> (doesn't have) class on Friday.</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ul>
+<li><strong>Do</strong> you have a quiet room? → Yes, I do. / No, I don't.</li>
+<li><strong>Does</strong> she have your number? → Yes, she does.</li>
+</ul>
+<p><strong>Contrast with <em>be</em>:</strong></p>
+<ul>
+<li>I <strong>am</strong> tired. (state — adjective)</li>
+<li>I <strong>have</strong> time. (possession / availability)</li>
+<li>She <strong>is</strong> a student. (identity)</li>
+<li>She <strong>has</strong> a book. (possession)</li>
+</ul>
+<blockquote>
+<p><strong>Dari note:</strong> داشتن (<em>dâštan</em> — to have) works differently. English uses <strong>have/has</strong> in present, not a separate verb like <em>am/is</em>.</p>
+</blockquote>
+<p><strong>Pattern practice:</strong></p>
+<ul>
+<li>I have + noun → I have a notebook.</li>
+<li>She has + noun → She has courage.</li>
+<li>Do you have + noun? → Do you have internet?</li>
+</ul>
+<hr />
+<h3 id="lesson-3--present-simple-20-min"><a class="header" href="#lesson-3--present-simple-20-min">Lesson 3 — Present simple (20 min)</a></h3>
+<p>Use for <strong>habits</strong> and <strong>facts</strong>.</p>
+<div class="table-wrapper"><table><thead><tr><th>Subject</th><th>Verb</th><th>Example</th></tr></thead><tbody>
+<tr><td>I / you / we / they</td><td>study</td><td>I study English.</td></tr>
+<tr><td>He / she / it</td><td>studies (+s)</td><td>She <strong>studies</strong> at home.</td></tr>
+</tbody></table>
+</div>
+<p><strong>Negative:</strong></p>
+<ul>
+<li>I <strong>do not</strong> (don't) study at night.</li>
+<li>He <strong>does not</strong> (doesn't) study at night.</li>
+</ul>
+<p><strong>Questions:</strong></p>
+<ul>
+<li><strong>Do</strong> you study English? → Yes, I do.</li>
+<li><strong>Does</strong> she study English? → Yes, she does.</li>
+</ul>
+<hr />
+<h3 id="lesson-4--wh--questions-15-min"><a class="header" href="#lesson-4--wh--questions-15-min">Lesson 4 — Wh- questions (15 min)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Word</th><th>Asks about</th></tr></thead><tbody>
+<tr><td>What</td><td>thing</td></tr>
+<tr><td>Where</td><td>place</td></tr>
+<tr><td>When</td><td>time</td></tr>
+<tr><td>Who</td><td>person</td></tr>
+<tr><td>Why</td><td>reason</td></tr>
+<tr><td>How</td><td>way</td></tr>
+</tbody></table>
+</div>
+<ul>
+<li><strong>What</strong> do you study? → I study English.</li>
+<li><strong>Where</strong> do you live?</li>
+<li><strong>How</strong> do you learn? → I learn on my phone.</li>
+</ul>
+<hr />
+<h3 id="lesson-5--there-is--there-are-15-min"><a class="header" href="#lesson-5--there-is--there-are-15-min">Lesson 5 — There is / there are (15 min)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Use</th><th>Example</th></tr></thead><tbody>
+<tr><td>There is + singular</td><td>There is a book on the table.</td></tr>
+<tr><td>There are + plural</td><td>There are two windows.</td></tr>
+</tbody></table>
+</div>
+<p><strong>Negative:</strong> There is <strong>not</strong> / There are <strong>not</strong> (no)</p>
+<p><strong>Question:</strong> <strong>Is</strong> there a phone here?</p>
+<hr />
+<h3 id="lesson-6--articles-a--an--the-20-min"><a class="header" href="#lesson-6--articles-a--an--the-20-min">Lesson 6 — Articles a / an / the (20 min)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Article</th><th>Use</th></tr></thead><tbody>
+<tr><td>a</td><td>one general thing: a book</td></tr>
+<tr><td>an</td><td>before vowel sound: an apple</td></tr>
+<tr><td>the</td><td>specific thing: the book (we know which one)</td></tr>
+</tbody></table>
+</div>
+<p><strong>Examples:</strong></p>
+<ul>
+<li>I need <strong>a</strong> pen.</li>
+<li>She reads <strong>an</strong> article.</li>
+<li><strong>The</strong> internet is slow today.</li>
+</ul>
+<blockquote>
+<p><strong>Dari note:</strong> Dari has no <em>a/the</em>. Practice <strong>out loud</strong> with every new noun.</p>
+</blockquote>
+<hr />
+<h3 id="lesson-7--object-pronouns-and-possessives-15-min"><a class="header" href="#lesson-7--object-pronouns-and-possessives-15-min">Lesson 7 — Object pronouns and possessives (15 min)</a></h3>
+<div class="table-wrapper"><table><thead><tr><th>Subject</th><th>Object</th><th>Possessive</th></tr></thead><tbody>
+<tr><td>I</td><td>me</td><td>my</td></tr>
+<tr><td>you</td><td>you</td><td>your</td></tr>
+<tr><td>he</td><td>him</td><td>his</td></tr>
+<tr><td>she</td><td>her</td><td>her</td></tr>
+<tr><td>we</td><td>us</td><td>our</td></tr>
+<tr><td>they</td><td>them</td><td>their</td></tr>
+</tbody></table>
+</div>
+<ul>
+<li>I help <strong>her</strong>. <strong>Her</strong> book is new.</li>
+<li><strong>Our</strong> family is kind.</li>
+</ul>
+<hr />
+<h2 id="pattern-practice-swap-words"><a class="header" href="#pattern-practice-swap-words">Pattern practice (swap words)</a></h2>
+<p><strong>Pattern:</strong> I + verb + noun</p>
+<ul>
+<li>I study English.</li>
+<li>I read books.</li>
+<li>I drink tea.</li>
+</ul>
+<p><strong>Pattern:</strong> She + verb-s + noun</p>
+<ul>
+<li>She works at home.</li>
+<li>She learns online.</li>
+</ul>
+<hr />
+<h2 id="examples"><a class="header" href="#examples">Examples</a></h2>
+<p><strong>Daily routine:</strong></p>
+<blockquote>
+<p>I wake up at six. I have tea and bread. I study English for thirty minutes. My sister has a phone; she works at home. We have lunch together. In the evening, I read messages on my phone. I do not have much free time, but I have hope.</p>
+</blockquote>
+<p><strong>Dialogue — At home:</strong></p>
+<blockquote>
+<p><strong>A:</strong> Do you have a quiet room for study?<br />
+<strong>B:</strong> Yes, I have a small room. I do not have a desk, but I have a chair and my phone.<br />
+<strong>A:</strong> Does your sister have English books?<br />
+<strong>B:</strong> She has one old book. We have the internet on good days.</p>
+</blockquote>
+<p><strong>Questions for practice:</strong></p>
+<blockquote>
+<p>What do you do in the morning? Where does your family live? Is there a quiet room for study?</p>
+</blockquote>
+<hr />
+<h2 id="practice-tasks"><a class="header" href="#practice-tasks">Practice tasks</a></h2>
+<ol>
+<li>Write 10 sentences with <em>am/is/are</em>.</li>
+<li>Write 8 sentences with <em>have/has</em> (affirmative, negative, question).</li>
+<li>Write 5 questions with <em>do/does</em> (present simple verbs).</li>
+<li>Write 5 sentences with <em>there is/are</em>.</li>
+<li>Add <em>a/an/the</em> to 10 nouns.</li>
+<li>Drills: <strong><a href="exercises/03-grammar-drills.html">exercises/03-grammar-drills.md</a></strong></li>
+</ol>
+<hr />
+<h2 id="self-check-questions"><a class="header" href="#self-check-questions">Self-check questions</a></h2>
+<ol>
+<li>When do we add <strong>-s</strong> to a verb?</li>
+<li>Fix: “She don't like tea.”</li>
+<li>Make a question from: “They live in Kabul.”</li>
+<li>Choose: There (is / are) many books.</li>
+<li>Why is “I am study” wrong?</li>
+</ol>
+<hr />
+<h2 id="common-mistakes-dari-speakers"><a class="header" href="#common-mistakes-dari-speakers">Common mistakes (Dari speakers)</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>Mistake</th><th>Correct</th></tr></thead><tbody>
+<tr><td>I fine</td><td>I <strong>am</strong> fine</td></tr>
+<tr><td>He go every day</td><td>He <strong>goes</strong> every day</td></tr>
+<tr><td>I no like</td><td>I <strong>do not</strong> like</td></tr>
+<tr><td>book on table (no article)</td><td><strong>a</strong> book on <strong>the</strong> table</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="milestone-goals"><a class="header" href="#milestone-goals">Milestone goals</a></h2>
+<div class="table-wrapper"><table><thead><tr><th>When</th><th>Goal</th></tr></thead><tbody>
+<tr><td>Week 1</td><td>Be + have/has</td></tr>
+<tr><td>Week 2</td><td>Present simple + questions + negatives</td></tr>
+<tr><td>Week 3</td><td>Articles + there is/are</td></tr>
+<tr><td>Week 4</td><td>20-sentence routine paragraph</td></tr>
+</tbody></table>
+</div>
+<hr />
+<h2 id="study-habits"><a class="header" href="#study-habits">Study habits</a></h2>
+<ul>
+<li>Learn <strong>one pattern</strong> per day; generate 5 new sentences</li>
+<li>Read examples <strong>aloud</strong></li>
+<li>When you hear English, notice <em>do/does</em> and <em>is/are</em></li>
+</ul>
+<hr />
+<hr />
+<h2 id="extended-practice"><a class="header" href="#extended-practice">Extended practice</a></h2>
+<p><strong>Mixed review (write 12 sentences):</strong></p>
+<p>1–4: <em>am/is/are</em> · 5–8: <em>have/has</em> · 9–12: present simple (I + verb, she + verb-s).</p>
+<p><strong>Question storm (oral):</strong> Ask aloud: What do you do? Where do you live? Do you have time? Does she study? Are you tired?</p>
+<p><strong>Dari gloss:</strong> <a href="appendices/dari-glosses.html">appendices/dari-glosses.md</a> — articles and <em>be</em>.</p>
+<p><strong>Unit quiz:</strong> <a href="exercises/unit-quiz-03-grammar.html">exercises/unit-quiz-03-grammar.md</a></p>
+<h2 id="module-links"><a class="header" href="#module-links">Module links</a></h2>
+<div class="table-wrapper"><table><thead><tr><th></th><th>Link</th></tr></thead><tbody>
+<tr><td>Dari</td><td><a href="companion-dari/03-grammar-dari.html">companion-dari/03-grammar-dari.md</a></td></tr>
+<tr><td>Glosses</td><td><a href="appendices/dari-glosses.html">appendices/dari-glosses.md</a></td></tr>
+<tr><td>Worksheets</td><td><a href="assets/worksheets/worksheet-grammar-be-have.html">be/have</a> · <a href="assets/worksheets/worksheet-grammar-present.html">present</a></td></tr>
+<tr><td>Drills</td><td><a href="exercises/03-grammar-drills.html">exercises/03-grammar-drills.md</a></td></tr>
+<tr><td>Unit quiz</td><td><a href="exercises/unit-quiz-03-grammar.html">exercises/unit-quiz-03-grammar.md</a></td></tr>
+<tr><td>Index</td><td><a href="INDEX.html">INDEX.md</a></td></tr>
+</tbody></table>
+</div>
+<p><em>Next: <a href="04-vocabulary-building.html">04-vocabulary-building.md</a></em></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="beginner/survival-english.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="grammar/be-have.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="beginner/survival-english.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="grammar/be-have.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+        <script src="theme/custom.js"></script>
+
+
+    </div>
+    </body>
+</html>

@@ -1,51 +1,104 @@
-# English Learning Roadmap
+# EnglishMap — English for Dari & Hazaragi Speakers
 
-**From zero to mastery — self-study for young women learning American English**
+**A complete, beautiful self-study guide for Afghan women learning American English**
+
+**📚 [Read the Book Online](https://kazimkayhan.github.io/englishmap/)** ← Start here!
 
 ---
 
-## Who this is for
+## Who This Is For
 
-This roadmap is built for **young women (about 18–25)** in Afghanistan who are learning English as a second language. Your first language is **Dari**. You may study alone, at home, on a **smartphone**, for about **30–45 minutes a day**.
+This comprehensive English learning guide was created especially for **young women and girls in Afghanistan** (ages 15-25) whose education has been interrupted or restricted. Your first language is **Dari** or **Hazaragi**. You may study alone, at home, on a **smartphone**, for about **30–45 minutes a day**.
 
 You do not need a classroom or a paid teacher. You do need patience, courage, and small daily steps.
 
-> *Your education was interrupted. Your future is not.*
+> **Your education was interrupted. Your future is not.**
+>
+> تحصیل شما قطع شد. آیندهٔ شما قطع نشد.
 
 ---
 
-## What you will learn
+## What Makes This Guide Special
 
-| Skill | What you will be able to do |
+### 🌍 **Trilingual Support**
+- **English** lessons with clear American English examples
+- **Dari (دری)** explanations and companion guides
+- **Hazaragi (هزارگی)** pronunciation notes and vocabulary — the first comprehensive Hazaragi support for English learners!
+
+### 📱 **Beautiful mdBook Interface**
+- Modern, mobile-friendly book layout
+- Powerful search across all content
+- Light/dark themes
+- Works offline once loaded
+- Right-to-left (RTL) support for Persian script
+
+### 🏠 **Home Study Ready**
+- Complete self-study path (A0 → C1-C2)
+- No teacher required
+- Safety and privacy guidance
+- Resume anytime after breaks
+- 30-45 minutes per day
+
+## What You Will Learn
+
+| Skill | What You Will Be Able To Do |
 |-------|-----------------------------|
-| Speaking | Introduce yourself, share opinions, hold longer conversations |
-| Listening | Understand slow and natural American English |
-| Reading | Read messages, articles, and study materials |
-| Writing | Write clear messages, paragraphs, and formal text |
-| Grammar | Build correct American English sentences |
-| Vocabulary | Use 1,000+ high-frequency words confidently |
-| Pronunciation | Speak clearly enough to be understood |
-| Fluency | Think and respond without long pauses |
-| Confidence | Study even after breaks — without shame |
-| Self-study | Plan, track, and fix your own mistakes |
+| **Speaking** | Introduce yourself, share opinions, hold conversations |
+| **Listening** | Understand slow and natural American English |
+| **Reading** | Read articles, books, and study materials |
+| **Writing** | Write messages, paragraphs, and formal texts |
+| **Grammar** | Build correct American English sentences |
+| **Vocabulary** | Use 1,000+ high-frequency words with Dari/Hazaragi translations |
+| **Pronunciation** | Speak clearly with specific Dari & Hazaragi L1 fixes |
+| **Fluency** | Think and respond without long pauses |
+| **Confidence** | Study even after breaks — without shame |
 
 ---
 
-## Master index (all words & links)
+## 🚀 Quick Start
 
-**[INDEX.md](INDEX.md)** — every module wired to Dari companion, word lists, worksheets, quizzes, and PDF bundles.
+### Option 1: Read Online (Recommended)
 
-**Word lists:** #1–900 each have **Dari + English example** · fill #901–1000 yourself · rebuild with `pnpm words:generate`
+**Visit the live book:** [https://kazimkayhan.github.io/englishmap/](https://kazimkayhan.github.io/englishmap/)
 
-## How to start in 15 minutes
+- Beautiful, searchable interface
+- Mobile-friendly
+- Works offline after first load
+- No installation needed
 
-**Fast path:** **[QUICK-START.md](QUICK-START.md)**
+### Option 2: Build Locally
 
-1. Read **[01-overview.md](01-overview.md)** — safety, stages, and how this system works.
-2. Open **[14-assessments.md](14-assessments.md)** — take the **Placement Quiz** (try first; no peeking at keys).
-3. Check answers in **[answer-keys/](answer-keys/)** only after you finish.
-4. Pick a plan in **[13-practice-plans.md](13-practice-plans.md)** or **[study-plans/](study-plans/)**.
-5. Copy **[16-tracker.md](16-tracker.md)** into your notes app and mark **Day 1**.
+If you want to run the book on your own computer:
+
+```bash
+# Install mdBook (one time only)
+# Download from: https://github.com/rust-lang/mdBook/releases
+# Or use cargo: cargo install mdbook
+
+# Clone this repository
+git clone https://github.com/kazimkayhan/englishmap.git
+cd englishmap
+
+# Build the book
+mdbook build
+
+# Serve locally (opens in browser)
+mdbook serve --open
+```
+
+The book will be available at `http://localhost:3000`
+
+---
+
+## 📖 How to Use This Book
+
+1. **Start Here:** [Welcome Page](https://kazimkayhan.github.io/englishmap/welcome.html)
+2. **Find Your Level:** [Placement Quiz](https://kazimkayhan.github.io/englishmap/placement-quiz.html)
+3. **Choose a Plan:** [Study Plans](https://kazimkayhan.github.io/englishmap/13-practice-plans.html)
+4. **Learn with Support:**
+   - **Dari Speakers:** Use the [Dari Companion](https://kazimkayhan.github.io/englishmap/companion-dari/00-guide.html)
+   - **Hazaragi Speakers:** Use the [Hazaragi Companion](https://kazimkayhan.github.io/englishmap/companion-hazaragi/00-guide.html) (first of its kind!)
+5. **Track Progress:** [Progress Tracker](https://kazimkayhan.github.io/englishmap/16-tracker.html)
 
 ---
 
@@ -63,7 +116,27 @@ At 30–45 minutes per day, expect about **3 months** to finish strong beginner 
 
 ---
 
-## Repository map
+## 📂 Repository Structure
+
+```
+englishmap/
+├── src/                    # Book source files (markdown)
+│   ├── SUMMARY.md         # Table of contents
+│   ├── welcome.md         # Welcome page
+│   ├── 01-overview.md     # Main chapters...
+│   ├── companion-dari/    # Dari language support
+│   ├── companion-hazaragi/# Hazaragi language support (NEW!)
+│   ├── exercises/         # Practice drills
+│   ├── answer-keys/       # Exercise answers
+│   ├── worksheets/        # Printable worksheets
+│   └── appendices/        # Reference materials
+├── book/                  # Generated HTML (after build)
+├── theme/                 # Custom CSS and JavaScript
+├── book.toml             # mdBook configuration
+└── .github/workflows/    # GitHub Pages deployment
+```
+
+## 📑 Repository Map (Legacy Files)
 
 ### Core modules
 
@@ -182,4 +255,53 @@ You are building a skill that **no one can take from you**.
 
 ---
 
-*Begin with [01-overview.md](01-overview.md). You have already taken the hardest step — you started.*
+---
+
+## 🌟 What's New: mdBook Transformation
+
+This repository has been transformed into a **beautiful, modern mdBook** with:
+
+- ✅ **Comprehensive Hazaragi support** — First-ever Hazaragi pronunciation guide, vocabulary, and learning notes for English learners
+- ✅ **Custom theme** with RTL (right-to-left) support for Dari and Hazaragi text
+- ✅ **Mobile-optimized** interface
+- ✅ **Searchable** content across all chapters
+- ✅ **Offline-capable** after first load
+- ✅ **GitHub Pages deployment** for easy access
+- ✅ **Safety and privacy guidance** specific to Afghan learners
+
+---
+
+## 🤝 Contributing
+
+This is an open-source project. We welcome contributions, especially:
+
+- Hazaragi language improvements (vocabulary, regional variations)
+- Additional exercises and practice materials
+- Translations and explanations
+- Corrections and clarifications
+
+See [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License — see [LICENSE](./LICENSE) file.
+
+**You are free to:**
+- Use this book for personal learning
+- Share it with others
+- Adapt it for your community
+- Translate it to other languages
+
+---
+
+## 🙏 Acknowledgments
+
+This book is dedicated to all Afghan women and girls pursuing education against the odds.
+
+**Your education was interrupted. Your future is not.**
+
+---
+
+**📚 [Start Learning Now → https://kazimkayhan.github.io/englishmap/](https://kazimkayhan.github.io/englishmap/)**
