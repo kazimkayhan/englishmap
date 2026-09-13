@@ -12,26 +12,25 @@
     'use strict';
 
     /**
-     * Detect and properly mark RTL (Right-to-Left) content
-     * Important for Dari and Hazaragi text blocks
+     * Ensure proper RTL rendering for explicitly marked content only
+     * Never auto-detect or modify UI chrome/sidebar/navigation
      */
     function enhanceRTLSupport() {
-        const rtlPatterns = [
-            /[\u0600-\u06FF]/,  // Arabic/Persian script
-            /[\u0750-\u077F]/,  // Arabic Supplement
-            /[\uFB50-\uFDFF]/,  // Arabic Presentation Forms-A
-            /[\uFE70-\uFEFF]/   // Arabic Presentation Forms-B
-        ];
-
-        document.querySelectorAll('p, div, li, td, th').forEach(element => {
-            const text = element.textContent || '';
-            const hasRTLChars = rtlPatterns.some(pattern => pattern.test(text));
-            
-            if (hasRTLChars && !element.closest('[dir="rtl"]') && 
-                !element.classList.contains('dari') && 
-                !element.classList.contains('hazaragi')) {
+        // Force document root and sidebar to LTR
+        document.documentElement.setAttribute('dir', 'ltr');
+        
+        const sidebar = document.querySelector('#sidebar, .sidebar');
+        if (sidebar) {
+            sidebar.setAttribute('dir', 'ltr');
+        }
+        
+        // Only ensure explicitly marked RTL content has proper direction
+        // .dari, .hazaragi, and elements with lang="fa/prs/haz" attributes
+        const rtlSelectors = '.dari, .hazaragi, [lang="fa"], [lang="prs"], [lang="haz"]';
+        document.querySelectorAll(rtlSelectors).forEach(element => {
+            // Only set if not already in an RTL container
+            if (!element.closest('[dir="rtl"]')) {
                 element.setAttribute('dir', 'rtl');
-                element.style.textAlign = 'right';
             }
         });
     }
@@ -172,20 +171,24 @@
             enhanceKeyboardNavigation();
             enhanceCodeBlocks();
             
-            // Re-run RTL detection after dynamic content loads
+            // Re-run RTL support only for dynamically added content with explicit RTL markers
             // (e.g., search results, mdBook navigation)
             const observer = new MutationObserver((mutations) => {
-                let shouldRecheck = false;
-                
                 mutations.forEach(mutation => {
-                    if (mutation.addedNodes.length > 0) {
-                        shouldRecheck = true;
-                    }
+                    mutation.addedNodes.forEach(node => {
+                        if (node.nodeType === 1) { // Element node
+                            // Only process explicitly marked RTL content
+                            const rtlSelectors = '.dari, .hazaragi, [lang="fa"], [lang="prs"], [lang="haz"]';
+                            if (node.matches && node.matches(rtlSelectors)) {
+                                node.setAttribute('dir', 'rtl');
+                            }
+                            // Check children
+                            node.querySelectorAll && node.querySelectorAll(rtlSelectors).forEach(el => {
+                                el.setAttribute('dir', 'rtl');
+                            });
+                        }
+                    });
                 });
-                
-                if (shouldRecheck) {
-                    enhanceRTLSupport();
-                }
             });
             
             observer.observe(document.body, {

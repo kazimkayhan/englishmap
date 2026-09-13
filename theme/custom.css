@@ -9,6 +9,44 @@
  */
 
 /* ============================================
+   LTR ENFORCEMENT - CORE CHROME & LAYOUT
+   ============================================ */
+
+/* Force LTR on all UI chrome and main content areas */
+html,
+body,
+.content,
+#content,
+main,
+.page-wrapper,
+#sidebar,
+.sidebar,
+.sidebar-scrollbox,
+.chapter,
+.menu-bar,
+.nav-chapters,
+.nav-wrapper {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+/* Sidebar links always LTR */
+.chapter a,
+.chapter li,
+.chapter ol,
+.chapter ul {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+/* Navigation elements always LTR */
+.nav-chapters a,
+.nav-wrapper a {
+    direction: ltr !important;
+    text-align: left !important;
+}
+
+/* ============================================
    ROOT VARIABLES - LIGHT THEME
    ============================================ */
 
