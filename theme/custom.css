@@ -1,0 +1,156 @@
+/* ========================================
+   EnglishMap Custom Theme
+   ======================================== */
+
+/* Arabic/Persian fonts */
+:root {
+  --font-arabic: 'Noto Naskh Arabic', 'Scheherazade New', 'Amiri', 'Traditional Arabic', 'Arabic Typesetting', serif;
+}
+
+/* ========================================
+   LTR ENFORCEMENT
+   Force English content and all chrome to LTR
+   ======================================== */
+
+html,
+body,
+.content,
+#content,
+main,
+#sidebar,
+.sidebar,
+.sidebar-scrollbox,
+.chapter,
+.menu-bar,
+.nav-chapters,
+.nav-wrapper,
+.page-wrapper {
+  direction: ltr !important;
+  text-align: left;
+}
+
+/* Sidebar must always be LTR */
+#sidebar,
+.sidebar,
+.sidebar a,
+.chapter li,
+.chapter ol,
+.chapter ul {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Navigation and chrome elements */
+.menu-bar,
+.menu-bar button,
+.nav-chapters,
+.nav-wrapper,
+nav {
+  direction: ltr !important;
+}
+
+/* Ensure main content defaults to LTR */
+.content main,
+.content p,
+.content div,
+.content li,
+.content td,
+.content th,
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  direction: ltr;
+  text-align: left;
+}
+
+/* ========================================
+   RTL SUPPORT FOR DARI/HAZARAGI
+   Only these explicitly marked elements get RTL
+   ======================================== */
+
+.dari,
+.hazaragi,
+[lang="fa"],
+[lang="prs"],
+[lang="haz"],
+blockquote.dari,
+blockquote.hazaragi {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+/* Dari/Hazaragi paragraphs and blocks */
+p.dari,
+p.hazaragi,
+div.dari,
+div.hazaragi {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+  margin: 1em 0;
+}
+
+/* Lists in Dari/Hazaragi */
+.dari li,
+.hazaragi li,
+[lang="fa"] li,
+[lang="prs"] li,
+[lang="haz"] li {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-arabic);
+}
+
+/* ========================================
+   VISUAL ENHANCEMENTS
+   Maintain professional theme aesthetics
+   ======================================== */
+
+/* Highlight Dari/Hazaragi blocks */
+blockquote.dari,
+blockquote.hazaragi {
+  border-right: 4px solid #3498db;
+  border-left: none;
+  padding-right: 1em;
+  padding-left: 0;
+  background-color: rgba(52, 152, 219, 0.05);
+}
+
+/* Dark theme support for Dari blocks */
+.navy blockquote.dari,
+.navy blockquote.hazaragi,
+.coal blockquote.dari,
+.coal blockquote.hazaragi,
+.ayu blockquote.dari,
+.ayu blockquote.hazaragi {
+  background-color: rgba(52, 152, 219, 0.1);
+}
+
+/* Better readability for mixed content */
+.mixed-content {
+  line-height: 1.8;
+}
+
+/* Ensure code blocks stay LTR */
+pre,
+code,
+.hljs {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* ========================================
+   RESPONSIVE ADJUSTMENTS
+   ======================================== */
+
+@media screen and (max-width: 768px) {
+  /* Ensure mobile sidebar stays LTR */
+  #sidebar,
+  .sidebar-scrollbox {
+    direction: ltr !important;
+  }
+}

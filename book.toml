@@ -1,0 +1,27 @@
+[book]
+title = "English Learning Roadmap"
+authors = ["English Roadmap Project"]
+description = "From zero to mastery — self-study for young women learning American English"
+language = "en"
+multilingual = false
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+git-repository-url = "https://github.com/kazimkayhan/englishmap"
+edit-url-template = "https://github.com/kazimkayhan/englishmap/edit/main/{path}"
+site-url = "/englishmap/"
+additional-css = ["theme/custom.css"]
+additional-js = ["theme/custom.js"]
+
+[output.html.print]
+enable = true
+
+[output.html.fold]
+enable = true
+level = 1
